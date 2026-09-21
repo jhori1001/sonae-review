@@ -4,6 +4,7 @@ import Link from 'next/link';
 import {ArrowRight} from 'lucide-react';
 import {products,categories,type Product} from '@/lib/catalog';
 import {ProductCard} from './site';
+import {Reveal} from './reveal';
 
 const disasterList=['地震','台風','大雨','停電','避難'] as const;
 const disasterEssentials:Record<string,string[]>={
@@ -50,7 +51,7 @@ export function GuideView({initialDisaster='',initialHouseholds=[]}:{initialDisa
    <section className="guide-result"><h2>あなたにおすすめの備え{disaster&&<>（{disaster}）</>}</h2>
     {ordered.map((c,i)=>{const items=top(c);return <div className="guide-block" key={c}>
      <div className="guide-block-head"><span className="guide-num">{i+1}</span><div><h3>{c}{forYou.has(c)&&<em>あなたの家庭向け</em>}</h3><p className="muted">{reasons[c]}</p></div><Link href={`/categories/${(categories as readonly string[]).indexOf(c)}`}>もっと見る<ArrowRight size={15}/></Link></div>
-     <div className="product-grid three">{items.map(p=><ProductCard key={p.id} product={p}/>)}</div>
+     <Reveal className="product-grid three" stagger>{items.map(p=><ProductCard key={p.id} product={p}/>)}</Reveal>
     </div>})}
    </section>}
  </>;

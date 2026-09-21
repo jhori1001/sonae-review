@@ -5,6 +5,7 @@ import {loadReviews} from '@/lib/reviews';
 import {shopLinks} from '@/lib/affiliates';
 import {ProductImage,Rating,ProductCard} from '@/components/site';
 import {ReviewCard} from '@/components/review-card';
+import {Reveal} from '@/components/reveal';
 import {Button} from '@/components/ui/button';
 import {PenLine,ArrowUpRight} from 'lucide-react';
 export const dynamic='force-dynamic';
@@ -41,6 +42,6 @@ export default async function Page({params}:{params:Promise<{id:string}>}){
     <div>{reviews.length?reviews.map(r=><ReviewCard key={r.id} review={r}/>):<p className="muted">まだこのサイトへの口コミがありません。最初の口コミを書いてみませんか。</p>}</div>
    </div>
   </section>
-  <section className="section"><h2 className="related-title">こちらの備えもチェック</h2><div className="product-grid three">{products.filter(x=>x.id!==id&&x.category===p.category).slice(0,3).map(x=><ProductCard product={x} reviews={data.reviews} key={x.id}/>)}</div></section>
+  <section className="section"><h2 className="related-title">こちらの備えもチェック</h2><Reveal className="product-grid three" stagger>{products.filter(x=>x.id!==id&&x.category===p.category).slice(0,3).map(x=><ProductCard product={x} reviews={data.reviews} key={x.id}/>)}</Reveal></section>
  </main>
 }
