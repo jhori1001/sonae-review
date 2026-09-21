@@ -10,6 +10,7 @@ import json
 import os
 import pathlib
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -20,17 +21,27 @@ HOST = os.environ.get("DEPLOYMENT_HOST", "sonae-review.vercel.app").strip()
 
 SKIP_DIRS = {".git", "node_modules", ".next", ".vercel"}
 
+MAX_RETRIES = 6
+
 
 def request(path, params=None):
     url = API + path
     if params:
         url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {TOKEN}"})
-    try:
-        with urllib.request.urlopen(req) as resp:
-            return resp.status, resp.read()
-    except urllib.error.HTTPError as e:
-        return e.code, e.read()
+    last_err = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.status, resp.read()
+        except urllib.error.HTTPError as e:
+            return e.code, e.read()
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError) as e:
+            last_err = e
+            wait = min(2 ** attempt, 20)
+            print(f"Network error on {path} (attempt {attempt}/{MAX_RETRIES}): {e!r}, retrying in {wait}s", file=sys.stderr)
+            time.sleep(wait)
+    raise last_err
 
 
 def get_json(path, params=None):
