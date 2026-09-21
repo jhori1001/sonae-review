@@ -1,0 +1,36 @@
+name: Pull source from Vercel
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_host:
+        description: "Vercel deployment hostname (production domain or a specific deployment URL, without https://)"
+        required: false
+        default: "sonae-review.vercel.app"
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch deployment source from Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          DEPLOYMENT_HOST: ${{ github.event.inputs.deployment_host }}
+        run: python3 .github/scripts/pull_vercel_source.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "vercel-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync source from Vercel deployment"
+            git push
+          fi
