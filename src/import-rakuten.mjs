@@ -1,1 +1,162 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwoKY29uc3QgZW52VGV4dCA9IGZzLnJlYWRGaWxlU3luYygnLmVudi5sb2NhbCcsICd1dGY4Jyk7CmNvbnN0IGVudiA9IE9iamVjdC5mcm9tRW50cmllcygKICBlbnZUZXh0LnNwbGl0KCdcbicpLmZpbHRlcihsID0+IGwuaW5jbHVkZXMoJz0nKSkubWFwKGwgPT4gewogICAgY29uc3QgaSA9IGwuaW5kZXhPZignPScpOwogICAgY29uc3Qga2V5ID0gbC5zbGljZSgwLCBpKTsKICAgIGxldCB2YWwgPSBsLnNsaWNlKGkgKyAxKTsKICAgIGlmICh2YWwuc3RhcnRzV2l0aCgnIicpICYmIHZhbC5lbmRzV2l0aCgnIicpKSB2YWwgPSB2YWwuc2xpY2UoMSwgLTEpOwogICAgcmV0dXJuIFtrZXksIHZhbF07CiAgfSkKKTsKCmNvbnN0IGNhdGVnb3J5RGlzYXN0ZXJzID0gewogICfnsKHmmJPjg4jjgqTjg6wnOlsn5Zyw6ZyHJywn5Y+w6aKoJywn5aSn6ZuoJywn6YG/6ZujJ10sJ+ODqeOCpOODiOODu+ODqeODs+OCv+ODsyc6WyflgZzpm7snLCflnLDpnIcnLCfpgb/pm6MnXSwn6Ziy54G944OQ44OD44KwJzpbJ+WcsOmchycsJ+mBv+mboycsJ+WPsOmiqCcsJ+Wkp+mbqCddLAogICfjg53jg7zjgr/jg5bjg6vpm7vmupAnOlsn5YGc6Zu7Jywn5Zyw6ZyHJywn5Y+w6aKoJ10sJ+mdnuW4uOmjnyc6WyflnLDpnIcnLCfpgb/pm6MnLCflj7DpoqgnXSwn44Oi44OQ44Kk44Or44OQ44OD44OG44Oq44O8JzpbJ+WBnOmbuycsJ+mBv+mboycsJ+WcsOmchyddLAogICfpo7LmlpnmsLQnOlsn5Zyw6ZyHJywn5Y+w6aKoJywn5aSn6ZuoJywn5YGc6Zu7Jywn6YG/6ZujJ10sJ+ihm+eUn+eUqOWTgSc6WyflnLDpnIcnLCfpgb/pm6MnLCflj7DpoqgnXSwn6Ziy5a+S55So5ZOBJzpbJ+WcsOmchycsJ+WBnOmbuycsJ+mBv+mboyddLAogICfmlZHmgKXnlKjlk4EnOlsn5Zyw6ZyHJywn5Y+w6aKoJywn5aSn6ZuoJywn6YG/6ZujJ10sJ+ODqeOCuOOCqic6WyflnLDpnIcnLCflj7DpoqgnLCflgZzpm7snXSwn5a625YW36Lui5YCS6Ziy5q2iJzpbJ+WcsOmchyddLAogICfjg5jjg6vjg6Hjg4Pjg4gnOlsn5Zyw6ZyHJywn6YG/6ZujJ10sJ+mYsueBveOCu+ODg+ODiCc6WyflnLDpnIcnLCflj7DpoqgnLCflpKfpm6gnLCflgZzpm7snLCfpgb/pm6MnXSwn5a2Q44Gp44KC5ZCR44GRJzpbJ+WcsOmchycsJ+mBv+mboyddLAogICflpbPmgKflkJHjgZEnOlsn5Zyw6ZyHJywn6YG/6ZujJ10sJ+mrmOm9ouiAheWQkeOBkSc6WyflnLDpnIcnLCfpgb/pm6MnXSwn44Oa44OD44OI6Ziy54G9JzpbJ+WcsOmchycsJ+mBv+mboycsJ+WPsOmiqCddLAp9OwoKY29uc3QgZGlzYXN0ZXJUZXJtcyA9IFsn6Ziy54G9Jywn6Z2e5bi4Jywn6YG/6Zuj55SoJywn54G95a6zJywn6ZyH54G9Jywn57eK5oClJ107CmNvbnN0IG5lZ2F0aXZlVGVybXMgPSBbJ+OCr+ODvOODq+ODquODs+OCsCcsJ+ODjeODg+OCr+OCr+ODvOODqeODvCcsJ+WGt+aEn+ODquODs+OCsCcsJ+ODmOOCouODieODqeOCpOOCv+OCquODqycsJ+ODmOOCouOCv+ODvOODkOODsycsJ+edgOWcp+OCveODg+OCr+OCuScsJ+S4oemdouODhuODvOODlycsJ+ODiuODjuODhuODvOODlycsJ1VW44Kr44OD44OIJywn57Sr5aSW57eaJywn5pel54S844GRJywn6YCa5a2mJywn44K544Kv44O844Or44OQ44OD44KwJywn5L+u5a2m5peF6KGMJ107CgovLyBQUk9YSU1JVFlfTUFYOiBjYXRlZ29yeSB0ZXJtIGFuZCBkaXNhc3RlciB0ZXJtIG11c3QgYXBwZWFyIHdpdGhpbiB0aGlzCi8vIG1hbnkgY2hhcmFjdGVycyBvZiBlYWNoIG90aGVyIGluIHRoZSByYXcgbmFtZS4gVGhpcyBpcyB3aGF0IGFjdHVhbGx5Ci8vIGRlZmVhdHMgU0VPIGtleXdvcmQtc3R1ZmZpbmc6IGEgZ2VudWluZSAi6Ziy54G96aCt5be+IiBvciAi5LuL6K23IOmYsueBveOCsOODg+OCuiIKLy8gcHJvZHVjdCBzYXlzIGJvdGggd29yZHMgY2xvc2UgdG9nZXRoZXI7IGEgc3R1ZmZlZCB1bnJlbGF0ZWQgcHJvZHVjdCAoYQovLyBoYWlyIHRvd2VsLCBhIGNvb2xpbmcgcmluZykgZHVtcHMgIumYsueBvSIgZmFyIGF3YXkgaW4gYW4gdW5yZWxhdGVkIGtleXdvcmQKLy8gdGFpbCwgc28gYSBzYW1lLXBvc2l0aW9uL3dob2xlLXN0cmluZyBzdWJzdHJpbmcgY2hlY2sgYWxvbmUgbGV0cyBpdAovLyB0aHJvdWdoIGJ1dCBhIHByb3hpbWl0eSBjaGVjayBjYXRjaGVzIGl0Lgpjb25zdCBQUk9YSU1JVFlfTUFYID0gMTg7Cgpjb25zdCBjYXRlZ29yeUNvbmZpZyA9IHsKICAn57Ch5piT44OI44Kk44OsJzoge3F1ZXJ5OifnsKHmmJPjg4jjgqTjg6wg6Ziy54G9JywgbmFtZU11c3RJbmNsdWRlOlsn44OI44Kk44OsJ10sIHN0cmljdDpmYWxzZX0sCiAgJ+ODqeOCpOODiOODu+ODqeODs+OCv+ODsyc6IHtxdWVyeTon6Ziy54G9IExFROODqeODs+OCv+ODsycsIG5hbWVNdXN0SW5jbHVkZTpbJ+ODqeODs+OCv+ODsycsJ+ODqeOCpOODiCcsJ+aHkOS4rembu+eBryddLCBzdHJpY3Q6ZmFsc2V9LAogICfpmLLngb3jg5Djg4PjgrAnOiB7cXVlcnk6J+mYsueBveODquODpeODg+OCrycsIG5hbWVNdXN0SW5jbHVkZTpbJ+ODquODpeODg+OCrycsJ+ODkOODg+OCsCcsJ+aMgeOBoeWHuuOBl+iiiycsJ+mBv+mbo+iiiyddLCBzdHJpY3Q6dHJ1ZX0sCiAgJ+ODneODvOOCv+ODluODq+mbu+a6kCc6IHtxdWVyeTon44Od44O844K/44OW44Or6Zu75rqQIOmYsueBvScsIG5hbWVNdXN0SW5jbHVkZTpbJ+ODneODvOOCv+ODluODq+mbu+a6kCcsJ+iThOmbu+axoCddLCBzdHJpY3Q6ZmFsc2V9LAogICfpnZ7luLjpo58nOiB7cXVlcnk6J+mdnuW4uOmjnyA15bm05L+d5a2YJywgbmFtZU11c3RJbmNsdWRlOlsn6Z2e5bi46aOfJywn5L+d5a2Y6aOfJywn44Ki44Or44OV44Kh57GzJywn6Ziy54G96aOfJ10sIHN0cmljdDpmYWxzZX0sCiAgJ+ODouODkOOCpOODq+ODkOODg+ODhuODquODvCc6IHtxdWVyeTon44Oi44OQ44Kk44Or44OQ44OD44OG44Oq44O8IOmYsueBvScsIG5hbWVNdXN0SW5jbHVkZTpbJ+ODouODkOOCpOODq+ODkOODg+ODhuODquODvCddLCBzdHJpY3Q6ZmFsc2V9LAogICfpo7LmlpnmsLQnOiB7cXVlcnk6J+S/neWtmOawtCDpmLLngb0nLCBuYW1lTXVzdEluY2x1ZGU6WyfmsLQnXSwgc3RyaWN0OmZhbHNlfSwKICAn6KGb55Sf55So5ZOBJzoge3F1ZXJ5OifpmLLngb0g6KGb55Sf55So5ZOBJywgbmFtZU11c3RJbmNsdWRlOlsn44Km44Kn44OD44OIJywn44Oe44K544KvJywn5omL6KKLJywn44OG44Kj44OD44K344OlJywn44OI44Kk44Os44OD44OI44Oa44O844OR44O8Jywn6KGb55SfJywn44K344Oj44Oz44OX44O8J10sIHN0cmljdDp0cnVlfSwKICAn6Ziy5a+S55So5ZOBJzoge3F1ZXJ5OifpmLLlr5Ig6Ziy54G944Kw44OD44K6JywgbmFtZU11c3RJbmNsdWRlOlsn44Kr44Kk44OtJywn5q+b5biDJywn44OW44Op44Oz44Kx44OD44OIJywn44Ko44Oe44O844K444Kn44Oz44K344O844K344O844OIJywn44Ki44Or44Of44K344O844OIJywn5rmv44Gf44KT44G9Jywn6Ziy5a+SJ10sIHN0cmljdDp0cnVlfSwKICAn5pWR5oCl55So5ZOBJzoge3F1ZXJ5OifmlZHmgKXjgrvjg4Pjg4gg6Ziy54G9JywgbmFtZU11c3RJbmNsdWRlOlsn5pWR5oClJ10sIHN0cmljdDpmYWxzZX0sCiAgJ+ODqeOCuOOCqic6IHtxdWVyeTon6Ziy54G944Op44K444KqJywgbmFtZU11c3RJbmNsdWRlOlsn44Op44K444KqJ10sIHN0cmljdDp0cnVlfSwKICAn5a625YW36Lui5YCS6Ziy5q2iJzoge3F1ZXJ5Oiflrrblhbfou6LlgJLpmLLmraInLCBuYW1lTXVzdEluY2x1ZGU6Wyfou6LlgJLpmLLmraInLCfogJDpnIcnLCfnqoHjgaPlvLXjgoonXSwgc3RyaWN0OmZhbHNlfSwKICAn44OY44Or44Oh44OD44OIJzoge3F1ZXJ5OifpmLLngb3jg5jjg6vjg6Hjg4Pjg4gnLCBuYW1lTXVzdEluY2x1ZGU6Wyfjg5jjg6vjg6Hjg4Pjg4gnLCfpoK3lt74nLCfjgZrjgY3jgpMnXSwgc3RyaWN0OnRydWV9LAogICfpmLLngb3jgrvjg4Pjg4gnOiB7cXVlcnk6J+mYsueBveOCu+ODg+ODiCcsIG5hbWVNdXN0SW5jbHVkZTpbJ+mYsueBveOCu+ODg+ODiCcsJ+mBv+mbo+OCu+ODg+ODiCcsJ+mdnuW4uOaMgeOBoeWHuuOBl+iiiycsJ+mYsueBveOCsOODg+OCuiddLCBzdHJpY3Q6ZmFsc2V9LAogICflrZDjganjgoLlkJHjgZEnOiB7cXVlcnk6J+WtkOS+m+eUqCDpmLLngb3poK3lt74nLCBuYW1lTXVzdEluY2x1ZGU6WyflrZDkvpsnLCfjgZPjganjgoInLCfjgq3jg4PjgronLCflrZDjganjgoInXSwgc3RyaWN0OnRydWV9LAogICflpbPmgKflkJHjgZEnOiB7cXVlcnk6J+Wls+aAp+eUqCDpmLLngb3jgrvjg4Pjg4gnLCBuYW1lTXVzdEluY2x1ZGU6WyflpbPmgKcnLCfjg6zjg4fjgqPjg7zjgrknXSwgc3RyaWN0OnRydWV9LAogICfpq5jpvaLogIXlkJHjgZEnOiB7cXVlcnk6J+mrmOm9ouiAhSDku4vorbcg6Ziy54G9JywgbmFtZU11c3RJbmNsdWRlOlsn6auY6b2i6ICFJywn44K344OL44KiJywn5LuL6K23J10sIHN0cmljdDp0cnVlfSwKICAn44Oa44OD44OI6Ziy54G9Jzoge3F1ZXJ5Oifjg5rjg4Pjg4gg6Ziy54G944Kw44OD44K6IOmBv+mboycsIG5hbWVNdXN0SW5jbHVkZTpbJ+ODmuODg+ODiCcsJ+eKrCcsJ+eMqyddLCBzdHJpY3Q6dHJ1ZX0sCn07CmNvbnN0IGNhdGVnb3JpZXMgPSBPYmplY3Qua2V5cyhjYXRlZ29yeUNvbmZpZyk7CgpmdW5jdGlvbiBzbHVnaWZ5KGl0ZW1Db2RlKSB7CiAgcmV0dXJuICdyay0nICsgaXRlbUNvZGUudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXmEtejAtOV0rL2csICctJykucmVwbGFjZSgvXi0rfC0rJC9nLCAnJyk7Cn0KCmZ1bmN0aW9uIHBvc2l0aW9uc09mKG5hbWUsIHRlcm1zKSB7CiAgY29uc3QgcG9zaXRpb25zID0gW107CiAgZm9yIChjb25zdCB0IG9mIHRlcm1zKSB7CiAgICBsZXQgaWR4ID0gbmFtZS5pbmRleE9mKHQpOwogICAgd2hpbGUgKGlkeCAhPT0gLTEpIHsgcG9zaXRpb25zLnB1c2goaWR4KTsgaWR4ID0gbmFtZS5pbmRleE9mKHQsIGlkeCArIDEpOyB9CiAgfQogIHJldHVybiBwb3NpdGlvbnM7Cn0KCmZ1bmN0aW9uIG1hdGNoZXNDYXRlZ29yeShuYW1lLCBjb25maWcpIHsKICBpZiAobmVnYXRpdmVUZXJtcy5zb21lKHQgPT4gbmFtZS5pbmNsdWRlcyh0KSkpIHJldHVybiBmYWxzZTsKICBjb25zdCBjYXRlZ29yeVBvc2l0aW9ucyA9IHBvc2l0aW9uc09mKG5hbWUsIGNvbmZpZy5uYW1lTXVzdEluY2x1ZGUpOwogIGlmIChjYXRlZ29yeVBvc2l0aW9ucy5sZW5ndGggPT09IDApIHJldHVybiBmYWxzZTsKICBpZiAoIWNvbmZpZy5zdHJpY3QpIHJldHVybiB0cnVlOwogIGNvbnN0IGRpc2FzdGVyUG9zaXRpb25zID0gcG9zaXRpb25zT2YobmFtZSwgZGlzYXN0ZXJUZXJtcyk7CiAgaWYgKGRpc2FzdGVyUG9zaXRpb25zLmxlbmd0aCA9PT0gMCkgcmV0dXJuIGZhbHNlOwogIC8vIFJlcXVpcmUgYXQgbGVhc3Qgb25lIChjYXRlZ29yeSB0ZXJtLCBkaXNhc3RlciB0ZXJtKSBwYWlyIHdpdGhpbiBQUk9YSU1JVFlfTUFYIGNoYXJzLgogIHJldHVybiBjYXRlZ29yeVBvc2l0aW9ucy5zb21lKGNwID0+IGRpc2FzdGVyUG9zaXRpb25zLnNvbWUoZHAgPT4gTWF0aC5hYnMoY3AgLSBkcCkgPD0gUFJPWElNSVRZX01BWCkpOwp9Cgphc3luYyBmdW5jdGlvbiBzZWFyY2hDYXRlZ29yeShrZXl3b3JkLCBoaXRzKSB7CiAgY29uc3QgdXJsID0gbmV3IFVSTCgnaHR0cHM6Ly9vcGVuYXBpLnJha3V0ZW4uY28uanAvaWNoaWJhbXMvYXBpL0ljaGliYUl0ZW0vU2VhcmNoLzIwMjYwNzAxJyk7CiAgdXJsLnNlYXJjaFBhcmFtcy5zZXQoJ2FwcGxpY2F0aW9uSWQnLCBlbnYuUkFLVVRFTl9BUFBfSUQpOwogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCdhY2Nlc3NLZXknLCBlbnYuUkFLVVRFTl9BQ0NFU1NfS0VZKTsKICB1cmwuc2VhcmNoUGFyYW1zLnNldCgnYWZmaWxpYXRlSWQnLCBlbnYuUkFLVVRFTl9BRkZJTElBVEVfSUQpOwogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCdrZXl3b3JkJywga2V5d29yZCk7CiAgdXJsLnNlYXJjaFBhcmFtcy5zZXQoJ2hpdHMnLCBTdHJpbmcoaGl0cykpOwogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCdzb3J0JywgJy1yZXZpZXdDb3VudCcpOwogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCdmb3JtYXQnLCAnanNvbicpOwogIHVybC5zZWFyY2hQYXJhbXMuc2V0KCdmb3JtYXRWZXJzaW9uJywgJzInKTsKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh1cmwudG9TdHJpbmcoKSwgewogICAgaGVhZGVyczogeyByZWZlcmVyOiAnaHR0cHM6Ly9zb25hZS1yZXZpZXcudmVyY2VsLmFwcC8nLCBvcmlnaW46ICdodHRwczovL3NvbmFlLXJldmlldy52ZXJjZWwuYXBwJyB9LAogIH0pOwogIGNvbnN0IHRleHQgPSBhd2FpdCByZXMudGV4dCgpOwogIGlmICghcmVzLm9rKSB7CiAgICBjb25zb2xlLmVycm9yKGBGQUlMRUQgZm9yICR7a2V5d29yZH06YCwgcmVzLnN0YXR1cywgdGV4dC5zbGljZSgwLCAzMDApKTsKICAgIHJldHVybiBbXTsKICB9CiAgcmV0dXJuIChKU09OLnBhcnNlKHRleHQpLkl0ZW1zKSA/PyBbXTsKfQoKY29uc3Qgc2VlbiA9IG5ldyBTZXQoKTsKY29uc3QgcHJvZHVjdHMgPSBbXTsKbGV0IGFkZGVkSW5kZXggPSAwOwpjb25zdCBzaG9ydGZhbGxzID0gW107Cgpmb3IgKGNvbnN0IGNhdGVnb3J5IG9mIGNhdGVnb3JpZXMpIHsKICBjb25zdCBjb25maWcgPSBjYXRlZ29yeUNvbmZpZ1tjYXRlZ29yeV07CiAgY29uc29sZS5sb2coYEZldGNoaW5nOiAke2NhdGVnb3J5fSAocXVlcnk6ICIke2NvbmZpZy5xdWVyeX0iKSAuLi5gKTsKICBjb25zdCBpdGVtcyA9IGF3YWl0IHNlYXJjaENhdGVnb3J5KGNvbmZpZy5xdWVyeSwgMzApOwogIGxldCBjb3VudEZvckNhdGVnb3J5ID0gMDsKICBsZXQgcmVqZWN0ZWQgPSAwOwogIGZvciAoY29uc3QgaXRlbSBvZiBpdGVtcykgewogICAgaWYgKGNvdW50Rm9yQ2F0ZWdvcnkgPj0gMTApIGJyZWFrOwogICAgY29uc3QgaWQgPSBzbHVnaWZ5KGl0ZW0uaXRlbUNvZGUpOwogICAgaWYgKHNlZW4uaGFzKGlkKSkgY29udGludWU7CiAgICBpZiAoIW1hdGNoZXNDYXRlZ29yeShpdGVtLml0ZW1OYW1lLCBjb25maWcpKSB7IHJlamVjdGVkKys7IGNvbnRpbnVlOyB9CiAgICBzZWVuLmFkZChpZCk7CiAgICBjb25zdCBpbWFnZSA9IGl0ZW0ubWVkaXVtSW1hZ2VVcmxzPy5bMF0/LnJlcGxhY2UoJz9fZXg9MTI4eDEyOCcsICc/X2V4PTQwMHg0MDAnKSB8fCBpdGVtLm1lZGl1bUltYWdlVXJscz8uWzBdIHx8ICcnOwogICAgY29uc3Qgc2hvcnQgPSAoaXRlbS5jYXRjaGNvcHkgfHwgaXRlbS5pdGVtTmFtZSB8fCAnJykuc2xpY2UoMCwgNTApOwogICAgcHJvZHVjdHMucHVzaCh7CiAgICAgIGlkLAogICAgICBuYW1lOiBpdGVtLml0ZW1OYW1lLnNsaWNlKDAsIDEyMCksCiAgICAgIGJyYW5kOiBpdGVtLnNob3BOYW1lLAogICAgICBjYXRlZ29yeSwKICAgICAgZGlzYXN0ZXJzOiBjYXRlZ29yeURpc2FzdGVyc1tjYXRlZ29yeV0gfHwgWyflnLDpnIcnLCfpgb/pm6MnXSwKICAgICAgcHJpY2U6IGl0ZW0uaXRlbVByaWNlLAogICAgICBzaG9ydCwKICAgICAgaW1hZ2UsCiAgICAgIGNhcHRpb246IChpdGVtLml0ZW1DYXB0aW9uIHx8ICcnKS5zbGljZSgwLCA0MDApLAogICAgICByYWt1dGVuVXJsOiBpdGVtLmFmZmlsaWF0ZVVybCB8fCBpdGVtLml0ZW1VcmwsCiAgICAgIHJha3V0ZW5SZXZpZXdDb3VudDogaXRlbS5yZXZpZXdDb3VudCB8fCAwLAogICAgICByYWt1dGVuUmV2aWV3QXZlcmFnZTogaXRlbS5yZXZpZXdBdmVyYWdlIHx8IDAsCiAgICAgIGFkZGVkOiBgMjAyNi0wOS0ke1N0cmluZygxOSArIChhZGRlZEluZGV4ICUgMTApKS5wYWRTdGFydCgyLCAnMCcpfWAsCiAgICAgIHNvdXJjZTogJ3Jha3V0ZW4nLAogICAgfSk7CiAgICBjb3VudEZvckNhdGVnb3J5Kys7CiAgICBhZGRlZEluZGV4Kys7CiAgfQogIGNvbnNvbGUubG9nKGAgIC0+IGtlcHQgJHtjb3VudEZvckNhdGVnb3J5fSwgcmVqZWN0ZWQgJHtyZWplY3RlZH0gKG9mICR7aXRlbXMubGVuZ3RofSBmZXRjaGVkKSBmb3IgJHtjYXRlZ29yeX1gKTsKICBpZiAoY291bnRGb3JDYXRlZ29yeSA8IDEwKSBzaG9ydGZhbGxzLnB1c2goY2F0ZWdvcnkpOwogIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAyNTAwKSk7Cn0KCmNvbnNvbGUubG9nKGBcblRvdGFsIHJlYWwgcHJvZHVjdHMgY29sbGVjdGVkOiAke3Byb2R1Y3RzLmxlbmd0aH1gKTsKY29uc29sZS5sb2coJ0NhdGVnb3JpZXMgdW5kZXIgMTA6Jywgc2hvcnRmYWxscyk7Cgpjb25zdCBmaWxlQ29udGVudCA9IGAvLyBBVVRPLUdFTkVSQVRFRCBieSBpbXBvcnQtcmFrdXRlbi5tanMgb24gJHtuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCl9LgovLyBSZWFsIFJha3V0ZW4gSWNoaWJhIHByb2R1Y3RzIChuYW1lL3ByaWNlL2ltYWdlL3JldmlldyBjb3VudCthdmVyYWdlIGFyZQovLyBnZW51aW5lLCBmZXRjaGVkIHZpYSB0aGUgUmFrdXRlbiBJY2hpYmEgSXRlbSBTZWFyY2ggQVBJLCB0aGVuIGZpbHRlcmVkIHNvCi8vIHRoZSBpdGVtJ3Mgb3duIG5hbWUgYWN0dWFsbHkgbWF0Y2hlcyBpdHMgYXNzaWduZWQgY2F0ZWdvcnkg4oCUIGluY2x1ZGluZyBhCi8vIHByb3hpbWl0eSBjaGVjayBiZXR3ZWVuIHRoZSBjYXRlZ29yeSB0ZXJtIGFuZCBhIGRpc2FzdGVyIHRlcm0gdG8gZGVmZWF0Ci8vIFNFTyBrZXl3b3JkLXN0dWZmZWQgdW5yZWxhdGVkIGxpc3RpbmdzKS4gRWRpdG9yaWFsIGZpZWxkcwovLyAoZmVhdHVyZXMvcHJvcy9jb25zL2dvb2RGb3Ivbm90Rm9yKSB0aGF0IGxpYi9jYXRhbG9nLnRzJ3MgaGFuZC13cml0dGVuCi8vIHByb2R1Y3RzIGhhdmUgYXJlIGludGVudGlvbmFsbHkgYWJzZW50IGhlcmUg4oCUIHdlIGhhdmUgbm8gYmFzaXMgdG8KLy8gZmFicmljYXRlIHRoZW0gZm9yIHByb2R1Y3RzIG5vYm9keSBvbiB0aGlzIHNpdGUgaGFzIGFjdHVhbGx5IHRyaWVkLgppbXBvcnQgdHlwZSB7UHJvZHVjdH0gZnJvbSAnLi9jYXRhbG9nJzsKZXhwb3J0IGNvbnN0IHJlYWxQcm9kdWN0czogUHJvZHVjdFtdID0gJHtKU09OLnN0cmluZ2lmeShwcm9kdWN0cywgbnVsbCwgMSl9OwpgOwoKZnMud3JpdGVGaWxlU3luYygnbGliL3JlYWwtcHJvZHVjdHMuZ2VuZXJhdGVkLnRzJywgZmlsZUNvbnRlbnQsICd1dGY4Jyk7CmNvbnNvbGUubG9nKCdXcm90ZSBsaWIvcmVhbC1wcm9kdWN0cy5nZW5lcmF0ZWQudHMnKTsK
+import fs from 'node:fs';
+
+const envText = fs.readFileSync('.env.local', 'utf8');
+const env = Object.fromEntries(
+  envText.split('\n').filter(l => l.includes('=')).map(l => {
+    const i = l.indexOf('=');
+    const key = l.slice(0, i);
+    let val = l.slice(i + 1);
+    if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+    return [key, val];
+  })
+);
+
+const categoryDisasters = {
+  '簡易トイレ':['地震','台風','大雨','避難'],'ライト・ランタン':['停電','地震','避難'],'防災バッグ':['地震','避難','台風','大雨'],
+  'ポータブル電源':['停電','地震','台風'],'非常食':['地震','避難','台風'],'モバイルバッテリー':['停電','避難','地震'],
+  '飲料水':['地震','台風','大雨','停電','避難'],'衛生用品':['地震','避難','台風'],'防寒用品':['地震','停電','避難'],
+  '救急用品':['地震','台風','大雨','避難'],'ラジオ':['地震','台風','停電'],'家具転倒防止':['地震'],
+  'ヘルメット':['地震','避難'],'防災セット':['地震','台風','大雨','停電','避難'],'子ども向け':['地震','避難'],
+  '女性向け':['地震','避難'],'高齢者向け':['地震','避難'],'ペット防災':['地震','避難','台風'],
+};
+
+const disasterTerms = ['防災','非常','避難用','災害','震災','緊急'];
+const negativeTerms = ['クールリング','ネッククーラー','冷感リング','ヘアドライタオル','ヘアターバン','着圧ソックス','両面テープ','ナノテープ','UVカット','紫外線','日焼け','通学','スクールバッグ','修学旅行'];
+
+// PROXIMITY_MAX: category term and disaster term must appear within this
+// many characters of each other in the raw name. This is what actually
+// defeats SEO keyword-stuffing: a genuine "防災頭巾" or "介護 防災グッズ"
+// product says both words close together; a stuffed unrelated product (a
+// hair towel, a cooling ring) dumps "防災" far away in an unrelated keyword
+// tail, so a same-position/whole-string substring check alone lets it
+// through but a proximity check catches it.
+const PROXIMITY_MAX = 18;
+
+const categoryConfig = {
+  '簡易トイレ': {query:'簡易トイレ 防災', nameMustInclude:['トイレ'], strict:false},
+  'ライト・ランタン': {query:'防災 LEDランタン', nameMustInclude:['ランタン','ライト','懐中電灯'], strict:false},
+  '防災バッグ': {query:'防災リュック', nameMustInclude:['リュック','バッグ','持ち出し袋','避難袋'], strict:true},
+  'ポータブル電源': {query:'ポータブル電源 防災', nameMustInclude:['ポータブル電源','蓄電池'], strict:false},
+  '非常食': {query:'非常食 5年保存', nameMustInclude:['非常食','保存食','アルファ米','防災食'], strict:false},
+  'モバイルバッテリー': {query:'モバイルバッテリー 防災', nameMustInclude:['モバイルバッテリー'], strict:false},
+  '飲料水': {query:'保存水 防災', nameMustInclude:['水'], strict:false},
+  '衛生用品': {query:'防災 衛生用品', nameMustInclude:['ウェット','マスク','手袋','ティッシュ','トイレットペーパー','衛生','シャンプー'], strict:true},
+  '防寒用品': {query:'防寒 防災グッズ', nameMustInclude:['カイロ','毛布','ブランケット','エマージェンシーシート','アルミシート','湯たんぽ','防寒'], strict:true},
+  '救急用品': {query:'救急セット 防災', nameMustInclude:['救急'], strict:false},
+  'ラジオ': {query:'防災ラジオ', nameMustInclude:['ラジオ'], strict:true},
+  '家具転倒防止': {query:'家具転倒防止', nameMustInclude:['転倒防止','耐震','突っ張り'], strict:false},
+  'ヘルメット': {query:'防災ヘルメット', nameMustInclude:['ヘルメット','頭巾','ずきん'], strict:true},
+  '防災セット': {query:'防災セット', nameMustInclude:['防災セット','避難セット','非常持ち出し袋','防災グッズ'], strict:false},
+  '子ども向け': {query:'子供用 防災頭巾', nameMustInclude:['子供','こども','キッズ','子ども'], strict:true},
+  '女性向け': {query:'女性用 防災セット', nameMustInclude:['女性','レディース'], strict:true},
+  '高齢者向け': {query:'高齢者 介護 防災', nameMustInclude:['高齢者','シニア','介護'], strict:true},
+  'ペット防災': {query:'ペット 防災グッズ 避難', nameMustInclude:['ペット','犬','猫'], strict:true},
+};
+const categories = Object.keys(categoryConfig);
+
+function slugify(itemCode) {
+  return 'rk-' + itemCode.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function positionsOf(name, terms) {
+  const positions = [];
+  for (const t of terms) {
+    let idx = name.indexOf(t);
+    while (idx !== -1) { positions.push(idx); idx = name.indexOf(t, idx + 1); }
+  }
+  return positions;
+}
+
+function matchesCategory(name, config) {
+  if (negativeTerms.some(t => name.includes(t))) return false;
+  const categoryPositions = positionsOf(name, config.nameMustInclude);
+  if (categoryPositions.length === 0) return false;
+  if (!config.strict) return true;
+  const disasterPositions = positionsOf(name, disasterTerms);
+  if (disasterPositions.length === 0) return false;
+  // Require at least one (category term, disaster term) pair within PROXIMITY_MAX chars.
+  return categoryPositions.some(cp => disasterPositions.some(dp => Math.abs(cp - dp) <= PROXIMITY_MAX));
+}
+
+async function searchCategory(keyword, hits) {
+  const url = new URL('https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701');
+  url.searchParams.set('applicationId', env.RAKUTEN_APP_ID);
+  url.searchParams.set('accessKey', env.RAKUTEN_ACCESS_KEY);
+  url.searchParams.set('affiliateId', env.RAKUTEN_AFFILIATE_ID);
+  url.searchParams.set('keyword', keyword);
+  url.searchParams.set('hits', String(hits));
+  url.searchParams.set('sort', '-reviewCount');
+  url.searchParams.set('format', 'json');
+  url.searchParams.set('formatVersion', '2');
+  const res = await fetch(url.toString(), {
+    headers: { referer: 'https://sonae-review.vercel.app/', origin: 'https://sonae-review.vercel.app' },
+  });
+  const text = await res.text();
+  if (!res.ok) {
+    console.error(`FAILED for ${keyword}:`, res.status, text.slice(0, 300));
+    return [];
+  }
+  return (JSON.parse(text).Items) ?? [];
+}
+
+const seen = new Set();
+const products = [];
+let addedIndex = 0;
+const shortfalls = [];
+
+for (const category of categories) {
+  const config = categoryConfig[category];
+  console.log(`Fetching: ${category} (query: "${config.query}") ...`);
+  const items = await searchCategory(config.query, 30);
+  let countForCategory = 0;
+  let rejected = 0;
+  for (const item of items) {
+    if (countForCategory >= 10) break;
+    const id = slugify(item.itemCode);
+    if (seen.has(id)) continue;
+    if (!matchesCategory(item.itemName, config)) { rejected++; continue; }
+    seen.add(id);
+    const image = item.mediumImageUrls?.[0]?.replace('?_ex=128x128', '?_ex=400x400') || item.mediumImageUrls?.[0] || '';
+    const short = (item.catchcopy || item.itemName || '').slice(0, 50);
+    products.push({
+      id,
+      name: item.itemName.slice(0, 120),
+      brand: item.shopName,
+      category,
+      disasters: categoryDisasters[category] || ['地震','避難'],
+      price: item.itemPrice,
+      short,
+      image,
+      caption: (item.itemCaption || '').slice(0, 400),
+      rakutenUrl: item.affiliateUrl || item.itemUrl,
+      rakutenReviewCount: item.reviewCount || 0,
+      rakutenReviewAverage: item.reviewAverage || 0,
+      added: `2026-09-${String(19 + (addedIndex % 10)).padStart(2, '0')}`,
+      source: 'rakuten',
+    });
+    countForCategory++;
+    addedIndex++;
+  }
+  console.log(`  -> kept ${countForCategory}, rejected ${rejected} (of ${items.length} fetched) for ${category}`);
+  if (countForCategory < 10) shortfalls.push(category);
+  await new Promise(r => setTimeout(r, 2500));
+}
+
+console.log(`\nTotal real products collected: ${products.length}`);
+console.log('Categories under 10:', shortfalls);
+
+const fileContent = `// AUTO-GENERATED by import-rakuten.mjs on ${new Date().toISOString()}.
+// Real Rakuten Ichiba products (name/price/image/review count+average are
+// genuine, fetched via the Rakuten Ichiba Item Search API, then filtered so
+// the item's own name actually matches its assigned category — including a
+// proximity check between the category term and a disaster term to defeat
+// SEO keyword-stuffed unrelated listings). Editorial fields
+// (features/pros/cons/goodFor/notFor) that lib/catalog.ts's hand-written
+// products have are intentionally absent here — we have no basis to
+// fabricate them for products nobody on this site has actually tried.
+import type {Product} from './catalog';
+export const realProducts: Product[] = ${JSON.stringify(products, null, 1)};
+`;
+
+fs.writeFileSync('lib/real-products.generated.ts', fileContent, 'utf8');
+console.log('Wrote lib/real-products.generated.ts');

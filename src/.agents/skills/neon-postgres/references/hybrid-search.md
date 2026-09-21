@@ -1,1 +1,90 @@
-IyBIeWJyaWQgU2VhcmNoDQoNClVzZSBoeWJyaWQgc2VhcmNoIHdoZW4gZWl0aGVyIHNlbWFudGljIHNpbWlsYXJpdHkgb3IgZXhhY3Qgdm9jYWJ1bGFyeSBjYW4gaWRlbnRpZnkgYSByZWxldmFudCBkb2N1bWVudC4gTGFrZWJhc2UgU2VhcmNoIGRvZXMgbm90IHByb3ZpZGUgYSBidWlsdC1pbiBoeWJyaWQgZnVuY3Rpb246IHJ1biB2ZWN0b3IgYW5kIEJNMjUgcmV0cmlldmFsIHNlcGFyYXRlbHksIHRoZW4gY29tYmluZSB0aGVpciByZXN1bHRzIHdpdGggYSBmdXNpb24gc3RyYXRlZ3kgc3VpdGVkIHRvIHRoZSB3b3JrbG9hZC4NCg0KTGFrZWJhc2UgU2VhcmNoIHJlcXVpcmVzIFBvc3RncmVzIDE2IG9yIGxhdGVyLiBIeWJyaWQgc2VhcmNoIHVzZXMgYm90aCBleHRlbnNpb25zOg0KDQpgYGBzcWwNCkNSRUFURSBFWFRFTlNJT04gSUYgTk9UIEVYSVNUUyBsYWtlYmFzZV92ZWN0b3IgQ0FTQ0FERTsNCkNSRUFURSBFWFRFTlNJT04gSUYgTk9UIEVYSVNUUyBsYWtlYmFzZV90ZXh0Ow0KYGBgDQoNCmBsYWtlYmFzZV92ZWN0b3JgIGluc3RhbGxzIGBwZ3ZlY3RvcmAgdGhyb3VnaCBgQ0FTQ0FERWA7IGBsYWtlYmFzZV90ZXh0YCBoYXMgbm8gZXh0ZW5zaW9uIGRlcGVuZGVuY3kuIEJvdGggcmVseSBvbiBwcmVsb2FkZWQgbGlicmFyaWVzIHRoYXQgTmVvbiBlbmFibGVzIGJ5IGRlZmF1bHQuIElmIHRoZSBwcm9qZWN0IGN1c3RvbWl6ZWQgaXRzIHByZWxvYWRlZC1saWJyYXJ5IGxpc3QsIGNvbmZpcm0gYm90aCBsaWJyYXJpZXMgcmVtYWluIGVuYWJsZWQuDQoNClByZXBhcmUgYSB0YWJsZSB3aXRoIGJvdGggdmVjdG9yIGFuZCB0ZXh0LXNlYXJjaCBjb2x1bW5zOg0KDQpgYGBzcWwNCkNSRUFURSBUQUJMRSBkb2N1bWVudHMgKA0KICBpZCBiaWdpbnQgR0VORVJBVEVEIEJZIERFRkFVTFQgQVMgSURFTlRJVFkgUFJJTUFSWSBLRVksDQogIHRpdGxlIHRleHQgTk9UIE5VTEwsDQogIGJvZHkgdGV4dCBOT1QgTlVMTCwNCiAgZW1iZWRkaW5nIHZlY3RvcigxNTM2KSwNCiAgYm9keV90c3YgdHN2ZWN0b3IgR0VORVJBVEVEIEFMV0FZUyBBUw0KICAgICh0b190c3ZlY3RvcignZW5nbGlzaCcsIGJvZHkpKSBTVE9SRUQNCik7DQpgYGANCg0KUmVwbGFjZSBgMTUzNmAgd2l0aCB0aGUgZW1iZWRkaW5nIG1vZGVsJ3MgZGltZW5zaW9uLiBVc2UgdGhlIHNhbWUgbW9kZWwgYW5kIHByZXByb2Nlc3NpbmcgZm9yIHN0b3JlZC1kb2N1bWVudCBhbmQgcXVlcnkgZW1iZWRkaW5ncywgYW5kIGNob29zZSBhIFBvc3RncmVTUUwgdGV4dC1zZWFyY2ggY29uZmlndXJhdGlvbiBhcHByb3ByaWF0ZSBmb3IgdGhlIGNvcnB1cy4NCg0KQ3JlYXRlIGFuZCB2YWxpZGF0ZSBlYWNoIHJldHJpZXZlciBpbmRlcGVuZGVudGx5IGJlZm9yZSBjb21iaW5pbmcgdGhlbS4gRm9sbG93IFtWZWN0b3Igc2VhcmNoXSh2ZWN0b3Itc2VhcmNoLm1kKSBhbmQgW0Z1bGwtdGV4dCBzZWFyY2hdKGZ1bGwtdGV4dC1zZWFyY2gubWQpIGZvciB0aGVpciBpbmRleGVzLCBxdWVyeSBvcGVyYXRvcnMsIGFuZCB0dW5pbmcuDQoNClJlY2lwcm9jYWwgUmFuayBGdXNpb24gKFJSRikgaXMgdGhlIGFwcHJvYWNoIGluIHRoZSBMYWtlYmFzZSBTZWFyY2ggZ2V0LXN0YXJ0ZWQgZ3VpZGUgYW5kIGEgdXNlZnVsIGRlZmF1bHQgYmVjYXVzZSBpdCBjb21iaW5lcyByYW5rcyBpbnN0ZWFkIG9mIGluY29tcGFyYWJsZSByYXcgZGlzdGFuY2VzIGFuZCBzY29yZXMuIEl0IGlzIG5vdCB0aGUgb25seSBvcHRpb246IHdlaWdodGVkIHJhbmsgZnVzaW9uLCBub3JtYWxpemVkIHNjb3JlIGZ1c2lvbiwgb3IgYSByZXJhbmtlciBtYXkgZml0IGFwcGxpY2F0aW9ucyB3aXRoIGRpZmZlcmVudCByZWxldmFuY2Ugc2lnbmFscy4NCg0KIyMgUlJGIEV4YW1wbGUNCg0KRm9yIHJhbmsgYHJgIGFuZCBjb25zdGFudCBga2AsIGVhY2ggcmV0cmlldmVyIGNvbnRyaWJ1dGVzIGAxIC8gKGsgKyByKWAuIFRoZSBkb2N1bWVudGVkIHN0YXJ0aW5nIHBvaW50IHVzZXMgNDAgY2FuZGlkYXRlcyBwZXIgcmV0cmlldmVyIGFuZCBgayA9IDYwYDsgdHVuZSBib3RoIGZvciB0aGUgY29ycHVzIGFuZCB3b3JrbG9hZC4NCg0KQmluZCB0aGUgcXVlcnkgZW1iZWRkaW5nIGFzIGAkMWAsIHF1ZXJ5IHRleHQgYXMgYCQyYCwgYW5kIGZpbmFsIHJlc3VsdCBjb3VudCBhcyBgJDNgOg0KDQpgYGBzcWwNCldJVEggdmVjdG9yX3JhbmtlZCBBUyAoDQogIFNFTEVDVCBpZCwgUkFOSygpIE9WRVIgKE9SREVSIEJZIGRpc3RhbmNlKSBBUyByYW5rDQogIEZST00gKA0KICAgIFNFTEVDVCBpZCwgZW1iZWRkaW5nIDw9PiAkMTo6dmVjdG9yIEFTIGRpc3RhbmNlDQogICAgRlJPTSBkb2N1bWVudHMNCiAgICBPUkRFUiBCWSBkaXN0YW5jZQ0KICAgIEZFVENIIEZJUlNUIDQwIFJPV1MgV0lUSCBUSUVTDQogICkgQVMgdmVjdG9yX2NhbmRpZGF0ZXMNCiksDQprZXl3b3JkX3JhbmtlZCBBUyAoDQogIFNFTEVDVCBpZCwgUkFOSygpIE9WRVIgKE9SREVSIEJZIHNjb3JlKSBBUyByYW5rDQogIEZST00gKA0KICAgIFNFTEVDVA0KICAgICAgaWQsDQogICAgICBib2R5X3RzdiA8QD4gdG9fYm0yNXF1ZXJ5KA0KICAgICAgICB0b190c3ZlY3RvcignZW5nbGlzaCcsICQyKSwNCiAgICAgICAgJ2RvY3VtZW50c19ib2R5X2JtMjUnOjpyZWdjbGFzcw0KICAgICAgKSBBUyBzY29yZQ0KICAgIEZST00gZG9jdW1lbnRzDQogICAgT1JERVIgQlkgc2NvcmUNCiAgICBGRVRDSCBGSVJTVCA0MCBST1dTIFdJVEggVElFUw0KICApIEFTIGtleXdvcmRfY2FuZGlkYXRlcw0KKQ0KU0VMRUNUDQogIGQuaWQsDQogIGQudGl0bGUsDQogIENPQUxFU0NFKDEuMCAvICg2MCArIHYucmFuayksIDApICsNCiAgICBDT0FMRVNDRSgxLjAgLyAoNjAgKyBrLnJhbmspLCAwKSBBUyBycmZfc2NvcmUNCkZST00gZG9jdW1lbnRzIEFTIGQNCkxFRlQgSk9JTiB2ZWN0b3JfcmFua2VkIEFTIHYgT04gdi5pZCA9IGQuaWQNCkxFRlQgSk9JTiBrZXl3b3JkX3JhbmtlZCBBUyBrIE9OIGsuaWQgPSBkLmlkDQpXSEVSRSB2LmlkIElTIE5PVCBOVUxMIE9SIGsuaWQgSVMgTk9UIE5VTEwNCk9SREVSIEJZIHJyZl9zY29yZSBERVNDLCBkLmlkDQpMSU1JVCAkMzsNCmBgYA0KDQpgUkFOSygpYCBnaXZlcyB0aWVkIHJldHJpZXZhbCBzY29yZXMgdGhlIHNhbWUgcmFuay4gU29ydCBieSBgcnJmX3Njb3JlYCBkZXNjZW5kaW5nIGFuZCB1c2UgdGhlIHN0YWJsZSBJRCBhcyBhIGZpbmFsIHRpZS1icmVha2VyLg0KDQpgRkVUQ0ggRklSU1QgLi4uIFJPV1MgV0lUSCBUSUVTYCBrZWVwcyBldmVyeSBjYW5kaWRhdGUgdGllZCBhdCB0aGUgY3V0b2ZmLCBzbyBgUkFOSygpYCByZWNlaXZlcyB0aGUgY29tcGxldGUgYm91bmRhcnkgdGllIGdyb3VwLiBUaGUgY2FuZGlkYXRlIHNldCBjYW4gdGhlcmVmb3JlIGV4Y2VlZCA0MCByb3dzLiBgbGFrZWJhc2VfYm0yNS5kZWZhdWx0X2xpbWl0YCBkZWZhdWx0cyB0byBgMTAwMGA7IGluY3JlYXNlIGl0IG9ubHkgd2hlbiB0aGUgQk0yNSBjYW5kaWRhdGUgc2V0IG5lZWRzIHRvIGV4Y2VlZCB0aGF0IHZhbHVlLg0KDQojIyBBZGFwdCB0aGUgSHlicmlkIFNlYXJjaA0KDQotIFJldHJpZXZlIG1vcmUgY2FuZGlkYXRlcyBmcm9tIGVhY2ggc291cmNlIHRoYW4gdGhlIGZpbmFsIHJlc3VsdCBjb3VudDsgb3RoZXJ3aXNlIG9uZSByZXRyaWV2ZXIgY2FuIGRvbWluYXRlIGJlZm9yZSBmdXNpb24gaGFzIGVub3VnaCBvdmVybGFwLiBLZWVwIGBsYWtlYmFzZV9ibTI1LmRlZmF1bHRfbGltaXRgIGFib3ZlIHRoZSBCTTI1IGNhbmRpZGF0ZSB0YXJnZXQgYW5kIGFsbG93IHJvb20gZm9yIGJvdW5kYXJ5IHRpZXMuDQotIEtlZXAgZWFjaCByZXRyaWV2ZXIncyBvcGVyYXRvciBhbmQgaW5kZXggY29uZmlndXJhdGlvbiBjb3JyZWN0IGluZGVwZW5kZW50bHkgYmVmb3JlIHR1bmluZyBSUkYuDQotIFR1bmUgY2FuZGlkYXRlIGNvdW50cyBhbmQgdGhlIFJSRiBjb25zdGFudCB3aXRoIGp1ZGdlZCBvciBiZWhhdmlvcmFsIHJlbGV2YW5jZSBkYXRhLCBwbHVzIGxhdGVuY3kgbWVhc3VyZW1lbnRzLg0KLSBBZGQgd2VpZ2h0cyBvbmx5IHdoZW4gcHJvZHVjdCBldmlkZW5jZSBzaG93cyBvbmUgcmV0cmlldmVyIHNob3VsZCBjb250cmlidXRlIG1vcmUuIFdlaWdodCB0aGUgcmVjaXByb2NhbC1yYW5rIGNvbnRyaWJ1dGlvbnMsIG5vdCB0aGUgcmF3IHZlY3RvciBkaXN0YW5jZSBhbmQgbmVnYXRpdmUgQk0yNSBzY29yZS4NCi0gQXBwbHkgdGhlIHNhbWUgYWNjZXNzLWNvbnRyb2wgYW5kIHRlbmFudCBmaWx0ZXJzIHRvIGJvdGggY2FuZGlkYXRlIENURXMuIElmIEJNMjUgZmlsdGVycyBhcmUgc3RyaWN0IGFuZCBjaGVhcCwgZXZhbHVhdGUgd2hldGhlciBgbGFrZWJhc2VfYm0yNS5wcmVmaWx0ZXJgIGltcHJvdmVzIHRoZSBmaWx0ZXJlZCBxdWVyeS4NCg0KU291cmNlOiBbTGFrZWJhc2UgU2VhcmNoIGdldC1zdGFydGVkIGd1aWRlXVtsYWtlYmFzZS1zZWFyY2gtZ3VpZGVdLg0KDQpbbGFrZWJhc2Utc2VhcmNoLWd1aWRlXTogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2FpL2xha2ViYXNlLXNlYXJjaC1nZXQtc3RhcnRlZCNjb21iaW5lLXJlc3VsdHMtd2l0aC1oeWJyaWQtc2VhcmNoDQo=
+# Hybrid Search
+
+Use hybrid search when either semantic similarity or exact vocabulary can identify a relevant document. Lakebase Search does not provide a built-in hybrid function: run vector and BM25 retrieval separately, then combine their results with a fusion strategy suited to the workload.
+
+Lakebase Search requires Postgres 16 or later. Hybrid search uses both extensions:
+
+```sql
+CREATE EXTENSION IF NOT EXISTS lakebase_vector CASCADE;
+CREATE EXTENSION IF NOT EXISTS lakebase_text;
+```
+
+`lakebase_vector` installs `pgvector` through `CASCADE`; `lakebase_text` has no extension dependency. Both rely on preloaded libraries that Neon enables by default. If the project customized its preloaded-library list, confirm both libraries remain enabled.
+
+Prepare a table with both vector and text-search columns:
+
+```sql
+CREATE TABLE documents (
+  id bigint GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY,
+  title text NOT NULL,
+  body text NOT NULL,
+  embedding vector(1536),
+  body_tsv tsvector GENERATED ALWAYS AS
+    (to_tsvector('english', body)) STORED
+);
+```
+
+Replace `1536` with the embedding model's dimension. Use the same model and preprocessing for stored-document and query embeddings, and choose a PostgreSQL text-search configuration appropriate for the corpus.
+
+Create and validate each retriever independently before combining them. Follow [Vector search](vector-search.md) and [Full-text search](full-text-search.md) for their indexes, query operators, and tuning.
+
+Reciprocal Rank Fusion (RRF) is the approach in the Lakebase Search get-started guide and a useful default because it combines ranks instead of incomparable raw distances and scores. It is not the only option: weighted rank fusion, normalized score fusion, or a reranker may fit applications with different relevance signals.
+
+## RRF Example
+
+For rank `r` and constant `k`, each retriever contributes `1 / (k + r)`. The documented starting point uses 40 candidates per retriever and `k = 60`; tune both for the corpus and workload.
+
+Bind the query embedding as `$1`, query text as `$2`, and final result count as `$3`:
+
+```sql
+WITH vector_ranked AS (
+  SELECT id, RANK() OVER (ORDER BY distance) AS rank
+  FROM (
+    SELECT id, embedding <=> $1::vector AS distance
+    FROM documents
+    ORDER BY distance
+    FETCH FIRST 40 ROWS WITH TIES
+  ) AS vector_candidates
+),
+keyword_ranked AS (
+  SELECT id, RANK() OVER (ORDER BY score) AS rank
+  FROM (
+    SELECT
+      id,
+      body_tsv <@> to_bm25query(
+        to_tsvector('english', $2),
+        'documents_body_bm25'::regclass
+      ) AS score
+    FROM documents
+    ORDER BY score
+    FETCH FIRST 40 ROWS WITH TIES
+  ) AS keyword_candidates
+)
+SELECT
+  d.id,
+  d.title,
+  COALESCE(1.0 / (60 + v.rank), 0) +
+    COALESCE(1.0 / (60 + k.rank), 0) AS rrf_score
+FROM documents AS d
+LEFT JOIN vector_ranked AS v ON v.id = d.id
+LEFT JOIN keyword_ranked AS k ON k.id = d.id
+WHERE v.id IS NOT NULL OR k.id IS NOT NULL
+ORDER BY rrf_score DESC, d.id
+LIMIT $3;
+```
+
+`RANK()` gives tied retrieval scores the same rank. Sort by `rrf_score` descending and use the stable ID as a final tie-breaker.
+
+`FETCH FIRST ... ROWS WITH TIES` keeps every candidate tied at the cutoff, so `RANK()` receives the complete boundary tie group. The candidate set can therefore exceed 40 rows. `lakebase_bm25.default_limit` defaults to `1000`; increase it only when the BM25 candidate set needs to exceed that value.
+
+## Adapt the Hybrid Search
+
+- Retrieve more candidates from each source than the final result count; otherwise one retriever can dominate before fusion has enough overlap. Keep `lakebase_bm25.default_limit` above the BM25 candidate target and allow room for boundary ties.
+- Keep each retriever's operator and index configuration correct independently before tuning RRF.
+- Tune candidate counts and the RRF constant with judged or behavioral relevance data, plus latency measurements.
+- Add weights only when product evidence shows one retriever should contribute more. Weight the reciprocal-rank contributions, not the raw vector distance and negative BM25 score.
+- Apply the same access-control and tenant filters to both candidate CTEs. If BM25 filters are strict and cheap, evaluate whether `lakebase_bm25.prefilter` improves the filtered query.
+
+Source: [Lakebase Search get-started guide][lakebase-search-guide].
+
+[lakebase-search-guide]: https://neon.com/docs/ai/lakebase-search-get-started#combine-results-with-hybrid-search

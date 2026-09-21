@@ -1,1 +1,18 @@
-aW1wb3J0IHtjb29raWVzfSBmcm9tICduZXh0L2hlYWRlcnMnOwoKY29uc3QgQ09PS0lFID0gJ3N2X2lkJzsKY29uc3QgT05FX1lFQVIgPSA2MCAqIDYwICogMjQgKiAzNjU7CgovLyBSZXBsYWNlcyB0aGUgb2xkIENoYXRHUFQtYXV0aGVudGljYXRlZCB1c2VySWQgd2l0aCBhbiBhbm9ueW1vdXMgcGVyLWJyb3dzZXIKLy8gaWQsIHNpbmNlIGxvZ2luIGlzIG5vIGxvbmdlciBhdmFpbGFibGUgb3V0c2lkZSB0aGUgQ2hhdEdQVCBTaXRlcyBwbGF0Zm9ybS4KLy8gVXNlZCBhcyB0aGUgIndobyBpcyB0aGlzIHBvc3RlciIga2V5IGZvciB0aGUgb25lLXJldmlldy1wZXItcHJvZHVjdAovLyBjb25zdHJhaW50IGFuZCB0aGUgcG9zdGluZyByYXRlIGxpbWl0LiBXZWFrZXIgdGhhbiBhIHJlYWwgYWNjb3VudCAoY2xlYXJpbmcKLy8gY29va2llcyByZXNldHMgaXQpLCBidXQga2VlcHMgcG9zdGluZyBvcGVuIHRvIGV2ZXJ5b25lLgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0T3JTZXRWaXNpdG9ySWQoKTogUHJvbWlzZTxzdHJpbmc+IHsKICBjb25zdCBzdG9yZSA9IGF3YWl0IGNvb2tpZXMoKTsKICBjb25zdCBleGlzdGluZyA9IHN0b3JlLmdldChDT09LSUUpPy52YWx1ZTsKICBpZiAoZXhpc3RpbmcpIHJldHVybiBleGlzdGluZzsKICBjb25zdCBpZCA9IGNyeXB0by5yYW5kb21VVUlEKCk7CiAgc3RvcmUuc2V0KENPT0tJRSwgaWQsIHtodHRwT25seTogdHJ1ZSwgc2FtZVNpdGU6ICdsYXgnLCBzZWN1cmU6IHByb2Nlc3MuZW52Lk5PREVfRU5WID09PSAncHJvZHVjdGlvbicsIG1heEFnZTogT05FX1lFQVIsIHBhdGg6ICcvJ30pOwogIHJldHVybiBpZDsKfQo=
+import {cookies} from 'next/headers';
+
+const COOKIE = 'sv_id';
+const ONE_YEAR = 60 * 60 * 24 * 365;
+
+// Replaces the old ChatGPT-authenticated userId with an anonymous per-browser
+// id, since login is no longer available outside the ChatGPT Sites platform.
+// Used as the "who is this poster" key for the one-review-per-product
+// constraint and the posting rate limit. Weaker than a real account (clearing
+// cookies resets it), but keeps posting open to everyone.
+export async function getOrSetVisitorId(): Promise<string> {
+  const store = await cookies();
+  const existing = store.get(COOKIE)?.value;
+  if (existing) return existing;
+  const id = crypto.randomUUID();
+  store.set(COOKIE, id, {httpOnly: true, sameSite: 'lax', secure: process.env.NODE_ENV === 'production', maxAge: ONE_YEAR, path: '/'});
+  return id;
+}

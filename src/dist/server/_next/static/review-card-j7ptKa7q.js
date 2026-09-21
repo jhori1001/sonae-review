@@ -1,1 +1,1 @@
-aW1wb3J0e3QgYXMgZX1mcm9tIi4vcnNjLXl6a0hVaUphLmpzIjt2YXIgdD1lKCgpPT57dGhyb3cgRXJyb3IoYFVuZXhwZWN0ZWRseSBjbGllbnQgcmVmZXJlbmNlIGV4cG9ydCAnUmV2aWV3Q2FyZCcgaXMgY2FsbGVkIG9uIHNlcnZlcmApfSxgYTAyMzZiMTE4MTg3YCxgUmV2aWV3Q2FyZGApO2V4cG9ydHt0fTs=
+import{t as e}from"./rsc-yzkHUiJa.js";var t=e(()=>{throw Error(`Unexpectedly client reference export 'ReviewCard' is called on server`)},`a0236b118187`,`ReviewCard`);export{t};

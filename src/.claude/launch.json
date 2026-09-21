@@ -1,1 +1,11 @@
-ewogICJ2ZXJzaW9uIjogIjAuMC4xIiwKICAiY29uZmlndXJhdGlvbnMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogInNvbmFlLXJldmlldy1kZXYiLAogICAgICAicnVudGltZUV4ZWN1dGFibGUiOiAibnBtIiwKICAgICAgInJ1bnRpbWVBcmdzIjogWyJydW4iLCAiZGV2Il0sCiAgICAgICJwb3J0IjogMzAwMAogICAgfQogIF0KfQo=
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sonae-review-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    }
+  ]
+}

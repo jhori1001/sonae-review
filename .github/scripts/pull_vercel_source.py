@@ -6,6 +6,7 @@ deployment, walks its file tree, and writes every file to disk relative to
 the current working directory (the checked-out git repo).
 """
 import base64
+import binascii
 import json
 import os
 import pathlib
@@ -103,9 +104,13 @@ def fetch_file_content(dep_id, uid, team_id):
             try:
                 data = json.loads(body.decode("utf-8"))
                 content = data.get("data", "")
-                if data.get("encoding") == "base64":
-                    return base64.b64decode(content)
-                return content.encode("utf-8")
+                # Some API versions omit or mislabel "encoding" even though
+                # "data" is base64. Decode whenever the content validates as
+                # base64 rather than trusting the encoding field.
+                try:
+                    return base64.b64decode(content, validate=True)
+                except (binascii.Error, ValueError):
+                    return content.encode("utf-8")
             except (json.JSONDecodeError, UnicodeDecodeError):
                 return body
     print(f"Failed to fetch content for uid={uid}", file=sys.stderr)

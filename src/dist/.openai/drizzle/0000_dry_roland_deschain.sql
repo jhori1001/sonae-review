@@ -1,1 +1,32 @@
-Q1JFQVRFIFRBQkxFIGByZXBvcnRzYCAoCglgaWRgIHRleHQgUFJJTUFSWSBLRVkgTk9UIE5VTEwsCglgcmV2aWV3X2lkYCB0ZXh0IE5PVCBOVUxMLAoJYHVzZXJfaWRgIHRleHQgTk9UIE5VTEwsCglgcmVhc29uYCB0ZXh0IE5PVCBOVUxMLAoJYGNyZWF0ZWRfYXRgIHRleHQgTk9UIE5VTEwsCglgc3RhdHVzYCB0ZXh0IERFRkFVTFQgJ29wZW4nIE5PVCBOVUxMCik7Ci0tPiBzdGF0ZW1lbnQtYnJlYWtwb2ludApDUkVBVEUgVU5JUVVFIElOREVYIGByZXBvcnRzX3VzZXJfcmV2aWV3YCBPTiBgcmVwb3J0c2AgKGB1c2VyX2lkYCxgcmV2aWV3X2lkYCk7LS0+IHN0YXRlbWVudC1icmVha3BvaW50CkNSRUFURSBUQUJMRSBgcmV2aWV3X2ltYWdlc2AgKAoJYGlkYCB0ZXh0IFBSSU1BUlkgS0VZIE5PVCBOVUxMLAoJYHJldmlld19pZGAgdGV4dCBOT1QgTlVMTCwKCWBzdG9yYWdlX2tleWAgdGV4dCBOT1QgTlVMTCwKCWBjb250ZW50X3R5cGVgIHRleHQgTk9UIE5VTEwsCglgcG9zaXRpb25gIGludGVnZXIgTk9UIE5VTEwsCglGT1JFSUdOIEtFWSAoYHJldmlld19pZGApIFJFRkVSRU5DRVMgYHJldmlld3NgKGBpZGApIE9OIFVQREFURSBubyBhY3Rpb24gT04gREVMRVRFIGNhc2NhZGUKKTsKLS0+IHN0YXRlbWVudC1icmVha3BvaW50CkNSRUFURSBUQUJMRSBgcmV2aWV3c2AgKAoJYGlkYCB0ZXh0IFBSSU1BUlkgS0VZIE5PVCBOVUxMLAoJYHByb2R1Y3RfaWRgIHRleHQgTk9UIE5VTEwsCglgdXNlcl9pZGAgdGV4dCBOT1QgTlVMTCwKCWBuaWNrbmFtZWAgdGV4dCBOT1QgTlVMTCwKCWByYXRpbmdgIGludGVnZXIgTk9UIE5VTEwsCglgdGl0bGVgIHRleHQgTk9UIE5VTEwsCglgYm9keWAgdGV4dCBOT1QgTlVMTCwKCWBjcmVhdGVkX2F0YCB0ZXh0IE5PVCBOVUxMCik7Ci0tPiBzdGF0ZW1lbnQtYnJlYWtwb2ludApDUkVBVEUgVU5JUVVFIElOREVYIGByZXZpZXdzX3VzZXJfcHJvZHVjdGAgT04gYHJldmlld3NgIChgdXNlcl9pZGAsYHByb2R1Y3RfaWRgKTstLT4gc3RhdGVtZW50LWJyZWFrcG9pbnQKQ1JFQVRFIElOREVYIGByZXZpZXdzX3Byb2R1Y3RfY3JlYXRlZGAgT04gYHJldmlld3NgIChgcHJvZHVjdF9pZGAsYGNyZWF0ZWRfYXRgKTs=
+CREATE TABLE `reports` (
+	`id` text PRIMARY KEY NOT NULL,
+	`review_id` text NOT NULL,
+	`user_id` text NOT NULL,
+	`reason` text NOT NULL,
+	`created_at` text NOT NULL,
+	`status` text DEFAULT 'open' NOT NULL
+);
+--> statement-breakpoint
+CREATE UNIQUE INDEX `reports_user_review` ON `reports` (`user_id`,`review_id`);--> statement-breakpoint
+CREATE TABLE `review_images` (
+	`id` text PRIMARY KEY NOT NULL,
+	`review_id` text NOT NULL,
+	`storage_key` text NOT NULL,
+	`content_type` text NOT NULL,
+	`position` integer NOT NULL,
+	FOREIGN KEY (`review_id`) REFERENCES `reviews`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
+CREATE TABLE `reviews` (
+	`id` text PRIMARY KEY NOT NULL,
+	`product_id` text NOT NULL,
+	`user_id` text NOT NULL,
+	`nickname` text NOT NULL,
+	`rating` integer NOT NULL,
+	`title` text NOT NULL,
+	`body` text NOT NULL,
+	`created_at` text NOT NULL
+);
+--> statement-breakpoint
+CREATE UNIQUE INDEX `reviews_user_product` ON `reviews` (`user_id`,`product_id`);--> statement-breakpoint
+CREATE INDEX `reviews_product_created` ON `reviews` (`product_id`,`created_at`);

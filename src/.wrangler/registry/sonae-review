@@ -1,1 +1,5 @@
-ewogICJkZWJ1Z1BvcnRBZGRyZXNzIjogIjEyNy4wLjAuMTo2MTI3OSIsCiAgImRlZmF1bHRFbnRyeXBvaW50U2VydmljZSI6ICJjb3JlOnVzZXI6X192aXRlX3Byb3h5X3dvcmtlcl9fIiwKICAidXNlcldvcmtlclNlcnZpY2UiOiAiY29yZTp1c2VyOnNvbmFlLXJldmlldyIKfQ==
+{
+  "debugPortAddress": "127.0.0.1:61279",
+  "defaultEntrypointService": "core:user:__vite_proxy_worker__",
+  "userWorkerService": "core:user:sonae-review"
+}

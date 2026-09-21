@@ -1,1 +1,32 @@
-IyBUeXBlLXNhZmUgZW52IHZhcnMgd2l0aCBwYXJzZUVudg0KDQpgQG5lb24vZW52YCdzIGBwYXJzZUVudmAgdGFrZXMgeW91ciBgbmVvbi50c2AgY29uZmlnIG9iamVjdCBhbmQgcmV0dXJucyBhIHBhcnNlZCwgdHlwZWQgZW52IG9iamVjdCwgdmFsaWRhdGVkIGFnYWluc3QgdGhlIHNlcnZpY2VzIHlvdSBkZWNsYXJlZC4gVGhlIHNoYXBlIG9mIGBlbnZgIGZvbGxvd3MgeW91ciBjb25maWcsIGFuZCBtaXNzaW5nIHZhcmlhYmxlcyBhcmUgZmxhZ2dlZCB3aXRoIGNsZWFyIGVycm9ycy4NCg0KYGBgYmFzaA0KbnBtIGkgQG5lb24vZW52DQpgYGANCg0KYGBgdHlwZXNjcmlwdA0KaW1wb3J0IHsgcGFyc2VFbnYgfSBmcm9tICJAbmVvbi9lbnYiOw0KaW1wb3J0IGNvbmZpZyBmcm9tICIuL25lb24iOw0KDQpjb25zdCBlbnYgPSBwYXJzZUVudihjb25maWcpOw0KDQpjb25zb2xlLmxvZyhlbnYucG9zdGdyZXMuZGF0YWJhc2VVcmwpOw0KY29uc29sZS5sb2coZW52LmF1dGguYmFzZVVybCk7DQpgYGANCg0KQnkgZGVmYXVsdCBgcGFyc2VFbnZgIHJlcXVpcmVzIF9ldmVyeV8gdmFyaWFibGUgeW91ciBjb25maWcgaW1wbGllcy4gV2hlbiBvbmUgb2YgeW91ciBhcHBzIG9ubHkgdXNlcyBhIHN1YnNldCwgZm9yIGV4YW1wbGUgd2hlbiB5b3UgbmVlZCB0byByZWFkIGBEQVRBQkFTRV9VUkxgIGJ1dCBuZXZlciB0aGUgdW5wb29sZWQgVVJMLCBwYXNzIGFuIGFycmF5IG9mIGVudi12YXIga2V5cyB0byByZXF1aXJlIGFuZCB2YWxpZGF0ZSBvbmx5IHRob3NlLiBUaGUga2V5cyBhcmUgdHlwZXNhZmU6IGF1dG9jb21wbGV0ZSBvbmx5IG9mZmVycyB2YXJpYWJsZXMgeW91ciBjb25maWcgZW5hYmxlcywgYW5kIHRoZSByZXR1cm5lZCBzaGFwZSBpcyBuYXJyb3dlZCB0byBleGFjdGx5IHdoYXQgeW91IHNlbGVjdGVkIChzbyB1bnNlbGVjdGVkIHZhcmlhYmxlcyBhcmUgbmVpdGhlciBlbmZvcmNlZCBub3IgcHJlc2VudCkuDQoNCmBgYHR5cGVzY3JpcHQNCmltcG9ydCB7IHBhcnNlRW52IH0gZnJvbSAiQG5lb24vZW52IjsNCmltcG9ydCBjb25maWcgZnJvbSAiLi9uZW9uIjsNCg0KLy8gT25seSBEQVRBQkFTRV9VUkwgaXMgcmVxdWlyZWQgYW5kIHJldHVybmVkOyBEQVRBQkFTRV9VUkxfVU5QT09MRUQgaXMgbm90IGVuZm9yY2VkLg0KY29uc3QgeyBwb3N0Z3JlcyB9ID0gcGFyc2VFbnYoY29uZmlnLCBbIkRBVEFCQVNFX1VSTCJdKTsNCmNvbnNvbGUubG9nKHBvc3RncmVzLmRhdGFiYXNlVXJsKTsNCg0KLy8gU2VsZWN0aW5nIGFjcm9zcyBzZXJ2aWNlcyDigJQgb25seSB0aGVzZSBrZXlzIGFyZSB2YWxpZGF0ZWQuDQpjb25zdCBlbnYgPSBwYXJzZUVudihjb25maWcsIFsiREFUQUJBU0VfVVJMIiwgIk5FT05fQVVUSF9CQVNFX1VSTCJdKTsNCmNvbnNvbGUubG9nKGVudi5wb3N0Z3Jlcy5kYXRhYmFzZVVybCwgZW52LmF1dGguYmFzZVVybCk7DQpgYGANCg==
+# Type-safe env vars with parseEnv
+
+`@neon/env`'s `parseEnv` takes your `neon.ts` config object and returns a parsed, typed env object, validated against the services you declared. The shape of `env` follows your config, and missing variables are flagged with clear errors.
+
+```bash
+npm i @neon/env
+```
+
+```typescript
+import { parseEnv } from "@neon/env";
+import config from "./neon";
+
+const env = parseEnv(config);
+
+console.log(env.postgres.databaseUrl);
+console.log(env.auth.baseUrl);
+```
+
+By default `parseEnv` requires _every_ variable your config implies. When one of your apps only uses a subset, for example when you need to read `DATABASE_URL` but never the unpooled URL, pass an array of env-var keys to require and validate only those. The keys are typesafe: autocomplete only offers variables your config enables, and the returned shape is narrowed to exactly what you selected (so unselected variables are neither enforced nor present).
+
+```typescript
+import { parseEnv } from "@neon/env";
+import config from "./neon";
+
+// Only DATABASE_URL is required and returned; DATABASE_URL_UNPOOLED is not enforced.
+const { postgres } = parseEnv(config, ["DATABASE_URL"]);
+console.log(postgres.databaseUrl);
+
+// Selecting across services — only these keys are validated.
+const env = parseEnv(config, ["DATABASE_URL", "NEON_AUTH_BASE_URL"]);
+console.log(env.postgres.databaseUrl, env.auth.baseUrl);
+```

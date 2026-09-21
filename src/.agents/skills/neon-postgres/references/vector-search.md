@@ -1,1 +1,137 @@
-IyBTZW1hbnRpYyBWZWN0b3IgU2VhcmNoDQoNClVzZSBgbGFrZWJhc2VfdmVjdG9yYCBmb3IgYXBwcm94aW1hdGUgbmVhcmVzdC1uZWlnaGJvciByZXRyaWV2YWwgb3ZlciBlbWJlZGRpbmdzLiBJdCByZXRhaW5zIHBndmVjdG9yJ3MgdmVjdG9yIHR5cGVzLCBkaXN0YW5jZSBvcGVyYXRvcnMsIGFuZCBxdWVyeSBzeW50YXg7IHRoZSBpbmRleCBhY2Nlc3MgbWV0aG9kIGlzIGBsYWtlYmFzZV9hbm5gLg0KDQojIyBDb250ZW50cw0KDQotIFtDcmVhdGUgdGhlIGV4dGVuc2lvbl0oI2NyZWF0ZS10aGUtZXh0ZW5zaW9uKSDigJQgZW5hYmxlIGBsYWtlYmFzZV92ZWN0b3JgIGFuZCBpdHMgYHBndmVjdG9yYCBkZXBlbmRlbmN5DQotIFtQcmVwYXJlIGVtYmVkZGluZ3NdKCNwcmVwYXJlLWVtYmVkZGluZ3MpIOKAlCBkZWZpbmUgdGhlIHZlY3RvciBjb2x1bW4gYW5kIGtlZXAgZW1iZWRkaW5nIGRpbWVuc2lvbnMgY29uc2lzdGVudA0KLSBbQnVpbGQgdGhlIGluZGV4XSgjYnVpbGQtdGhlLWluZGV4KSDigJQgbWF0Y2ggdGhlIGRpc3RhbmNlIG1ldHJpYywgb3BlcmF0b3IgY2xhc3MsIGFuZCBxdWVyeSBvcGVyYXRvcg0KLSBbVHVuZSB0aGUgaW5kZXhdKCN0dW5lLXRoZS1pbmRleCkg4oCUIGNvbmZpZ3VyZSBpbmRleC1idWlsZCBvcHRpb25zIGFuZCBjb25jdXJyZW50IGluZGV4IG1hbmFnZW1lbnQNCi0gW1F1ZXJ5XSgjcXVlcnkpIOKAlCByYW5rIGJ5IHZlY3RvciBkaXN0YW5jZSBvciBmaWx0ZXIgYnkgYSBzaW1pbGFyaXR5IHJhZGl1cw0KLSBbVHVuZSBzZWFyY2hdKCN0dW5lLXNlYXJjaCkg4oCUIGluc3BlY3QgdGhlIGluZGV4IGFuZCB0dW5lIHJlY2FsbCBhZ2FpbnN0IGxhdGVuY3kNCiAgLSBbVXNlIHByZWZpbHRlciBzZWxlY3RpdmVseV0oI3VzZS1wcmVmaWx0ZXItc2VsZWN0aXZlbHkpIOKAlCBhcHBseSBzZWxlY3RpdmUgZmlsdGVycyBiZWZvcmUgQU5OIHNjb3JpbmcNCg0KIyMgQ3JlYXRlIHRoZSBFeHRlbnNpb24NCg0KTGFrZWJhc2UgU2VhcmNoIHJlcXVpcmVzIFBvc3RncmVzIDE2IG9yIGxhdGVyLiBFbmFibGUgdGhlIGV4dGVuc2lvbiBiZWZvcmUgY3JlYXRpbmcgdmVjdG9yIGNvbHVtbnMgb3IgaW5kZXhlczoNCg0KYGBgc3FsDQpDUkVBVEUgRVhURU5TSU9OIElGIE5PVCBFWElTVFMgbGFrZWJhc2VfdmVjdG9yIENBU0NBREU7DQpgYGANCg0KYGxha2ViYXNlX3ZlY3RvcmAgaW5zdGFsbHMgYHBndmVjdG9yYCB0aHJvdWdoIGBDQVNDQURFYC4gSXQgcmVsaWVzIG9uIGEgcHJlbG9hZGVkIGxpYnJhcnkgdGhhdCBOZW9uIGVuYWJsZXMgYnkgZGVmYXVsdDsgaWYgdGhlIHByb2plY3QgY3VzdG9taXplZCBpdHMgcHJlbG9hZGVkLWxpYnJhcnkgbGlzdCwgY29uZmlybSB0aGUgbGlicmFyeSByZW1haW5zIGVuYWJsZWQuDQoNCiMjIFByZXBhcmUgRW1iZWRkaW5ncw0KDQpVc2UgYW55IGVtYmVkZGluZyBwcm92aWRlciB3aG9zZSB2ZWN0b3IgZGltZW5zaW9ucyBhbmQgZGlzdGFuY2UgbWV0cmljIG1hdGNoIHRoZSBzY2hlbWEgYW5kIGluZGV4Og0KDQpgYGBzcWwNCkNSRUFURSBUQUJMRSBkb2N1bWVudHMgKA0KICBpZCBiaWdpbnQgR0VORVJBVEVEIEJZIERFRkFVTFQgQVMgSURFTlRJVFkgUFJJTUFSWSBLRVksDQogIHRpdGxlIHRleHQgTk9UIE5VTEwsDQogIGJvZHkgdGV4dCBOT1QgTlVMTCwNCiAgZW1iZWRkaW5nIHZlY3RvcigxNTM2KQ0KKTsNCmBgYA0KDQpSZXBsYWNlIGAxNTM2YCB3aXRoIHRoZSBlbWJlZGRpbmcgbW9kZWwncyBkaW1lbnNpb24uIEdlbmVyYXRlIHN0b3JlZC1kb2N1bWVudCBhbmQgcXVlcnkgZW1iZWRkaW5ncyB3aXRoIHRoZSBzYW1lIG1vZGVsIGFuZCBwcmVwcm9jZXNzaW5nLiBLZWVwIGVtYmVkZGluZyBnZW5lcmF0aW9uIG91dHNpZGUgU1FMIHVubGVzcyB0aGUgYXJjaGl0ZWN0dXJlIGFscmVhZHkgcHJvdmlkZXMgYW4gaW4tZGF0YWJhc2UgZW1iZWRkaW5nIGZ1bmN0aW9uLg0KDQojIyBCdWlsZCB0aGUgSW5kZXgNCg0KQ2hvb3NlIHRoZSBvcGVyYXRvciBjbGFzcyBhbmQgcXVlcnkgb3BlcmF0b3IgYXMgYSBtYXRjaGVkIHBhaXI6DQoNCnwgTWV0cmljIHwgQ29tbW9uIHVzZSB8IE9wZXJhdG9yIGNsYXNzIHwgRGlzdGFuY2Ugb3BlcmF0b3IgfA0KfCAtLS0gfCAtLS0gfCAtLS0gfCAtLS0gfA0KfCBDb3NpbmUgfCBNb3N0IHRleHQgZW1iZWRkaW5ncyB8IGB2ZWN0b3JfY29zaW5lX29wc2AgfCBgPD0+YCB8DQp8IEwyIC8gRXVjbGlkZWFuIHwgQWJzb2x1dGUgZGlzdGFuY2UgbWF0dGVyczsgdmVjdG9ycyBkbyBub3QgbmVlZCBub3JtYWxpemF0aW9uIHwgYHZlY3Rvcl9sMl9vcHNgIHwgYDwtPmAgfA0KfCBJbm5lciBwcm9kdWN0IHwgVW5pdC1ub3JtYWxpemVkIHZlY3RvcnM7IG1hdGNoZXMgY29zaW5lIGZvciB1bml0IHZlY3RvcnMgfCBgdmVjdG9yX2lwX29wc2AgfCBgPCM+YCB8DQoNCmBgYHNxbA0KQ1JFQVRFIElOREVYIGRvY3VtZW50c19lbWJlZGRpbmdfYW5uIE9OIGRvY3VtZW50cw0KICBVU0lORyBsYWtlYmFzZV9hbm4gKGVtYmVkZGluZyB2ZWN0b3JfY29zaW5lX29wcyk7DQpgYGANCg0KIyMgVHVuZSB0aGUgSW5kZXgNCg0KVGhlIGRlZmF1bHQgaW5kZXggb3B0aW9ucyBzdWl0IG1vc3Qgd29ya2xvYWRzOg0KDQotIGBidWlsZF9tb2RlID0gJ3N0YW5kYXJkJ2AgYmFsYW5jZXMgcmVjYWxsIGFuZCBpbmRleCBidWlsZCB0aW1lLiBVc2UgYHF1YWxpdHlgIGZvciBiZXR0ZXIgcmVjYWxsIHdoZW4gYSBsb25nZXIgYnVpbGQgaXMgYWNjZXB0YWJsZS4NCi0gYGxpc3RzID0gJ2F1dG8nYCBjaG9vc2VzIHRoZSBJVkYgcGFydGl0aW9uIGxheW91dCBmcm9tIHRoZSBudW1iZXIgb2YgaW5kZXhlZCB2ZWN0b3JzLiBDaG9vc2UgYmV0d2VlbiBgYXV0b2AgYW5kIGEgbWFudWFsIHZhbHVlIGNhc2UgYnkgY2FzZTogdGVzdCBib3RoIG9uIHRoZSB0YXJnZXQgZGF0YXNldCBhbmQgdXNlIHRoZSB2YWx1ZSB0aGF0IGJldHRlciBtZWV0cyByZWNhbGwgYW5kIHBlcmZvcm1hbmNlIHRhcmdldHMuDQoNClRvIHByaW9yaXRpemUgcmVjYWxsIG92ZXIgaW5kZXggYnVpbGQgdGltZToNCg0KYGBgc3FsDQpDUkVBVEUgSU5ERVggZG9jdW1lbnRzX2VtYmVkZGluZ19hbm5fcXVhbGl0eSBPTiBkb2N1bWVudHMNCiAgVVNJTkcgbGFrZWJhc2VfYW5uIChlbWJlZGRpbmcgdmVjdG9yX2Nvc2luZV9vcHMpDQogIFdJVEggKGJ1aWxkX21vZGUgPSAncXVhbGl0eScpOw0KYGBgDQoNClRvIG92ZXJyaWRlIHRoZSBhdXRvbWF0aWMgcGFydGl0aW9uIGxheW91dCBpbnN0ZWFkOg0KDQpgYGBzcWwNCkNSRUFURSBJTkRFWCBkb2N1bWVudHNfZW1iZWRkaW5nX2Fubl9saXN0cyBPTiBkb2N1bWVudHMNCiAgVVNJTkcgbGFrZWJhc2VfYW5uIChlbWJlZGRpbmcgdmVjdG9yX2Nvc2luZV9vcHMpDQogIFdJVEggKGxpc3RzID0gJzEwMjQnKTsNCmBgYA0KDQpGb3IgYSBsYXJnZSB0YWJsZSwgdXNlIGBDUkVBVEUgSU5ERVggQ09OQ1VSUkVOVExZYCB0byBhdm9pZCBsb2NraW5nIG91dCB3cml0ZXMgd2hpbGUgY3JlYXRpbmcgdGhlIGluZGV4LiBGb3IgYSBmcmVxdWVudGx5IGNoYW5naW5nIHRhYmxlLCBwZXJpb2RpY2FsbHkgdXNlIGBSRUlOREVYIElOREVYIENPTkNVUlJFTlRMWWAgdG8gcmVidWlsZCB0aGUgaW5kZXggd2l0aCBtaW5pbWFsIHdyaXRlIGxvY2tpbmcuDQoNCiMjIFF1ZXJ5DQoNCkdlbmVyYXRlIHRoZSBxdWVyeSBlbWJlZGRpbmcgd2l0aCB0aGUgc2FtZSBtb2RlbCBhbmQgcHJlcHJvY2Vzc2luZyB1c2VkIGZvciBzdG9yZWQgZG9jdW1lbnRzLCB0aGVuIGJpbmQgaXQgYXMgYSBwYXJhbWV0ZXI6DQoNCmBgYHNxbA0KU0VMRUNUIGlkLCB0aXRsZSwgZW1iZWRkaW5nIDw9PiAkMTo6dmVjdG9yIEFTIGRpc3RhbmNlDQpGUk9NIGRvY3VtZW50cw0KT1JERVIgQlkgZGlzdGFuY2UNCkxJTUlUICQyOw0KYGBgDQoNCkRpc3RhbmNlIHNvcnRzIGFzY2VuZGluZzogYSBzbWFsbGVyIHZhbHVlIGlzIGEgY2xvc2VyIG1hdGNoLiBLZWVwIHRoZSBxdWVyeSBvcGVyYXRvciBjb25zaXN0ZW50IHdpdGggdGhlIGluZGV4IG9wZXJhdG9yIGNsYXNzLg0KDQpUbyBmaWx0ZXIgYnkgYSBzaW1pbGFyaXR5IHJhZGl1cywgdXNlIHRoZSBtYXRjaGluZyBib29sZWFuIHJhbmdlIG9wZXJhdG9yIGluIGBXSEVSRWAgYW5kIHRoZSBkaXN0YW5jZSBvcGVyYXRvciBpbiBgT1JERVIgQllgOg0KDQpgYGBzcWwNClNFTEVDVCBpZCwgdGl0bGUNCkZST00gZG9jdW1lbnRzDQpXSEVSRSBlbWJlZGRpbmcgPDw9Pj4gc3BoZXJlKCQxOjp2ZWN0b3IsIDAuNSkNCk9SREVSIEJZIGVtYmVkZGluZyA8PT4gJDE6OnZlY3Rvcg0KTElNSVQgJDI7DQpgYGANCg0KVGhlIGNvc2luZSByYW5nZSBvcGVyYXRvciBgPDw9Pj5gIHJldHVybnMgYSBib29sZWFuOyBkbyBub3QgdXNlIGl0IGFzIHRoZSByYW5raW5nIGV4cHJlc3Npb24uDQoNCiMjIFR1bmUgU2VhcmNoDQoNCkluc3BlY3QgdGhlIGluZGV4IGJlZm9yZSBvdmVycmlkaW5nIGRlZmF1bHRzOg0KDQpgYGBzcWwNClNFTEVDVCBsYWtlYmFzZV9hbm5faW5kZXhfaW5mbygnZG9jdW1lbnRzX2VtYmVkZGluZ19hbm4nKTsNCmBgYA0KDQpUaGlzIHJlcG9ydHMgYGxpc3RzYCwgYGRlZmF1bHRfcHJvYmVzYCwgYW5kIGBkZWZhdWx0X2Vwc2lsb25gLiBTbWFsbCBkYXRhc2V0cyB1c2UgZXhhY3QgZmxhdCBzZWFyY2ggYmVmb3JlIElWRiBsaXN0cyBhcmUgYnVpbHQuIEluIHRoYXQgc3RhdGUsIGBsaXN0c2AgYW5kIGBkZWZhdWx0X3Byb2Jlc2AgYXJlIGVtcHR5LiBMZWF2ZSBgbGFrZWJhc2VfYW5uLnByb2Jlc2Agc2V0IHRvIGl0cyBkZWZhdWx0IG9mIGAnYXV0bydgOyBgbGFrZWJhc2VfYW5uLmVwc2lsb25gIHN0aWxsIGNvbnRyb2xzIGZ1bGwtcHJlY2lzaW9uIHJlcmFua2luZyBkdXJpbmcgZmxhdCBzZWFyY2guDQoNCkZvciBhbiBJVkYgaW5kZXgsIGBsYWtlYmFzZV9hbm4ucHJvYmVzYCBjb250cm9scyBob3cgbWFueSBwYXJ0aXRpb25zIGFyZSBzZWFyY2hlZCBhdCBlYWNoIGxldmVsLiBIaWdoZXIgdmFsdWVzIGdlbmVyYWxseSBpbXByb3ZlIHJlY2FsbCBhdCB0aGUgY29zdCBvZiBzcGVlZC4gSXRzIGRlZmF1bHQgaXMgYCdhdXRvJ2AuIFdoZW4gYGxpc3RzYCBpcyBub3QgZW1wdHksIHRoZSBzaGFwZSBvZiBgcHJvYmVzYCBtdXN0IG1hdGNoIHRoZSBzaGFwZSBvZiBgbGlzdHNgOiB1c2Ugb25lIHZhbHVlIGZvciBhIG9uZS1sZXZlbCBpbmRleCBvciB0d28gY29tbWEtc2VwYXJhdGVkIHZhbHVlcyBmb3IgYSB0d28tbGV2ZWwgaW5kZXguIEF0IGVhY2ggbGV2ZWwsIHRoZSBgcHJvYmVzYCB2YWx1ZSBtdXN0IGJlIG5vIGxhcmdlciB0aGFuIHRoZSBjb3JyZXNwb25kaW5nIGBsaXN0c2AgdmFsdWUuIEEgbWlzbWF0Y2hlZCBvciBvdXQtb2YtcmFuZ2UgdmFsdWUgY2F1c2VzIGFuIGVycm9yLg0KDQpgbGFrZWJhc2VfYW5uLmVwc2lsb25gIGNvbnRyb2xzIGhvdyBtYW55IGNhbmRpZGF0ZXMgYXJlIHJlcmFua2VkIHVzaW5nIGZ1bGwtcHJlY2lzaW9uIGRpc3RhbmNlcy4gSGlnaGVyIHZhbHVlcyByZXJhbmsgbW9yZSBjYW5kaWRhdGVzIGFuZCB0YWtlIGxvbmdlci4gSXRzIGRlZmF1bHQgaXMgYCdhdXRvJ2AsIHdoaWNoIHdvcmtzIHdlbGwgZm9yIG1vc3Qgd29ya2xvYWRzLg0KDQojIyMgVXNlIFByZWZpbHRlciBTZWxlY3RpdmVseQ0KDQpCeSBkZWZhdWx0LCBQb3N0Z3JlU1FMIGFwcGxpZXMgbm9uLXZlY3RvciBmaWx0ZXJzIGFmdGVyIHRoZSBBTk4gaW5kZXggcmV0dXJucyBjYW5kaWRhdGUgcm93cy4gRW5hYmxlIHByZWZpbHRlciB3aGVuIGEgZmlsdGVyIGlzIGNoZWFwIHRvIGV2YWx1YXRlIGFuZCByZW1vdmVzIG1vc3Qgcm93cy4gTGVhdmUgaXQgb2ZmIGZvciBsb29zZSBvciBleHBlbnNpdmUgZmlsdGVycy4NCg0KYGBgc3FsDQpCRUdJTjsNClNFVCBMT0NBTCBsYWtlYmFzZV9hbm4ucHJlZmlsdGVyID0gb247DQoNClNFTEVDVCBpZCwgdGl0bGUNCkZST00gZG9jdW1lbnRzDQpXSEVSRSBpZCAlIDEwMCA9IDANCk9SREVSIEJZIGVtYmVkZGluZyA8PT4gJDE6OnZlY3Rvcg0KTElNSVQgJDI7DQpDT01NSVQ7DQpgYGANCg0KU3RhcnQgd2l0aCBgcHJvYmVzYCBhbmQgYGVwc2lsb25gIHNldCB0byBgJ2F1dG8nYC4gQmVuY2htYXJrIG1hbnVhbCBwcm9iZSB2YWx1ZXMgYWdhaW5zdCByZXByZXNlbnRhdGl2ZSBxdWVyeSBlbWJlZGRpbmdzIGFuZCBjaG9vc2UgdGhlIHNtYWxsZXN0IHZhbHVlcyB0aGF0IHNhdGlzZnkgcmVjYWxsIGFuZCB0YWlsLWxhdGVuY3kgdGFyZ2V0cy4gS2VlcCBzZXNzaW9uIHNldHRpbmdzIGFuZCB0aGUgcXVlcnkgaW4gdGhlIHNhbWUgdHJhbnNhY3Rpb24gd2hlbiB1c2luZyBhIGNvbm5lY3Rpb24gcG9vbCBvciBzdGF0ZWxlc3MgZHJpdmVyLg0KDQpTb3VyY2U6IFtgbGFrZWJhc2VfdmVjdG9yYCBkb2N1bWVudGF0aW9uXShodHRwczovL25lb24uY29tL2RvY3MvZXh0ZW5zaW9ucy9sYWtlYmFzZS12ZWN0b3IpLg0K
+# Semantic Vector Search
+
+Use `lakebase_vector` for approximate nearest-neighbor retrieval over embeddings. It retains pgvector's vector types, distance operators, and query syntax; the index access method is `lakebase_ann`.
+
+## Contents
+
+- [Create the extension](#create-the-extension) — enable `lakebase_vector` and its `pgvector` dependency
+- [Prepare embeddings](#prepare-embeddings) — define the vector column and keep embedding dimensions consistent
+- [Build the index](#build-the-index) — match the distance metric, operator class, and query operator
+- [Tune the index](#tune-the-index) — configure index-build options and concurrent index management
+- [Query](#query) — rank by vector distance or filter by a similarity radius
+- [Tune search](#tune-search) — inspect the index and tune recall against latency
+  - [Use prefilter selectively](#use-prefilter-selectively) — apply selective filters before ANN scoring
+
+## Create the Extension
+
+Lakebase Search requires Postgres 16 or later. Enable the extension before creating vector columns or indexes:
+
+```sql
+CREATE EXTENSION IF NOT EXISTS lakebase_vector CASCADE;
+```
+
+`lakebase_vector` installs `pgvector` through `CASCADE`. It relies on a preloaded library that Neon enables by default; if the project customized its preloaded-library list, confirm the library remains enabled.
+
+## Prepare Embeddings
+
+Use any embedding provider whose vector dimensions and distance metric match the schema and index:
+
+```sql
+CREATE TABLE documents (
+  id bigint GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY,
+  title text NOT NULL,
+  body text NOT NULL,
+  embedding vector(1536)
+);
+```
+
+Replace `1536` with the embedding model's dimension. Generate stored-document and query embeddings with the same model and preprocessing. Keep embedding generation outside SQL unless the architecture already provides an in-database embedding function.
+
+## Build the Index
+
+Choose the operator class and query operator as a matched pair:
+
+| Metric | Common use | Operator class | Distance operator |
+| --- | --- | --- | --- |
+| Cosine | Most text embeddings | `vector_cosine_ops` | `<=>` |
+| L2 / Euclidean | Absolute distance matters; vectors do not need normalization | `vector_l2_ops` | `<->` |
+| Inner product | Unit-normalized vectors; matches cosine for unit vectors | `vector_ip_ops` | `<#>` |
+
+```sql
+CREATE INDEX documents_embedding_ann ON documents
+  USING lakebase_ann (embedding vector_cosine_ops);
+```
+
+## Tune the Index
+
+The default index options suit most workloads:
+
+- `build_mode = 'standard'` balances recall and index build time. Use `quality` for better recall when a longer build is acceptable.
+- `lists = 'auto'` chooses the IVF partition layout from the number of indexed vectors. Choose between `auto` and a manual value case by case: test both on the target dataset and use the value that better meets recall and performance targets.
+
+To prioritize recall over index build time:
+
+```sql
+CREATE INDEX documents_embedding_ann_quality ON documents
+  USING lakebase_ann (embedding vector_cosine_ops)
+  WITH (build_mode = 'quality');
+```
+
+To override the automatic partition layout instead:
+
+```sql
+CREATE INDEX documents_embedding_ann_lists ON documents
+  USING lakebase_ann (embedding vector_cosine_ops)
+  WITH (lists = '1024');
+```
+
+For a large table, use `CREATE INDEX CONCURRENTLY` to avoid locking out writes while creating the index. For a frequently changing table, periodically use `REINDEX INDEX CONCURRENTLY` to rebuild the index with minimal write locking.
+
+## Query
+
+Generate the query embedding with the same model and preprocessing used for stored documents, then bind it as a parameter:
+
+```sql
+SELECT id, title, embedding <=> $1::vector AS distance
+FROM documents
+ORDER BY distance
+LIMIT $2;
+```
+
+Distance sorts ascending: a smaller value is a closer match. Keep the query operator consistent with the index operator class.
+
+To filter by a similarity radius, use the matching boolean range operator in `WHERE` and the distance operator in `ORDER BY`:
+
+```sql
+SELECT id, title
+FROM documents
+WHERE embedding <<=>> sphere($1::vector, 0.5)
+ORDER BY embedding <=> $1::vector
+LIMIT $2;
+```
+
+The cosine range operator `<<=>>` returns a boolean; do not use it as the ranking expression.
+
+## Tune Search
+
+Inspect the index before overriding defaults:
+
+```sql
+SELECT lakebase_ann_index_info('documents_embedding_ann');
+```
+
+This reports `lists`, `default_probes`, and `default_epsilon`. Small datasets use exact flat search before IVF lists are built. In that state, `lists` and `default_probes` are empty. Leave `lakebase_ann.probes` set to its default of `'auto'`; `lakebase_ann.epsilon` still controls full-precision reranking during flat search.
+
+For an IVF index, `lakebase_ann.probes` controls how many partitions are searched at each level. Higher values generally improve recall at the cost of speed. Its default is `'auto'`. When `lists` is not empty, the shape of `probes` must match the shape of `lists`: use one value for a one-level index or two comma-separated values for a two-level index. At each level, the `probes` value must be no larger than the corresponding `lists` value. A mismatched or out-of-range value causes an error.
+
+`lakebase_ann.epsilon` controls how many candidates are reranked using full-precision distances. Higher values rerank more candidates and take longer. Its default is `'auto'`, which works well for most workloads.
+
+### Use Prefilter Selectively
+
+By default, PostgreSQL applies non-vector filters after the ANN index returns candidate rows. Enable prefilter when a filter is cheap to evaluate and removes most rows. Leave it off for loose or expensive filters.
+
+```sql
+BEGIN;
+SET LOCAL lakebase_ann.prefilter = on;
+
+SELECT id, title
+FROM documents
+WHERE id % 100 = 0
+ORDER BY embedding <=> $1::vector
+LIMIT $2;
+COMMIT;
+```
+
+Start with `probes` and `epsilon` set to `'auto'`. Benchmark manual probe values against representative query embeddings and choose the smallest values that satisfy recall and tail-latency targets. Keep session settings and the query in the same transaction when using a connection pool or stateless driver.
+
+Source: [`lakebase_vector` documentation](https://neon.com/docs/extensions/lakebase-vector).

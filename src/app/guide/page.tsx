@@ -1,1 +1,9 @@
-aW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJzsKaW1wb3J0IHtHdWlkZVZpZXd9IGZyb20gJ0AvY29tcG9uZW50cy9ndWlkZS12aWV3JzsKZXhwb3J0IGNvbnN0IG1ldGFkYXRhPXt0aXRsZTon54q25rOB44GL44KJ6YG444G2772c54G95a6z44Gu56iu6aGe44Go5a625peP5qeL5oiQ44Gn6Ziy54G944Kw44OD44K644KS5o6i44GZJyxkZXNjcmlwdGlvbjon5YKZ44GI44Gf44GE54G95a6z44Go5a625peP5qeL5oiQ44KS6YG444G244Gg44GR44Gn44CB5o+D44GI44KL6aCG55Wq44Go44GK44GZ44GZ44KB44Gu6Ziy54G944Kw44OD44K644GM44KP44GL44KK44G+44GZ44CCJ307CmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIFBhZ2Uoe3NlYXJjaFBhcmFtc306e3NlYXJjaFBhcmFtczpQcm9taXNlPHtkPzpzdHJpbmc7aD86c3RyaW5nfT59KXsKIGNvbnN0IHtkLGh9PWF3YWl0IHNlYXJjaFBhcmFtczsKIHJldHVybiA8bWFpbiBjbGFzc05hbWU9InBhZ2Utd3JhcCI+PGRpdiBjbGFzc05hbWU9ImJyZWFkY3J1bWIiPjxMaW5rIGhyZWY9Ii8iPuODm+ODvOODoDwvTGluaz4gLyDnirbms4HjgYvjgonpgbjjgbY8L2Rpdj4KICA8ZGl2IGNsYXNzTmFtZT0icGFnZS1oZWFkaW5nIj48cCBjbGFzc05hbWU9Im92ZXJsaW5lIj5GSU5EIEJZIFlPVVIgU0lUVUFUSU9OPC9wPjxoMT7jgYLjgarjgZ/jga7nirbms4HjgYvjgonjgIHlgpnjgYjjgpLpgbjjgbY8L2gxPjxwPuWCmeOBiOOBn+OBhOeBveWus+OBqOWutuaXj+ani+aIkOOCkumBuOOBtuOBqOOAgeaPg+OBiOOCi+mghueVquOBqOOBiuOBmeOBmeOCgeWVhuWTgeOBjOihqOekuuOBleOCjOOBvuOBmeOAgjwvcD48L2Rpdj4KICA8R3VpZGVWaWV3IGluaXRpYWxEaXNhc3Rlcj17ZHx8Jyd9IGluaXRpYWxIb3VzZWhvbGRzPXtoP2guc3BsaXQoJywnKTpbXX0vPjwvbWFpbj4KfQo=
+import Link from 'next/link';
+import {GuideView} from '@/components/guide-view';
+export const metadata={title:'状況から選ぶ｜災害の種類と家族構成で防災グッズを探す',description:'備えたい災害と家族構成を選ぶだけで、揃える順番とおすすめの防災グッズがわかります。'};
+export default async function Page({searchParams}:{searchParams:Promise<{d?:string;h?:string}>}){
+ const {d,h}=await searchParams;
+ return <main className="page-wrap"><div className="breadcrumb"><Link href="/">ホーム</Link> / 状況から選ぶ</div>
+  <div className="page-heading"><p className="overline">FIND BY YOUR SITUATION</p><h1>あなたの状況から、備えを選ぶ</h1><p>備えたい災害と家族構成を選ぶと、揃える順番とおすすめ商品が表示されます。</p></div>
+  <GuideView initialDisaster={d||''} initialHouseholds={h?h.split(','):[]}/></main>
+}

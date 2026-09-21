@@ -1,1 +1,15 @@
-aW1wb3J0IHtnZXRTcWx9IGZyb20gJ0AvbGliL2RiJzsKaW1wb3J0IHtnZXRPclNldFZpc2l0b3JJZH0gZnJvbSAnQC9saWIvdmlzaXRvcic7CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQT1NUKHJlcXVlc3Q6UmVxdWVzdCl7CiBpZihyZXF1ZXN0LmhlYWRlcnMuZ2V0KCdvcmlnaW4nKSE9PW5ldyBVUkwocmVxdWVzdC51cmwpLm9yaWdpbilyZXR1cm4gUmVzcG9uc2UuanNvbih7ZXJyb3I6J+S4jeato+OBqumAgeS/oeWFg+OBp+OBmeOAgid9LHtzdGF0dXM6NDAzfSk7CiBjb25zdCB1c2VySWQ9YXdhaXQgZ2V0T3JTZXRWaXNpdG9ySWQoKTsKIGNvbnN0IHNxbD1nZXRTcWwoKTsKIHRyeXsKICBjb25zdCB7cmV2aWV3SWQscmVhc29ufT1hd2FpdCByZXF1ZXN0Lmpzb24oKTsKICBpZih0eXBlb2YgcmV2aWV3SWQhPT0nc3RyaW5nJ3x8dHlwZW9mIHJlYXNvbiE9PSdzdHJpbmcnfHxyZWFzb24udHJpbSgpLmxlbmd0aDw1fHxyZWFzb24ubGVuZ3RoPjUwMClyZXR1cm4gUmVzcG9uc2UuanNvbih7ZXJyb3I6J+eQhueUseOCkjXjgJw1MDDmloflrZfjgaflhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgIInfSx7c3RhdHVzOjQwMH0pOwogIGNvbnN0IGtub3duPShhd2FpdCBzcWxgU0VMRUNUIGlkIEZST00gcmV2aWV3cyBXSEVSRSBpZCA9ICR7cmV2aWV3SWR9YCBhcyB1bmtub3duW10pLmxlbmd0aD4wOwogIGlmKCFrbm93bilyZXR1cm4gUmVzcG9uc2UuanNvbih7ZXJyb3I6J+WPo+OCs+ODn+OBjOimi+OBpOOBi+OCiuOBvuOBm+OCk+OAgid9LHtzdGF0dXM6NDA0fSk7CiAgYXdhaXQgc3FsYElOU0VSVCBJTlRPIHJlcG9ydHMgKGlkLHJldmlld19pZCx1c2VyX2lkLHJlYXNvbixjcmVhdGVkX2F0LHN0YXR1cykgVkFMVUVTICgke2NyeXB0by5yYW5kb21VVUlEKCl9LCR7cmV2aWV3SWR9LCR7dXNlcklkfSwke3JlYXNvbi50cmltKCl9LCR7bmV3IERhdGUoKS50b0lTT1N0cmluZygpfSwnb3BlbicpIE9OIENPTkZMSUNUICh1c2VyX2lkLHJldmlld19pZCkgRE8gTk9USElOR2A7CiAgcmV0dXJuIFJlc3BvbnNlLmpzb24oe29rOnRydWV9KTsKIH1jYXRjaHtyZXR1cm4gUmVzcG9uc2UuanNvbih7ZXJyb3I6J+mAgeS/oeOBp+OBjeOBvuOBm+OCk+OBp+OBl+OBn+OAguaZgumWk+OCkue9ruOBhOOBpuOBiuippuOBl+OBj+OBoOOBleOBhOOAgid9LHtzdGF0dXM6NTAzfSl9Cn0K
+import {getSql} from '@/lib/db';
+import {getOrSetVisitorId} from '@/lib/visitor';
+export async function POST(request:Request){
+ if(request.headers.get('origin')!==new URL(request.url).origin)return Response.json({error:'不正な送信元です。'},{status:403});
+ const userId=await getOrSetVisitorId();
+ const sql=getSql();
+ try{
+  const {reviewId,reason}=await request.json();
+  if(typeof reviewId!=='string'||typeof reason!=='string'||reason.trim().length<5||reason.length>500)return Response.json({error:'理由を5〜500文字で入力してください。'},{status:400});
+  const known=(await sql`SELECT id FROM reviews WHERE id = ${reviewId}` as unknown[]).length>0;
+  if(!known)return Response.json({error:'口コミが見つかりません。'},{status:404});
+  await sql`INSERT INTO reports (id,review_id,user_id,reason,created_at,status) VALUES (${crypto.randomUUID()},${reviewId},${userId},${reason.trim()},${new Date().toISOString()},'open') ON CONFLICT (user_id,review_id) DO NOTHING`;
+  return Response.json({ok:true});
+ }catch{return Response.json({error:'送信できませんでした。時間を置いてお試しください。'},{status:503})}
+}

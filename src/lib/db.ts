@@ -1,1 +1,22 @@
-aW1wb3J0IHtuZW9ufSBmcm9tICdAbmVvbmRhdGFiYXNlL3NlcnZlcmxlc3MnOwoKLy8gYEB2ZXJjZWwvcG9zdGdyZXNgIGlzIGRlcHJlY2F0ZWQgKFZlcmNlbCBQb3N0Z3JlcyBpcyBub3cgTmVvbiB1bmRlciB0aGUKLy8gaG9vZCk7IHRoaXMgdXNlcyBOZW9uJ3Mgc2VydmVybGVzcyBkcml2ZXIgZGlyZWN0bHksIHBlciBOZW9uJ3Mgb3duCi8vIG1pZ3JhdGlvbiBndWlkYW5jZS4gVmVyY2VsIGluamVjdHMgdGhlIGNvbm5lY3Rpb24gc3RyaW5nIG9uY2UgYSBQb3N0Z3JlcwovLyAoTmVvbikgc3RvcmUgaXMgbGlua2VkIHRvIHRoZSBwcm9qZWN0IOKAlCB0aGUgZXhhY3QgZW52IHZhciBuYW1lIGhhcyB2YXJpZWQKLy8gYmV0d2VlbiBEQVRBQkFTRV9VUkwgYW5kIFBPU1RHUkVTX1VSTCBkZXBlbmRpbmcgb24gaG93IHRoZSBzdG9yZSB3YXMKLy8gY3JlYXRlZCwgc28gYm90aCBhcmUgYWNjZXB0ZWQgaGVyZS4KLy8KLy8gYG5lb24oKWAgdmFsaWRhdGVzIGl0cyBjb25uZWN0aW9uIHN0cmluZyBlYWdlcmx5LCB3aGljaCB3b3VsZCBicmVhawovLyBgbmV4dCBidWlsZGAncyBwYWdlLWRhdGEgY29sbGVjdGlvbiAoYW5kIGFueSBjb2RlIHBhdGggdGhhdCBtZXJlbHkKLy8gaW1wb3J0cyB0aGlzIG1vZHVsZSkgYmVmb3JlIGEgcmVhbCBkYXRhYmFzZSBpcyBsaW5rZWQuIExhemlseSBjcmVhdGUgaXQKLy8gb24gZmlyc3QgYWN0dWFsIHF1ZXJ5IGluc3RlYWQsIHZpYSB0aGlzIGdldHRlciwgc28gb25seSBydW5uaW5nIGEgcXVlcnkKLy8gd2l0aG91dCBhIGNvbm5lY3Rpb24gc3RyaW5nIHRocm93cy4KbGV0IGNhY2hlZDogUmV0dXJuVHlwZTx0eXBlb2YgbmVvbj4gfCB1bmRlZmluZWQ7CmV4cG9ydCBmdW5jdGlvbiBnZXRTcWwoKSB7CiAgaWYgKCFjYWNoZWQpIHsKICAgIGNvbnN0IGNvbm5lY3Rpb25TdHJpbmcgPSBwcm9jZXNzLmVudi5EQVRBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuUE9TVEdSRVNfVVJMIHx8ICcnOwogICAgY2FjaGVkID0gbmVvbihjb25uZWN0aW9uU3RyaW5nKTsKICB9CiAgcmV0dXJuIGNhY2hlZDsKfQo=
+import {neon} from '@neondatabase/serverless';
+
+// `@vercel/postgres` is deprecated (Vercel Postgres is now Neon under the
+// hood); this uses Neon's serverless driver directly, per Neon's own
+// migration guidance. Vercel injects the connection string once a Postgres
+// (Neon) store is linked to the project — the exact env var name has varied
+// between DATABASE_URL and POSTGRES_URL depending on how the store was
+// created, so both are accepted here.
+//
+// `neon()` validates its connection string eagerly, which would break
+// `next build`'s page-data collection (and any code path that merely
+// imports this module) before a real database is linked. Lazily create it
+// on first actual query instead, via this getter, so only running a query
+// without a connection string throws.
+let cached: ReturnType<typeof neon> | undefined;
+export function getSql() {
+  if (!cached) {
+    const connectionString = process.env.DATABASE_URL || process.env.POSTGRES_URL || '';
+    cached = neon(connectionString);
+  }
+  return cached;
+}

@@ -1,1 +1,278 @@
-LS0tDQpuYW1lOiBuZW9uLXBvc3RncmVzDQpkZXNjcmlwdGlvbjogPi0NCiAgR3VpZGVzIGFuZCBiZXN0IHByYWN0aWNlcyBmb3Igd29ya2luZyB3aXRoIExha2ViYXNlIFBvc3RncmVzLCB0aGUgZGF0YWJhc2UNCiAgYmVoaW5kIE5lb24uIENvdmVycyBzZXR1cCwgY29ubmVjdGlvbiBtZXRob2RzIGFuZCBkcml2ZXJzLCBwb29sZWQgdnMgZGlyZWN0DQogIGNvbm5lY3Rpb25zLCBicmFuY2hpbmcsIHNjaGVtYSBtaWdyYXRpb25zLCBhdXRvc2NhbGluZywgc2NhbGUtdG8temVybywgaW5zdGFudA0KICByZXN0b3JlLCByZWFkIHJlcGxpY2FzLCBjb25uZWN0aW9uIHBvb2xpbmcsIElQIGFsbG93IGxpc3RzLCBhbmQgbG9naWNhbA0KICByZXBsaWNhdGlvbi4gQWxzbyBjb3ZlcnMgTGFrZWJhc2UgU2VhcmNoOiBzZW1hbnRpYyB2ZWN0b3Igc2VhcmNoLCBmdWxsLXRleHQNCiAgc2VhcmNoIHdpdGggQk0yNSByYW5raW5nLCBhbmQgaHlicmlkIHNlYXJjaC4NCiAgVXNlIHdoZW4gdXNlcnMgYXNrIGFib3V0ICJMYWtlYmFzZSBQb3N0Z3JlcyIsICJOZW9uIHNldHVwIiwgImNvbm5lY3QgdG8gTmVvbiIsDQogICJOZW9uIHByb2plY3QiLCAiREFUQUJBU0VfVVJMIiwgInNlcnZlcmxlc3MgUG9zdGdyZXMiLCAiTmVvbiBDTEkiLCAibmVvbiIsICJOZW9uIE1DUCIsDQogICJOZW9uIEF1dGgiLCAiQG5lb25kYXRhYmFzZS9zZXJ2ZXJsZXNzIiwgIkBuZW9uZGF0YWJhc2UvbmVvbi1qcyIsDQogICJzY2FsZSB0byB6ZXJvIiwgIk5lb24gYXV0b3NjYWxpbmciLCAiTmVvbiByZWFkIHJlcGxpY2EiLA0KICAiTmVvbiBjb25uZWN0aW9uIHBvb2xpbmciLCAic2NoZW1hIG1pZ3JhdGlvbnMiLCAiZGF0YWJhc2UgdHJvdWJsZXNob290aW5nIiwNCiAgIlBvc3RncmVzIHBlcmZvcm1hbmNlIiwgIm5lb24gaW5zcGVjdCBkYiIsICJzZW1hbnRpYyBzZWFyY2giLCAidmVjdG9yDQogIHNlYXJjaCIsICJmdWxsLXRleHQgc2VhcmNoIiwgIkJNMjUiLCBvciAiaHlicmlkIHNlYXJjaCIuDQptZXRhZGF0YToNCiAgcGFyZW50OiBuZW9uDQogIHNvdXJjZTogaHR0cHM6Ly9naXRodWIuY29tL25lb25kYXRhYmFzZS9hZ2VudC1za2lsbHMvdHJlZS9tYWluL3NraWxscy9uZW9uLXBvc3RncmVzDQotLS0NCg0KKipGSVJTVCoqOiBVc2UgdGhlIHBhcmVudCBgbmVvbmAgc2tpbGwgZm9yIGEgTmVvbiBvdmVydmlldywgZ2V0dGluZyBzdGFydGVkIHdpdGggTmVvbiwgTmVvbiBkZXZlbG9wbWVudCBiZXN0IHByYWN0aWNlcywgYW5kIG1vcmUuDQoNCklmIHRoZSBgbmVvbmAgc2tpbGwgaXMgbm90IGluc3RhbGxlZCwgZmV0Y2ggaXQgZnJvbSBodHRwczovL25lb24uY29tL2RvY3MvYWkvc2tpbGxzL25lb24vU0tJTEwubWQgb3IgaW5zdGFsbCBpdCB3aXRoOg0KDQpgYGBiYXNoDQpuZW9uIHNraWxscyAtcyBuZW9uIC15DQpgYGANCg0KIyBMYWtlYmFzZSBQb3N0Z3Jlcw0KDQpMYWtlYmFzZSBQb3N0Z3JlcyBpcyB0aGUgZGF0YWJhc2UgYXQgdGhlIGNvcmUgb2YgTmVvbi4gSXQgcnVucyBvbiB0aGUgbGFrZWJhc2UgYXJjaGl0ZWN0dXJlIOKAlCBPTFRQIGJ1aWx0IGRpcmVjdGx5IG9uIGNsb3VkIG9iamVjdCBzdG9yYWdlIOKAlCB3aGljaCBkZWNvdXBsZXMgc3RvcmFnZSBmcm9tIGNvbXB1dGUgdG8gb2ZmZXIgYXV0b3NjYWxpbmcsIGJyYW5jaGluZywgaW5zdGFudCByZXN0b3JlLCBhbmQgc2NhbGUtdG8temVyby4gSXQncyBmdWxseSBjb21wYXRpYmxlIHdpdGggUG9zdGdyZXMgYW5kIHdvcmtzIHdpdGggYW55IGxhbmd1YWdlLCBmcmFtZXdvcmssIG9yIE9STSB0aGF0IHN1cHBvcnRzIFBvc3RncmVzLg0KDQpJdCBpcyB0aGUgc2FtZSBkYXRhYmFzZSB3aGV0aGVyIHlvdSByZWFjaCBpdCB0aHJvdWdoIE5lb24gb3IgdGhyb3VnaCBEYXRhYnJpY2tzOyB0aGlzIHNraWxsIGNvdmVycyB0aGUgTmVvbiBhY2Nlc3MgcGF0aC4NCg0KIyMgU2V0dXAgRmxvdw0KDQojIyMgMS4gU2VsZWN0IHRoZSBvcmdhbml6YXRpb24gYW5kIHByb2plY3QNCg0KVXNlIHRoZSBDTEkgKGRlZmF1bHQpIG9yIE1DUCBzZXJ2ZXIgdG8gbGlzdCBvcmdhbml6YXRpb25zIGFuZCBwcm9qZWN0cy4gTGV0IHRoZSB1c2VyIHNlbGVjdCBhbiBleGlzdGluZyBwcm9qZWN0IG9yIGNyZWF0ZSBhIG5ldyBvbmUuIENoZWNrIHRoZSBgLm5lb25gIGZpbGUgZm9yIGFuIGV4aXN0aW5nIGxpbmtlZCBwcm9qZWN0IG9yIGJyYW5jaC4NCg0KIyMjIDIuIEdldCB0aGUgY29ubmVjdGlvbiBzdHJpbmcNCg0KVXNlIHRoZSBDTEkgKGRlZmF1bHQpLCBgbmVvbiBlbnYgcHVsbGAsIG9yIHRoZSBNQ1Agc2VydmVyIHRvIGdldCB0aGUgY29ubmVjdGlvbiBzdHJpbmcuIFN0b3JlIGl0IGluIGAuZW52YCBhcyBgREFUQUJBU0VfVVJMYC4gUmVhZCB0aGUgZmlsZSBmaXJzdCBiZWZvcmUgbW9kaWZ5aW5nIGl0LCB0byBhdm9pZCBvdmVyd3JpdGluZyBleGlzdGluZyB2YWx1ZXMuDQoNCiMjIyMgV2hlbiB0byB1c2UgcG9vbGVkIHZzIGRpcmVjdCBjb25uZWN0aW9ucw0KDQp8IFVzZSBjYXNlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBDb25uZWN0aW9uIHR5cGUgIHwNCnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0gfA0KfCBXZWIgYXBwbGljYXRpb25zLCBzZXJ2ZXJsZXNzIGZ1bmN0aW9ucyAgIHwgUG9vbGVkICgtcG9vbGVyKSB8DQp8IFNjaGVtYSBtaWdyYXRpb25zICAgICAgICAgICAgICAgICAgICAgICAgfCBEaXJlY3QgICAgICAgICAgIHwNCnwgcGdfZHVtcCAvIHBnX3Jlc3RvcmUgICAgICAgICAgICAgICAgICAgICB8IERpcmVjdCAgICAgICAgICAgfA0KfCBMb2dpY2FsIHJlcGxpY2F0aW9uICAgICAgICAgICAgICAgICAgICAgIHwgRGlyZWN0ICAgICAgICAgICB8DQp8IExvbmctcnVubmluZyBhbmFseXRpY3Mgd2l0aCB0ZW1wIHRhYmxlcyAgfCBEaXJlY3QgICAgICAgICAgIHwNCnwgQWRtaW4gdGFza3MgbmVlZGluZyBTRVQgb3Igc2Vzc2lvbiBzdGF0ZSB8IERpcmVjdCAgICAgICAgICAgfA0KfCBMSVNURU4gLyBOT1RJRlkgICAgICAgICAgICAgICAgICAgICAgICAgIHwgRGlyZWN0ICAgICAgICAgICB8DQoNCiMjIyAzLiBQaWNrIHRoZSBjb25uZWN0aW9uIG1ldGhvZCBhbmQgZHJpdmVyDQoNCkFsd2F5cyBwYWlyIE5lb24gd2l0aCBhbiBPUk0gc3VjaCBhcyAqKkRyaXp6bGUqKiBmb3IgZWFzeSBzY2hlbWEgbWFuYWdlbWVudCBhbmQgbWlncmF0aW9ucy4gUmVmZXIgdG8gdGhlIGNvbm5lY3Rpb24gbWV0aG9kcyBndWlkZSB0byBwaWNrIHRoZSBjb3JyZWN0IGRyaXZlciBiYXNlZCBvbiBob3cgdGhlIHJ1bnRpbWUgdHJlYXRzIHlvdXIgY29kZTogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2Nvbm5lY3QvY2hvb3NlLWNvbm5lY3Rpb24ubWQuDQoNClJlY29tbWVuZGF0aW9uczoNCg0KLSBEcml6emxlIGFzIE9STSAoc2VlIGh0dHBzOi8vbmVvbi5jb20vZG9jcy9ndWlkZXMvZHJpenpsZS5tZCkNCi0gT24gVmVyY2VsLCB1c2UgYG5vZGUtcG9zdGdyZXNgIChgbnBtIGluc3RhbGwgcGdgKSB3aXRoIFZlcmNlbCBGbHVpZCBjb21wdXRlIGFuZCBgaW1wb3J0IHsgYXR0YWNoRGF0YWJhc2VQb29sIH0gZnJvbSAiQHZlcmNlbC9mdW5jdGlvbnMiO2ANCi0gT24gQ2xvdWRmbGFyZSwgdXNlIGBub2RlLXBvc3RncmVzYCB3aXRoIENsb3VkZmxhcmUgSHlwZXJkcml2ZQ0KLSBPbiBOZW9uIEZ1bmN0aW9ucywgdXNlIGBub2RlLXBvc3RncmVzYCwgYXMgdGhlIGZ1bmN0aW9ucyBhcmUgbG9uZy1ydW5uaW5nIGFuZCByZXVzZSB0aGUgcG9vbCBhY3Jvc3MgcmVxdWVzdHMuDQotIFVzZSB0aGUgYEBuZW9uZGF0YWJhc2Uvc2VydmVybGVzc2AgZHJpdmVyIGZvciBzZXJ2ZXJsZXNzIGFuZCBlZGdlIGVudmlyb25tZW50cyAoZm9yIGV4YW1wbGUsIHdoZW4gdXNpbmcgTmV0bGlmeSkg4oCUIEhUVFAgdHJhbnNwb3J0IGZvciBvbmUtc2hvdCBxdWVyaWVzLCBXZWJTb2NrZXQgZm9yIHRyYW5zYWN0aW9uIHN1cHBvcnQuIExpbms6IGh0dHBzOi8vbmVvbi5jb20vZG9jcy9zZXJ2ZXJsZXNzL3NlcnZlcmxlc3MtZHJpdmVyLm1kDQoNCiMjIyA0LiBTZXQgdXAgdGhlIHNjaGVtYQ0KDQpNYW5hZ2Ugc2NoZW1hcyBhbmQgbWlncmF0aW9ucyBhcyBjb2RlLiBBdm9pZCBydW5uaW5nIGFkIGhvYyBzY2hlbWEgbWlncmF0aW9ucyBhZ2FpbnN0IHlvdXIgZGF0YWJhc2UsIHNpbmNlIHRoZXkncmUgaGFyZCB0byBtYW5hZ2UuDQoNCklmIHlvdSdyZSB1c2luZyBhbiBPUk0sIGZvbGxvdyB5b3VyIE9STSdzIGJlc3QgcHJhY3RpY2VzIHRvIG1hbmFnZSBzY2hlbWFzIGFuZCBtaWdyYXRpb25zLiBGb3IgZXhhbXBsZSwgaWYgdXNpbmcgRHJpenpsZSwgb25seSB1c2UgRHJpenpsZSBmb3Igc2NoZW1hIGFuZCBtaWdyYXRpb24gbWFuYWdlbWVudCB1bmxlc3MgaW5zdHJ1Y3RlZCBvdGhlcndpc2UuDQoNCiMjIEJyYW5jaGluZw0KDQpVc2UgdGhpcyB3aGVuIHRoZSB1c2VyIGlzIHBsYW5uaW5nIGlzb2xhdGVkIGVudmlyb25tZW50cywgc2NoZW1hIG1pZ3JhdGlvbiB0ZXN0aW5nLCBwcmV2aWV3IGRlcGxveW1lbnRzLCBvciBicmFuY2ggbGlmZWN5Y2xlIGF1dG9tYXRpb24uDQoNCktleSBwb2ludHM6DQoNCi0gQnJhbmNoZXMgYXJlIGluc3RhbnQsIGNvcHktb24td3JpdGUgY2xvbmVzIChubyBmdWxsIGRhdGEgY29weSkuDQotIEVhY2ggYnJhbmNoIGhhcyBpdHMgb3duIGNvbXB1dGUgZW5kcG9pbnQuDQotIFVzZSB0aGUgbmVvbiBDTEkgb3IgTUNQIHNlcnZlciB0byBjcmVhdGUsIGluc3BlY3QsIGFuZCBjb21wYXJlIGJyYW5jaGVzLg0KDQpMaW5rOiBodHRwczovL25lb24uY29tL2RvY3MvaW50cm9kdWN0aW9uL2JyYW5jaGluZy5tZA0KDQpGb3IgZGV0YWlsZWQgYnJhbmNoIGNyZWF0aW9uIHdvcmtmbG93cyAobm9ybWFsIHZzIHNjaGVtYS1vbmx5IGJyYW5jaGVzLCByZXNldC1mcm9tLXBhcmVudCwgQ0xJL01DUCBzZWxlY3Rpb24pLCB1c2UgdGhlIGBuZW9uLXBvc3RncmVzLWJyYW5jaGVzYCBza2lsbC4gSWYgaXQgaXNuJ3QgaW5zdGFsbGVkLCBmZXRjaCBpdCBmcm9tIGh0dHBzOi8vbmVvbi5jb20vZG9jcy9haS9za2lsbHMvbmVvbi1wb3N0Z3Jlcy1icmFuY2hlcy9TS0lMTC5tZCBvciBpbnN0YWxsIGl0IHdpdGg6DQoNCmBgYGJhc2gNCm5lb24gc2tpbGxzIC1zIG5lb24tcG9zdGdyZXMtYnJhbmNoZXMgLXkNCmBgYA0KDQojIyBNaWdyYXRpb25zDQoNClRlc3QgYSBtaWdyYXRpb24gb24gYSBicmFuY2ggb2YgcHJvZHVjdGlvbiwgYWdhaW5zdCBwcm9kdWN0aW9uLWxpa2UgZGF0YSwgYmVmb3JlIGFwcGx5aW5nIGl0IHRvIHByb2R1Y3Rpb24uDQoNClVzZSBhICoqZGlyZWN0IChub24tcG9vbGVkKSoqIGNvbm5lY3Rpb24gc3RyaW5nIHdoZW4geW91IHJ1biB0aGUgbWlncmF0aW9uLCBub3QgYSBwb29sZWQgb25lLiBgbmVvbiBjb25uZWN0aW9uLXN0cmluZ2AgcmV0dXJucyB0aGUgZGlyZWN0IHN0cmluZyBieSBkZWZhdWx0OyBtYWtlIHN1cmUgdGhlIGhvc3RuYW1lIGRvZXMgbm90IGluY2x1ZGUgdGhlIGAtcG9vbGVyYCBzdWZmaXguDQoNCiMjIFRyb3VibGVzaG9vdGluZyBhbmQgTmVvbi1TcGVjaWZpYyBQZXJmb3JtYW5jZQ0KDQpVc2UgTmVvbidzIHByZWRlZmluZWQsIHJlYWQtb25seSBkaWFnbm9zdGljcyBiZWZvcmUgd3JpdGluZyBjYXRhbG9nIHF1ZXJpZXMgYnkgaGFuZC4gVGhlIE5lb24gQ0xJIGBuZW9uIGluc3BlY3QgZGJgIHN1YmNvbW1hbmRzIGFuZCB0aGUgTmVvbiBNQ1Agc2VydmVyJ3MgYGluc3BlY3RfZGF0YWJhc2VgIHRvb2wgcnVuIHRoZSBzYW1lIGNoZWNrcy4NCg0KVGhpcyBzZWN0aW9uIGNvdmVycyBOZW9uLXNwZWNpZmljIGRpYWdub3N0aWMgdG9vbHMsIGNvbXB1dGUgY2FjaGUgYmVoYXZpb3IsIGFuZCBwbGF0Zm9ybSBzaWduYWxzLiBXaGVuIHRoZSBldmlkZW5jZSBwb2ludHMgdG8gZ2VuZXJpYyBQb3N0Z3JlcyB3b3JrIHN1Y2ggYXMgcmV3cml0aW5nIGEgcXVlcnksIGNob29zaW5nIGFuIGluZGV4LCBjaGFuZ2luZyBhIHNjaGVtYSwgb3IgaW50ZXJwcmV0aW5nIHBsYW4gbm9kZXMsIGxvYWQgdGhlIFtgcG9zdGdyZXMtYmVzdC1wcmFjdGljZXNgXShodHRwczovL2dpdGh1Yi5jb20vbmVvbmRhdGFiYXNlL3Bvc3RncmVzLXNraWxscy90cmVlL21haW4vc2tpbGxzL3Bvc3RncmVzLWJlc3QtcHJhY3RpY2VzKSBza2lsbCBhbmQgY2FycnkgdGhlIGRpYWdub3N0aWMgZXZpZGVuY2UgaW50byB0aGF0IHdvcmtmbG93Lg0KDQpEb2NzOg0KDQotIENMSTogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2NsaS9pbnNwZWN0Lm1kDQotIFF1ZXJ5IHBlcmZvcm1hbmNlOiBodHRwczovL25lb24uY29tL2RvY3MvcG9zdGdyZXNxbC9xdWVyeS1wZXJmb3JtYW5jZS5tZA0KLSBgcGdfc3RhdF9zdGF0ZW1lbnRzYDogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2V4dGVuc2lvbnMvcGdfc3RhdF9zdGF0ZW1lbnRzLm1kDQotIE5lb24gTG9jYWwgRmlsZSBDYWNoZTogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2V4dGVuc2lvbnMvbmVvbi5tZA0KDQojIyMgQ2hvb3NlIENMSSBvciBNQ1ANCg0KUHJlZmVyIHRoZSBOZW9uIENMSSB3aGVuIHRlcm1pbmFsIGFjY2VzcyBhbmQgYXV0aGVudGljYXRpb24gYXJlIGF2YWlsYWJsZToNCg0KYGBgYmFzaA0KbmVvbiBpbnNwZWN0IGRiIDxjaGVjaz4NCmBgYA0KDQpUaGUgQ0xJIHJlc29sdmVzIHRoZSBwcm9qZWN0IGFuZCBicmFuY2ggZnJvbSB0aGUgY3VycmVudCBOZW9uIGNvbnRleHQuIFVzZSBgLS1wcm9qZWN0LWlkYCwgYC0tYnJhbmNoYCwgYW5kIGAtLWRhdGFiYXNlLW5hbWVgIHRvIG92ZXJyaWRlIGl0LiBPbWl0IGAtLWRhdGFiYXNlLW5hbWVgIHRvIGluc3BlY3QgZXZlcnkgZGF0YWJhc2Ugb24gdGhlIGJyYW5jaC4gVXNlIGAtLWRiLXVybGAgb25seSB3aGVuIGluc3BlY3RpbmcgYSBQb3N0Z3JlcyBkYXRhYmFzZSBkaXJlY3RseSBpbnN0ZWFkIG9mIHJlc29sdmluZyBpdCB0aHJvdWdoIHRoZSBOZW9uIEFQSS4NCg0KV2hlbiB1c2luZyBOZW9uIE1DUCwgY2FsbCBgaW5zcGVjdF9kYXRhYmFzZWAgd2l0aCBgcHJvamVjdElkYCBhbmQgb25lIGBjaGVja2AuIFBhc3MgYGJyYW5jaElkYCwgYGRhdGFiYXNlTmFtZWAsIG9yIGBjb21wdXRlSWRgIG9ubHkgd2hlbiBuZWVkZWQuIE9taXQgYGRhdGFiYXNlTmFtZWAgdG8gaW5zcGVjdCBhbGwgZGF0YWJhc2VzIG9uIHRoZSBicmFuY2guIEluY3JlYXNlIGBsaW1pdGAgb25seSB3aGVuIHRoZSByZXN1bHQgc2F5cyBpdCB3YXMgdHJ1bmNhdGVkLg0KDQojIyMgUGljayB0aGUgRGlhZ25vc3RpYw0KDQp8IFN5bXB0b20gb3IgcXVlc3Rpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBDaGVja3MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwNCnwgV2hpY2ggcmVsYXRpb25zIGNvbnN1bWUgc3RvcmFnZT8gICAgICAgICAgICAgICB8IGB0YWJsZS1zaXplc2AsIGBpbmRleC1zaXplc2AgICAgICAgICB8DQp8IElzIGFuIGluZGV4IHVudXNlZCBvciBhIHRhYmxlIHNjYW5uZWQgaGVhdmlseT8gfCBgdW51c2VkLWluZGV4ZXNgLCBgc2VxLXNjYW5zYCAgICAgICAgfA0KfCBXaGF0IGhhcyBydW4gZm9yIDUrIG1pbnV0ZXMgb3IgaG9sZHMgbG9ja3M/ICAgIHwgYGxvbmctcnVubmluZy1xdWVyaWVzYCwgYGxvY2tzYCAgICAgIHwNCnwgV2hpY2ggcXVlcmllcyBjb25zdW1lIHRoZSBtb3N0IHRvdGFsIHRpbWU/ICAgICB8IGBvdXRsaWVyc2AgICAgICAgICAgICAgICAgICAgICAgICAgICB8DQp8IFdoaWNoIHF1ZXJpZXMgcnVuIG1vc3Qgb2Z0ZW4/ICAgICAgICAgICAgICAgICAgfCBgY2FsbHNgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KfCBEb2VzIHRoZSBhY3RpdmUgZGF0YSBmaXQgaW4gY29tcHV0ZSBjYWNoZT8gICAgIHwgYGxmYy1oaXQtcmF0ZWAsIGB3b3JraW5nLXNldGAgICAgICAgIHwNCnwgSXMgYXV0b3ZhY3V1bSBiZWhpbmQgb3IgaXMgc3BhY2Ugd2FzdGVkPyAgICAgICB8IGB2YWN1dW0tc3RhdHNgLCBgYmxvYXRgICAgICAgICAgICAgICB8DQp8IElzIGxvZ2ljYWwgcmVwbGljYXRpb24gaGVhbHRoeT8gICAgICAgICAgICAgICAgfCBgcmVwbGljYXRpb24tc2xvdHNgLCBgc3Vic2NyaXB0aW9uc2AgfA0KDQpEbyBub3QgY29uZnVzZSB0aGVzZSBjaGVja3M6DQoNCi0gYGxvbmctcnVubmluZy1xdWVyaWVzYCByZXBvcnRzIHN0YXRlbWVudHMgcnVubmluZyAqKnJpZ2h0IG5vdyoqIGZvciBtb3JlIHRoYW4gZml2ZSBtaW51dGVzLg0KLSBgb3V0bGllcnNgIHJhbmtzIHRoZSB0b3AgcXVlcmllcyBieSBjdW11bGF0aXZlIGV4ZWN1dGlvbiB0aW1lIHNpbmNlIHN0YXRpc3RpY3Mgd2VyZSByZXNldC4gSXQgZG9lcyBub3QgcmFuayBieSBtZWFuIGxhdGVuY3kuDQotIGBjYWxsc2AgcmFua3MgYnkgZXhlY3V0aW9uIGNvdW50IG92ZXIgdGhlIHNhbWUgc3RhdGlzdGljcyBoaXN0b3J5Lg0KDQpgb3V0bGllcnNgIGFuZCBgY2FsbHNgIHJlcXVpcmUgYHBnX3N0YXRfc3RhdGVtZW50c2AuIGBsZmMtaGl0LXJhdGVgIGFuZCBgd29ya2luZy1zZXRgIHJlcXVpcmUgdGhlIGBuZW9uYCBleHRlbnNpb24uIElmIGEgY2hlY2sgcmVwb3J0cyBhIG1pc3NpbmcgZXh0ZW5zaW9uLCBhc2sgYmVmb3JlIHJ1bm5pbmcgdGhlIHN1Z2dlc3RlZCBgQ1JFQVRFIEVYVEVOU0lPTmAgc3RhdGVtZW50IGJlY2F1c2UgaW5zdGFsbGluZyBhbiBleHRlbnNpb24gbW9kaWZpZXMgdGhlIGRhdGFiYXNlLg0KDQojIyMgSW50ZXJwcmV0IFJlc3VsdHMgU2FmZWx5DQoNCi0gVHJlYXQgYHVudXNlZC1pbmRleGVzYCBhcyBhIGNhbmRpZGF0ZSBsaXN0LCBub3QgcGVybWlzc2lvbiB0byBkcm9wIGluZGV4ZXMuIENvbmZpcm0gdGhlIG9ic2VydmF0aW9uIHdpbmRvdywgY29uc3RyYWludHMsIGFuZCB3b3JrbG9hZCBiZWZvcmUgcmVtb3ZhbC4NCi0gQSBzZXF1ZW50aWFsIHNjYW4gY2FuIGJlIGNvcnJlY3QgZm9yIGEgc21hbGwgdGFibGUgb3IgYSBxdWVyeSByZWFkaW5nIG11Y2ggb2YgYSB0YWJsZS4gQ2hlY2sgdGFibGUgc2l6ZSwgc2VsZWN0aXZpdHksIGFuZCB0aGUgcXVlcnkgcGxhbiBiZWZvcmUgYWRkaW5nIGFuIGluZGV4Lg0KLSBgYmxvYXRgIGlzIGEgc3RhdGlzdGljYWwgZXN0aW1hdGUuIENvbmZpcm0gdGhlIGltcGFjdCBhbmQgcGxhbiBsb2NrcyBvciBtYWludGVuYW5jZSBiZWZvcmUgYFZBQ1VVTSBGVUxMYCwgYFJFSU5ERVhgLCBvciBzaW1pbGFyIHJlbWVkaWF0aW9uLg0KLSBDYWNoZSBhbmQgUG9zdGdyZXMgc3RhdGlzdGljcyByZXNldCB3aGVuIGNvbXB1dGUgcmVzdGFydHMsIGluY2x1ZGluZyBzY2FsZS10by16ZXJvIHN1c3BlbnNpb24uIFJ1biBhIHJlcHJlc2VudGF0aXZlIHdvcmtsb2FkIGJlZm9yZSBpbnRlcnByZXRpbmcgZnJlc2ggYGxmYy1oaXQtcmF0ZWAsIGB3b3JraW5nLXNldGAsIGB2YWN1dW0tc3RhdHNgLCBvciBgcGdfc3RhdF9zdGF0ZW1lbnRzYCByZXN1bHRzLg0KLSBDb21wdXRlLXdpZGUgY2hlY2tzIChgbGZjLWhpdC1yYXRlYCwgYHdvcmtpbmctc2V0YCwgYW5kIGByZXBsaWNhdGlvbi1zbG90c2ApIHJ1biBvbmNlIGV2ZW4gd2hlbiBpbnNwZWN0aW5nIGV2ZXJ5IGRhdGFiYXNlLg0KLSBPbmUgZmFpbGluZyBkYXRhYmFzZSBjYW4gZmFpbCBhbiBhbGwtZGF0YWJhc2VzIGluc3BlY3Rpb247IHJldHJ5IHRoZSByZWxldmFudCBjaGVjayB3aXRoIGFuIGV4cGxpY2l0IGBkYXRhYmFzZU5hbWVgIHRvIGlzb2xhdGUgaXQuDQoNCiMjIyBJbnNwZWN0IE5lb24gQ2FjaGUgQmVoYXZpb3IgUGVyIFF1ZXJ5DQoNClN0YW5kYXJkIGBFWFBMQUlOIChBTkFMWVpFLCBCVUZGRVJTKWAgcmVwb3J0cyBQb3N0Z3JlcyBzaGFyZWQtYnVmZmVyIGFjdGl2aXR5LCBidXQgaXQgZG9lcyBub3Qgc2hvdyBOZW9uJ3MgTG9jYWwgRmlsZSBDYWNoZSAoTEZDKSBvciBwYWdlIHByZWZldGNoaW5nLiBGb3IgYSBzYWZlIHJlYWQtb25seSBxdWVyeSwgYWRkIE5lb24ncyBgRklMRUNBQ0hFYCBhbmQgYFBSRUZFVENIYCBvcHRpb25zOg0KDQpgYGBzcWwNCkVYUExBSU4gKEFOQUxZWkUsIEJVRkZFUlMsIFBSRUZFVENILCBGSUxFQ0FDSEUpDQpTRUxFQ1QgLi4uOw0KYGBgDQoNCi0gYEZpbGUgY2FjaGU6IGhpdHNgIGNvdW50cyBwYWdlcyBmb3VuZCBpbiB0aGUgY29tcHV0ZSdzIExGQy4NCi0gYEZpbGUgY2FjaGU6IG1pc3Nlc2AgY291bnRzIHBhZ2VzIG5vdCBmb3VuZCBpbiB0aGUgTEZDIGFuZCBmZXRjaGVkIGZyb20gZGF0YWJhc2Ugc3RvcmFnZS4NCi0gYFByZWZldGNoOiBoaXRzYCwgYG1pc3Nlc2AsIGBleHBpcmVkYCwgYW5kIGBkdXBsaWNhdGVzYCBzaG93IGhvdyBlZmZlY3RpdmVseSBOZW9uIGZldGNoZWQgcGFnZXMgYmVmb3JlIHRoZSBleGVjdXRvciByZXF1ZXN0ZWQgdGhlbS4NCg0KYEZJTEVDQUNIRWAgYW5kIGBQUkVGRVRDSGAgcHJvdmlkZSBtZXRyaWNzIGZvciB0aGlzIHF1ZXJ5IGFuZCBkbyBub3QgcmVxdWlyZSB0aGUgYG5lb25gIGV4dGVuc2lvbi4gQnkgY29udHJhc3QsIGBuZW9uIGluc3BlY3QgZGIgbGZjLWhpdC1yYXRlYCBhbmQgYHdvcmtpbmctc2V0YCBwcm92aWRlIGNvbXB1dGUtd2lkZSBzdGF0aXN0aWNzIGFuZCBkbyByZXF1aXJlIHRoZSBleHRlbnNpb24uDQoNClRoZSBNQ1AgYGV4cGxhaW5fc3FsX3N0YXRlbWVudGAgdG9vbCBjYW4gcHJvZHVjZSBhIHN0YW5kYXJkIHBsYW4gYnV0IGRvZXMgbm90IGV4cG9zZSBgRklMRUNBQ0hFYCBvciBgUFJFRkVUQ0hgIG9wdGlvbnMuIFRvIGNvbGxlY3QgdGhvc2UgTmVvbi1zcGVjaWZpYyBtZXRyaWNzIHRocm91Z2ggTUNQLCB1c2UgYHJ1bl9zcWxgIHdpdGggdGhlIGV4cGxpY2l0LCByZWFkLW9ubHkgYEVYUExBSU5gIHN0YXRlbWVudCBhYm92ZS4NCg0KQmVjYXVzZSBgQU5BTFlaRWAgZXhlY3V0ZXMgdGhlIHN0YXRlbWVudCwgdXNlIGl0IG9ubHkgd2hlbiBleGVjdXRpb24gaXMgc2FmZTsgZG8gbm90IHJ1biBpdCBhdXRvbm9tb3VzbHkgZm9yIG11dGF0aW5nIFNRTC4gQ29tcGFyZSBjb2xkLSBhbmQgd2FybS1jYWNoZSBydW5zIGNhcmVmdWxseSBiZWNhdXNlIHRoZSBmaXJzdCBleGVjdXRpb24gY2FuIHBvcHVsYXRlIHRoZSBjYWNoZSBhbmQgbWF0ZXJpYWxseSBjaGFuZ2UgbGF0ZXIgcmVzdWx0cy4NCg0KIyMjIFBlcmZvcm1hbmNlIFdvcmtmbG93DQoNCjEuIFJlcHJvZHVjZSB0aGUgc3ltcHRvbSBhbmQgbm90ZSBpdHMgdGltZSB3aW5kb3cuDQoyLiBSdW4gdGhlIHNtYWxsZXN0IHJlbGV2YW50IGBpbnNwZWN0YCBjaGVja3MgZnJvbSB0aGUgdGFibGUgYWJvdmUuDQozLiBJZGVudGlmeSBhIHNwZWNpZmljIHF1ZXJ5IGJlZm9yZSBjaGFuZ2luZyBzY2hlbWEgb3IgY29tcHV0ZS4gVXNlIE1DUCBgZXhwbGFpbl9zcWxfc3RhdGVtZW50YCBmb3IgYSBzdGFuZGFyZCBwbGFuLCBvciB0aGUgTmVvbi1zcGVjaWZpYyBgRVhQTEFJTmAgYWJvdmUgd2hlbiBMRkMgb3IgcHJlZmV0Y2ggYmVoYXZpb3IgbWF0dGVycy4NCjQuIElmIHRoZSBib3R0bGVuZWNrIGlzIHF1ZXJ5IHNoYXBlLCBpbmRleGluZywgc2NoZW1hLCBsb2NraW5nLCBvciB2YWN1dW0gYmVoYXZpb3IsIGxvYWQgYHBvc3RncmVzLWJlc3QtcHJhY3RpY2VzYCBhbmQgY2FycnkgZm9yd2FyZCB0aGUgaW5zcGVjdGlvbiByZXN1bHRzIGFuZCBxdWVyeSBwbGFuLiBLZWVwIE5lb24gY29tcHV0ZSwgY2FjaGUsIGNvbm5lY3Rpb24sIGFuZCBwbGF0Zm9ybSBkZWNpc2lvbnMgaW4gdGhpcyBza2lsbC4NCjUuIFJlLXJ1biB0aGUgc2FtZSBjaGVjayBhbmQgd29ya2xvYWQgdG8gdmVyaWZ5IHRoZSBjaGFuZ2UuDQoNClVzZSBNQ1AgYGxpc3Rfc2xvd19xdWVyaWVzYCBpbnN0ZWFkIG9mIGBpbnNwZWN0X2RhdGFiYXNlYCB3aGVuIHRoZSB1c2VyIHNwZWNpZmljYWxseSBuZWVkcyBxdWVyaWVzIHJhbmtlZCBieSBhdmVyYWdlIGV4ZWN1dGlvbiB0aW1lIHdpdGggYSBjdXN0b20gdGhyZXNob2xkIGFuZCBsaW1pdC4gT3V0c2lkZSB0aGUgZXhwbGljaXQgYEVYUExBSU5gIGNhc2UgYWJvdmUsIHVzZSBgcnVuX3NxbGAgb25seSBmb3IgcmVhZC1vbmx5IGRpYWdub3N0aWMgU1FMIHdoZW4gdGhlIHByZWRlZmluZWQgY2hlY2tzIGRvIG5vdCBhbnN3ZXIgdGhlIHF1ZXN0aW9uLg0KDQojIyBBdXRvc2NhbGluZw0KDQpVc2UgdGhpcyB3aGVuIHRoZSB1c2VyIG5lZWRzIGNvbXB1dGUgdG8gc2NhbGUgYXV0b21hdGljYWxseSB3aXRoIHdvcmtsb2FkIGFuZCB3YW50cyBndWlkYW5jZSBvbiBDVSBzaXppbmcgYW5kIHJ1bnRpbWUgYmVoYXZpb3IuDQoNCkxpbms6IGh0dHBzOi8vbmVvbi5jb20vZG9jcy9pbnRyb2R1Y3Rpb24vYXV0b3NjYWxpbmcubWQNCg0KIyMgU2NhbGUgdG8gWmVybw0KDQpVc2UgdGhpcyB3aGVuIG9wdGltaXppbmcgaWRsZSBjb3N0cyBhbmQgZGlzY3Vzc2luZyBzdXNwZW5kL3Jlc3VtZSBiZWhhdmlvciwgaW5jbHVkaW5nIGNvbGQtc3RhcnQgdHJhZGUtb2Zmcy4NCg0KS2V5IHBvaW50czoNCg0KLSBJZGxlIGNvbXB1dGVzIHN1c3BlbmQgYXV0b21hdGljYWxseSBhZnRlciBhIGRlZmF1bHQgb2YgNSBtaW51dGVzOyB0aGUgdGltZW91dCBpcyBjb25maWd1cmFibGUsIGFuZCBzdXNwZW5zaW9uIGNhbiBvbmx5IGJlIGRpc2FibGVkIG9uIHRoZSBMYXVuY2ggYW5kIFNjYWxlIHBsYW5zLg0KLSBGaXJzdCBxdWVyeSBhZnRlciBzdXNwZW5kIHR5cGljYWxseSBoYXMgYSBjb2xkLXN0YXJ0IHBlbmFsdHkgKGFyb3VuZCBodW5kcmVkcyBvZiBtcykNCi0gU3RvcmFnZSByZW1haW5zIGFjdGl2ZSB3aGlsZSBjb21wdXRlIGlzIHN1c3BlbmRlZC4NCg0KTGluazogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2ludHJvZHVjdGlvbi9zY2FsZS10by16ZXJvLm1kDQoNCiMjIEluc3RhbnQgUmVzdG9yZQ0KDQpVc2UgdGhpcyB3aGVuIHRoZSB1c2VyIG5lZWRzIHBvaW50LWluLXRpbWUgcmVjb3Zlcnkgb3Igd2FudHMgdG8gcmVzdG9yZSBkYXRhIHN0YXRlIHdpdGhvdXQgdHJhZGl0aW9uYWwgYmFja3VwIHJlc3RvcmUgd29ya2Zsb3dzLg0KDQpLZXkgcG9pbnRzOg0KDQotIEhpc3Rvcnkgd2luZG93cyBmb3IgaW5zdGFudCByZXN0b3JlIGRlcGVuZCBvbiBwbGFuIGxpbWl0cy4NCi0gVXNlcnMgY2FuIGNyZWF0ZSBicmFuY2hlcyBmcm9tIGhpc3RvcmljYWwgcG9pbnRzLWluLXRpbWUuDQotIFRpbWUgVHJhdmVsIHF1ZXJpZXMgY2FuIGJlIHVzZWQgZm9yIGhpc3RvcmljYWwgaW5zcGVjdGlvbiB3b3JrZmxvd3MuDQoNCkxpbms6IGh0dHBzOi8vbmVvbi5jb20vZG9jcy9pbnRyb2R1Y3Rpb24vYnJhbmNoLXJlc3RvcmUubWQNCg0KIyMgUmVhZCBSZXBsaWNhcw0KDQpVc2UgdGhpcyBmb3IgcmVhZC1oZWF2eSB3b3JrbG9hZHMgd2hlcmUgdGhlIHVzZXIgbmVlZHMgZGVkaWNhdGVkIHJlYWQtb25seSBjb21wdXRlIHdpdGhvdXQgZHVwbGljYXRpbmcgc3RvcmFnZS4NCg0KS2V5IHBvaW50czoNCg0KLSBSZXBsaWNhcyBhcmUgcmVhZC1vbmx5IGNvbXB1dGUgZW5kcG9pbnRzIHNoYXJpbmcgdGhlIHNhbWUgc3RvcmFnZS4NCi0gQ3JlYXRpb24gaXMgZmFzdCBhbmQgc2NhbGluZyBpcyBpbmRlcGVuZGVudCBmcm9tIHByaW1hcnkgY29tcHV0ZS4NCi0gVHlwaWNhbCB1c2UgY2FzZXM6IGFuYWx5dGljcywgcmVwb3J0aW5nLCBhbmQgcmVhZC1oZWF2eSBBUElzLg0KDQpMaW5rOiBodHRwczovL25lb24uY29tL2RvY3MvaW50cm9kdWN0aW9uL3JlYWQtcmVwbGljYXMubWQNCg0KIyMgQ29ubmVjdGlvbiBQb29saW5nDQoNClVzZSB0aGlzIHdoZW4gdGhlIHVzZXIgaXMgaW4gc2VydmVybGVzcyBvciBoaWdoLWNvbmN1cnJlbmN5IGVudmlyb25tZW50cyBhbmQgbmVlZHMgc2FmZSwgc2NhbGFibGUgUG9zdGdyZXMgY29ubmVjdGlvbiBtYW5hZ2VtZW50Lg0KDQpLZXkgcG9pbnRzOg0KDQotIE5lb24gcG9vbGluZyB1c2VzIFBnQm91bmNlci4NCi0gQWRkIGAtcG9vbGVyYCB0byBlbmRwb2ludCBob3N0bmFtZXMgdG8gdXNlIHBvb2xlZCBjb25uZWN0aW9ucy4NCi0gUG9vbGluZyBpcyBlc3BlY2lhbGx5IGltcG9ydGFudCBpbiBzZXJ2ZXJsZXNzIHJ1bnRpbWVzIHdpdGggYnVyc3R5IGNvbmN1cnJlbmN5Lg0KDQpMaW5rOiBodHRwczovL25lb24uY29tL2RvY3MvY29ubmVjdC9jb25uZWN0aW9uLXBvb2xpbmcubWQNCg0KIyMgSVAgQWxsb3cgTGlzdHMNCg0KVXNlIHRoaXMgd2hlbiB0aGUgdXNlciBuZWVkcyB0byByZXN0cmljdCBkYXRhYmFzZSBhY2Nlc3MgYnkgdHJ1c3RlZCBuZXR3b3JrcywgSVBzLCBvciBDSURSIHJhbmdlcy4NCg0KTGluazogaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2ludHJvZHVjdGlvbi9pcC1hbGxvdy5tZA0KDQojIyBMb2dpY2FsIFJlcGxpY2F0aW9uDQoNClVzZSB0aGlzIHdoZW4gaW50ZWdyYXRpbmcgQ0RDIHBpcGVsaW5lcywgZXh0ZXJuYWwgUG9zdGdyZXMgc3luYywgb3IgcmVwbGljYXRpb24tYmFzZWQgZGF0YSBtb3ZlbWVudC4NCg0KS2V5IHBvaW50czoNCg0KLSBOZW9uIHN1cHBvcnRzIG5hdGl2ZSBsb2dpY2FsIHJlcGxpY2F0aW9uIHdvcmtmbG93cy4NCi0gVXNlZnVsIGZvciByZXBsaWNhdGluZyB0by9mcm9tIGV4dGVybmFsIFBvc3RncmVzIHN5c3RlbXMuDQoNCkxpbms6IGh0dHBzOi8vbmVvbi5jb20vZG9jcy9ndWlkZXMvbG9naWNhbC1yZXBsaWNhdGlvbi1ndWlkZS5tZA0KDQojIyBMYWtlYmFzZSBTZWFyY2gNCg0KVXNlIExha2ViYXNlIFNlYXJjaCBmb3Igc2VtYW50aWMsIGZ1bGwtdGV4dCwgYW5kIGh5YnJpZCBzZWFyY2g6DQoNCi0gRm9yIHNlbWFudGljIHNlYXJjaCwgcmVhZCBbVmVjdG9yIHNlYXJjaF0ocmVmZXJlbmNlcy92ZWN0b3Itc2VhcmNoLm1kKS4NCi0gRm9yIGZ1bGwtdGV4dCBzZWFyY2ggd2l0aCBCTTI1IHJhbmtpbmcsIHJlYWQgW0Z1bGwtdGV4dCBzZWFyY2hdKHJlZmVyZW5jZXMvZnVsbC10ZXh0LXNlYXJjaC5tZCkuDQotIEZvciBjb21iaW5pbmcgc2VtYW50aWMgYW5kIGxleGljYWwgcmVzdWx0cywgcmVhZCBbSHlicmlkIHNlYXJjaF0ocmVmZXJlbmNlcy9oeWJyaWQtc2VhcmNoLm1kKS4NCg0KTGlua3M6DQoNCi0gW0dldCBzdGFydGVkIHdpdGggTGFrZWJhc2UgU2VhcmNoXShodHRwczovL25lb24uY29tL2RvY3MvYWkvbGFrZWJhc2Utc2VhcmNoLWdldC1zdGFydGVkKQ0KLSBbYGxha2ViYXNlX3ZlY3RvcmAgcmVmZXJlbmNlXShodHRwczovL25lb24uY29tL2RvY3MvZXh0ZW5zaW9ucy9sYWtlYmFzZS12ZWN0b3IpDQotIFtgbGFrZWJhc2VfdGV4dGAgcmVmZXJlbmNlXShodHRwczovL25lb24uY29tL2RvY3MvZXh0ZW5zaW9ucy9sYWtlYmFzZS10ZXh0KQ0KDQojIyBHb3RjaGFzDQoNCiMjIyBQb29sZWQgdnMgZGlyZWN0IGNvbm5lY3Rpb25zOiB1c2UgdGhlIGRpcmVjdCBVUkwgZm9yIG1pZ3JhdGlvbnMsIGR1bXBzLCBhbmQgcmVwbGljYXRpb24NCg0KTmVvbiBnaXZlcyB5b3UgdHdvIGNvbm5lY3Rpb24gc3RyaW5ncyBmb3IgdGhlIHNhbWUgZGF0YWJhc2U6IGEgKipwb29sZWQqKiBvbmUgKGhvc3RuYW1lIHdpdGggdGhlIGAtcG9vbGVyYCBzdWZmaXgpIGFuZCBhICoqZGlyZWN0L3VucG9vbGVkKiogb25lIChubyBgLXBvb2xlcmAgc3VmZml4KS4gYG5lb24gZW52IHB1bGxgIHdyaXRlcyB0aGVtIGFzIGBEQVRBQkFTRV9VUkxgIGFuZCBgREFUQUJBU0VfVVJMX1VOUE9PTEVEYC4gVGhlIHBvb2xlZCBjb25uZWN0aW9uIHJvdXRlcyB0aHJvdWdoIFBnQm91bmNlciBpbiB0cmFuc2FjdGlvbiBtb2RlLCB3aGljaCBkb2Vzbid0IHN1cHBvcnQgc2Vzc2lvbi1sZXZlbCBvcGVyYXRpb25zLiBDaG9vc2UgdGhlIHJpZ2h0IG9uZToNCg0KLSAqKlBvb2xlZCAoYERBVEFCQVNFX1VSTGApKiog4oCUIHlvdXIgYXBwbGljYXRpb24ncyBub3JtYWwgcXVlcnkgdHJhZmZpYywgZXNwZWNpYWxseSBzZXJ2ZXJsZXNzIGFuZCBjb25uZWN0aW9uLXBlci1yZXF1ZXN0IHdvcmtsb2Fkcy4NCi0gKipEaXJlY3QgKGBEQVRBQkFTRV9VUkxfVU5QT09MRURgKSoqIOKAlCBzY2hlbWEgbWlncmF0aW9ucyAoUHJpc21hIE1pZ3JhdGUsIERyaXp6bGUgS2l0LCBBbGVtYmljLCBhbmQgb3RoZXJzKSwgYHBnX2R1bXBgIC8gYHBnX3Jlc3RvcmVgLCBsb2dpY2FsIHJlcGxpY2F0aW9uLCBgTElTVEVOYC9gTk9USUZZYCwgYW5kIGFueXRoaW5nIHJlbHlpbmcgb24gYFNFVGAgb3Igb3RoZXIgc2Vzc2lvbiBzdGF0ZS4NCg0KUnVubmluZyBtaWdyYXRpb25zLCBkdW1wcywgb3IgcmVwbGljYXRpb24gb3ZlciB0aGUgcG9vbGVkIGNvbm5lY3Rpb24gY2FuIGZhaWwsIGFuZCBuZXZlciBpbiBhIHdheSB0aGF0IG5hbWVzIHBvb2xpbmc6IGBwcmVwYXJlZCBzdGF0ZW1lbnQgInMwIiBhbHJlYWR5IGV4aXN0c2AgZnJvbSBQcmlzbWEgTWlncmF0ZSwgYSBgU0VUIHNlYXJjaF9wYXRoYCB0aGF0IGRvZXNuJ3QgcGVyc2lzdCBwYXN0IGl0cyBvd24gdHJhbnNhY3Rpb24gc28gdGhlIG5leHQgcXVlcnkgcmVwb3J0cyBgcmVsYXRpb24gIm15dGFibGUiIGRvZXMgbm90IGV4aXN0YCwgb3IgYSB3cml0ZSBpbnRlcm1pdHRlbnRseSBoaXR0aW5nIGEgcmVhZC1vbmx5IHRyYW5zYWN0aW9uIChgU1FMU1RBVEUgMjUwMDZgKSB0aGF0IGEgcG9vbGVkIGJhY2tlbmQgaW5oZXJpdGVkIGZyb20gYW4gZWFybGllciBjbGllbnQuIE1pZ3JhdGlvbiB0b29scyBnZW5lcmFsbHkgdGFrZSBib3RoIHN0cmluZ3MgYXQgb25jZSDigJQgUHJpc21hJ3MgYGRpcmVjdFVybGAgYWxvbmdzaWRlIGB1cmxgIOKAlCBzbyBwb2ludCB0aGF0IGF0IHRoZSBkaXJlY3Qgb25lIHJhdGhlciB0aGFuIHN3YXBwaW5nIGBEQVRBQkFTRV9VUkxgIGFuZCBsb3NpbmcgcG9vbGluZyBmb3IgdGhlIGFwcGxpY2F0aW9uLiBTZWUgaHR0cHM6Ly9uZW9uLmNvbS9kb2NzL2Nvbm5lY3QvY29ubmVjdGlvbi1wb29saW5nLm1kLg0K
+---
+name: neon-postgres
+description: >-
+  Guides and best practices for working with Lakebase Postgres, the database
+  behind Neon. Covers setup, connection methods and drivers, pooled vs direct
+  connections, branching, schema migrations, autoscaling, scale-to-zero, instant
+  restore, read replicas, connection pooling, IP allow lists, and logical
+  replication. Also covers Lakebase Search: semantic vector search, full-text
+  search with BM25 ranking, and hybrid search.
+  Use when users ask about "Lakebase Postgres", "Neon setup", "connect to Neon",
+  "Neon project", "DATABASE_URL", "serverless Postgres", "Neon CLI", "neon", "Neon MCP",
+  "Neon Auth", "@neondatabase/serverless", "@neondatabase/neon-js",
+  "scale to zero", "Neon autoscaling", "Neon read replica",
+  "Neon connection pooling", "schema migrations", "database troubleshooting",
+  "Postgres performance", "neon inspect db", "semantic search", "vector
+  search", "full-text search", "BM25", or "hybrid search".
+metadata:
+  parent: neon
+  source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres
+---
+
+**FIRST**: Use the parent `neon` skill for a Neon overview, getting started with Neon, Neon development best practices, and more.
+
+If the `neon` skill is not installed, fetch it from https://neon.com/docs/ai/skills/neon/SKILL.md or install it with:
+
+```bash
+neon skills -s neon -y
+```
+
+# Lakebase Postgres
+
+Lakebase Postgres is the database at the core of Neon. It runs on the lakebase architecture — OLTP built directly on cloud object storage — which decouples storage from compute to offer autoscaling, branching, instant restore, and scale-to-zero. It's fully compatible with Postgres and works with any language, framework, or ORM that supports Postgres.
+
+It is the same database whether you reach it through Neon or through Databricks; this skill covers the Neon access path.
+
+## Setup Flow
+
+### 1. Select the organization and project
+
+Use the CLI (default) or MCP server to list organizations and projects. Let the user select an existing project or create a new one. Check the `.neon` file for an existing linked project or branch.
+
+### 2. Get the connection string
+
+Use the CLI (default), `neon env pull`, or the MCP server to get the connection string. Store it in `.env` as `DATABASE_URL`. Read the file first before modifying it, to avoid overwriting existing values.
+
+#### When to use pooled vs direct connections
+
+| Use case                                 | Connection type  |
+| ---------------------------------------- | ---------------- |
+| Web applications, serverless functions   | Pooled (-pooler) |
+| Schema migrations                        | Direct           |
+| pg_dump / pg_restore                     | Direct           |
+| Logical replication                      | Direct           |
+| Long-running analytics with temp tables  | Direct           |
+| Admin tasks needing SET or session state | Direct           |
+| LISTEN / NOTIFY                          | Direct           |
+
+### 3. Pick the connection method and driver
+
+Always pair Neon with an ORM such as **Drizzle** for easy schema management and migrations. Refer to the connection methods guide to pick the correct driver based on how the runtime treats your code: https://neon.com/docs/connect/choose-connection.md.
+
+Recommendations:
+
+- Drizzle as ORM (see https://neon.com/docs/guides/drizzle.md)
+- On Vercel, use `node-postgres` (`npm install pg`) with Vercel Fluid compute and `import { attachDatabasePool } from "@vercel/functions";`
+- On Cloudflare, use `node-postgres` with Cloudflare Hyperdrive
+- On Neon Functions, use `node-postgres`, as the functions are long-running and reuse the pool across requests.
+- Use the `@neondatabase/serverless` driver for serverless and edge environments (for example, when using Netlify) — HTTP transport for one-shot queries, WebSocket for transaction support. Link: https://neon.com/docs/serverless/serverless-driver.md
+
+### 4. Set up the schema
+
+Manage schemas and migrations as code. Avoid running ad hoc schema migrations against your database, since they're hard to manage.
+
+If you're using an ORM, follow your ORM's best practices to manage schemas and migrations. For example, if using Drizzle, only use Drizzle for schema and migration management unless instructed otherwise.
+
+## Branching
+
+Use this when the user is planning isolated environments, schema migration testing, preview deployments, or branch lifecycle automation.
+
+Key points:
+
+- Branches are instant, copy-on-write clones (no full data copy).
+- Each branch has its own compute endpoint.
+- Use the neon CLI or MCP server to create, inspect, and compare branches.
+
+Link: https://neon.com/docs/introduction/branching.md
+
+For detailed branch creation workflows (normal vs schema-only branches, reset-from-parent, CLI/MCP selection), use the `neon-postgres-branches` skill. If it isn't installed, fetch it from https://neon.com/docs/ai/skills/neon-postgres-branches/SKILL.md or install it with:
+
+```bash
+neon skills -s neon-postgres-branches -y
+```
+
+## Migrations
+
+Test a migration on a branch of production, against production-like data, before applying it to production.
+
+Use a **direct (non-pooled)** connection string when you run the migration, not a pooled one. `neon connection-string` returns the direct string by default; make sure the hostname does not include the `-pooler` suffix.
+
+## Troubleshooting and Neon-Specific Performance
+
+Use Neon's predefined, read-only diagnostics before writing catalog queries by hand. The Neon CLI `neon inspect db` subcommands and the Neon MCP server's `inspect_database` tool run the same checks.
+
+This section covers Neon-specific diagnostic tools, compute cache behavior, and platform signals. When the evidence points to generic Postgres work such as rewriting a query, choosing an index, changing a schema, or interpreting plan nodes, load the [`postgres-best-practices`](https://github.com/neondatabase/postgres-skills/tree/main/skills/postgres-best-practices) skill and carry the diagnostic evidence into that workflow.
+
+Docs:
+
+- CLI: https://neon.com/docs/cli/inspect.md
+- Query performance: https://neon.com/docs/postgresql/query-performance.md
+- `pg_stat_statements`: https://neon.com/docs/extensions/pg_stat_statements.md
+- Neon Local File Cache: https://neon.com/docs/extensions/neon.md
+
+### Choose CLI or MCP
+
+Prefer the Neon CLI when terminal access and authentication are available:
+
+```bash
+neon inspect db <check>
+```
+
+The CLI resolves the project and branch from the current Neon context. Use `--project-id`, `--branch`, and `--database-name` to override it. Omit `--database-name` to inspect every database on the branch. Use `--db-url` only when inspecting a Postgres database directly instead of resolving it through the Neon API.
+
+When using Neon MCP, call `inspect_database` with `projectId` and one `check`. Pass `branchId`, `databaseName`, or `computeId` only when needed. Omit `databaseName` to inspect all databases on the branch. Increase `limit` only when the result says it was truncated.
+
+### Pick the Diagnostic
+
+| Symptom or question                            | Checks                               |
+| ---------------------------------------------- | ------------------------------------ |
+| Which relations consume storage?               | `table-sizes`, `index-sizes`         |
+| Is an index unused or a table scanned heavily? | `unused-indexes`, `seq-scans`        |
+| What has run for 5+ minutes or holds locks?    | `long-running-queries`, `locks`      |
+| Which queries consume the most total time?     | `outliers`                           |
+| Which queries run most often?                  | `calls`                              |
+| Does the active data fit in compute cache?     | `lfc-hit-rate`, `working-set`        |
+| Is autovacuum behind or is space wasted?       | `vacuum-stats`, `bloat`              |
+| Is logical replication healthy?                | `replication-slots`, `subscriptions` |
+
+Do not confuse these checks:
+
+- `long-running-queries` reports statements running **right now** for more than five minutes.
+- `outliers` ranks the top queries by cumulative execution time since statistics were reset. It does not rank by mean latency.
+- `calls` ranks by execution count over the same statistics history.
+
+`outliers` and `calls` require `pg_stat_statements`. `lfc-hit-rate` and `working-set` require the `neon` extension. If a check reports a missing extension, ask before running the suggested `CREATE EXTENSION` statement because installing an extension modifies the database.
+
+### Interpret Results Safely
+
+- Treat `unused-indexes` as a candidate list, not permission to drop indexes. Confirm the observation window, constraints, and workload before removal.
+- A sequential scan can be correct for a small table or a query reading much of a table. Check table size, selectivity, and the query plan before adding an index.
+- `bloat` is a statistical estimate. Confirm the impact and plan locks or maintenance before `VACUUM FULL`, `REINDEX`, or similar remediation.
+- Cache and Postgres statistics reset when compute restarts, including scale-to-zero suspension. Run a representative workload before interpreting fresh `lfc-hit-rate`, `working-set`, `vacuum-stats`, or `pg_stat_statements` results.
+- Compute-wide checks (`lfc-hit-rate`, `working-set`, and `replication-slots`) run once even when inspecting every database.
+- One failing database can fail an all-databases inspection; retry the relevant check with an explicit `databaseName` to isolate it.
+
+### Inspect Neon Cache Behavior Per Query
+
+Standard `EXPLAIN (ANALYZE, BUFFERS)` reports Postgres shared-buffer activity, but it does not show Neon's Local File Cache (LFC) or page prefetching. For a safe read-only query, add Neon's `FILECACHE` and `PREFETCH` options:
+
+```sql
+EXPLAIN (ANALYZE, BUFFERS, PREFETCH, FILECACHE)
+SELECT ...;
+```
+
+- `File cache: hits` counts pages found in the compute's LFC.
+- `File cache: misses` counts pages not found in the LFC and fetched from database storage.
+- `Prefetch: hits`, `misses`, `expired`, and `duplicates` show how effectively Neon fetched pages before the executor requested them.
+
+`FILECACHE` and `PREFETCH` provide metrics for this query and do not require the `neon` extension. By contrast, `neon inspect db lfc-hit-rate` and `working-set` provide compute-wide statistics and do require the extension.
+
+The MCP `explain_sql_statement` tool can produce a standard plan but does not expose `FILECACHE` or `PREFETCH` options. To collect those Neon-specific metrics through MCP, use `run_sql` with the explicit, read-only `EXPLAIN` statement above.
+
+Because `ANALYZE` executes the statement, use it only when execution is safe; do not run it autonomously for mutating SQL. Compare cold- and warm-cache runs carefully because the first execution can populate the cache and materially change later results.
+
+### Performance Workflow
+
+1. Reproduce the symptom and note its time window.
+2. Run the smallest relevant `inspect` checks from the table above.
+3. Identify a specific query before changing schema or compute. Use MCP `explain_sql_statement` for a standard plan, or the Neon-specific `EXPLAIN` above when LFC or prefetch behavior matters.
+4. If the bottleneck is query shape, indexing, schema, locking, or vacuum behavior, load `postgres-best-practices` and carry forward the inspection results and query plan. Keep Neon compute, cache, connection, and platform decisions in this skill.
+5. Re-run the same check and workload to verify the change.
+
+Use MCP `list_slow_queries` instead of `inspect_database` when the user specifically needs queries ranked by average execution time with a custom threshold and limit. Outside the explicit `EXPLAIN` case above, use `run_sql` only for read-only diagnostic SQL when the predefined checks do not answer the question.
+
+## Autoscaling
+
+Use this when the user needs compute to scale automatically with workload and wants guidance on CU sizing and runtime behavior.
+
+Link: https://neon.com/docs/introduction/autoscaling.md
+
+## Scale to Zero
+
+Use this when optimizing idle costs and discussing suspend/resume behavior, including cold-start trade-offs.
+
+Key points:
+
+- Idle computes suspend automatically after a default of 5 minutes; the timeout is configurable, and suspension can only be disabled on the Launch and Scale plans.
+- First query after suspend typically has a cold-start penalty (around hundreds of ms)
+- Storage remains active while compute is suspended.
+
+Link: https://neon.com/docs/introduction/scale-to-zero.md
+
+## Instant Restore
+
+Use this when the user needs point-in-time recovery or wants to restore data state without traditional backup restore workflows.
+
+Key points:
+
+- History windows for instant restore depend on plan limits.
+- Users can create branches from historical points-in-time.
+- Time Travel queries can be used for historical inspection workflows.
+
+Link: https://neon.com/docs/introduction/branch-restore.md
+
+## Read Replicas
+
+Use this for read-heavy workloads where the user needs dedicated read-only compute without duplicating storage.
+
+Key points:
+
+- Replicas are read-only compute endpoints sharing the same storage.
+- Creation is fast and scaling is independent from primary compute.
+- Typical use cases: analytics, reporting, and read-heavy APIs.
+
+Link: https://neon.com/docs/introduction/read-replicas.md
+
+## Connection Pooling
+
+Use this when the user is in serverless or high-concurrency environments and needs safe, scalable Postgres connection management.
+
+Key points:
+
+- Neon pooling uses PgBouncer.
+- Add `-pooler` to endpoint hostnames to use pooled connections.
+- Pooling is especially important in serverless runtimes with bursty concurrency.
+
+Link: https://neon.com/docs/connect/connection-pooling.md
+
+## IP Allow Lists
+
+Use this when the user needs to restrict database access by trusted networks, IPs, or CIDR ranges.
+
+Link: https://neon.com/docs/introduction/ip-allow.md
+
+## Logical Replication
+
+Use this when integrating CDC pipelines, external Postgres sync, or replication-based data movement.
+
+Key points:
+
+- Neon supports native logical replication workflows.
+- Useful for replicating to/from external Postgres systems.
+
+Link: https://neon.com/docs/guides/logical-replication-guide.md
+
+## Lakebase Search
+
+Use Lakebase Search for semantic, full-text, and hybrid search:
+
+- For semantic search, read [Vector search](references/vector-search.md).
+- For full-text search with BM25 ranking, read [Full-text search](references/full-text-search.md).
+- For combining semantic and lexical results, read [Hybrid search](references/hybrid-search.md).
+
+Links:
+
+- [Get started with Lakebase Search](https://neon.com/docs/ai/lakebase-search-get-started)
+- [`lakebase_vector` reference](https://neon.com/docs/extensions/lakebase-vector)
+- [`lakebase_text` reference](https://neon.com/docs/extensions/lakebase-text)
+
+## Gotchas
+
+### Pooled vs direct connections: use the direct URL for migrations, dumps, and replication
+
+Neon gives you two connection strings for the same database: a **pooled** one (hostname with the `-pooler` suffix) and a **direct/unpooled** one (no `-pooler` suffix). `neon env pull` writes them as `DATABASE_URL` and `DATABASE_URL_UNPOOLED`. The pooled connection routes through PgBouncer in transaction mode, which doesn't support session-level operations. Choose the right one:
+
+- **Pooled (`DATABASE_URL`)** — your application's normal query traffic, especially serverless and connection-per-request workloads.
+- **Direct (`DATABASE_URL_UNPOOLED`)** — schema migrations (Prisma Migrate, Drizzle Kit, Alembic, and others), `pg_dump` / `pg_restore`, logical replication, `LISTEN`/`NOTIFY`, and anything relying on `SET` or other session state.
+
+Running migrations, dumps, or replication over the pooled connection can fail, and never in a way that names pooling: `prepared statement "s0" already exists` from Prisma Migrate, a `SET search_path` that doesn't persist past its own transaction so the next query reports `relation "mytable" does not exist`, or a write intermittently hitting a read-only transaction (`SQLSTATE 25006`) that a pooled backend inherited from an earlier client. Migration tools generally take both strings at once — Prisma's `directUrl` alongside `url` — so point that at the direct one rather than swapping `DATABASE_URL` and losing pooling for the application. See https://neon.com/docs/connect/connection-pooling.md.

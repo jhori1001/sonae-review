@@ -1,1 +1,1 @@
-aW1wb3J0e3QgYXMgZX1mcm9tIi4vZnJhbWV3b3JrfmluZGV4fnBhZ2V+cGFnZX5wYWdlfnBhZ2V+bGF5b3V0fnBhZ2V+cGFnZX5wYWdlfnBhZ2V+cGFnZX5wYWdlfmFwcC1wYWdlLWNhY2hlLXJlbn5taXRjeDNqbS1CVVNkcnpzeC5qcyI7aW1wb3J0e3IgYXMgdH1mcm9tIi4vc2l0ZS1CV2NNbTg0WS5qcyI7dmFyIG49ZSgpO2Z1bmN0aW9uIHIoKXtyZXR1cm4oMCxuLmpzeCkodCx7fSl9ZXhwb3J0e3IgYXMgZGVmYXVsdH07
+import{t as e}from"./framework~index~page~page~page~page~layout~page~page~page~page~page~page~app-page-cache-ren~mitcx3jm-BUSdrzsx.js";import{r as t}from"./site-BWcMm84Y.js";var n=e();function r(){return(0,n.jsx)(t,{})}export{r as default};

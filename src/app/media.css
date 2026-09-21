@@ -1,1 +1,40 @@
-LyogQWxsIGltYWdlIGZyYW1lcyB1c2UgdGhlIHNhbWUgc3F1YXJlIHJhdGlvLCBpbmNsdWRpbmcgbW9iaWxlIGxheW91dHMuCiAgIFRoZSBkZW1vIHNwcml0ZSBjb25zaXN0cyBvZiBzaXggc3F1YXJlIHRpbGVzOiBwcmVzZXJ2ZSB0aGVpciBwcm9wb3J0aW9ucy4gKi8KLnByb2R1Y3QtaW1hZ2UsCi5oZXJvLXBob3RvIC5wcm9kdWN0LWltYWdlLAoucmV2aWV3LXRlYXNlciA+IC5wcm9kdWN0LWltYWdlLAouZGV0YWlsLWhlcm8gLnByb2R1Y3QtaW1hZ2UsCi5yZXZpZXctcGhvdG9zIC5wcm9kdWN0LWltYWdlLAoucmV2aWV3LXBob3RvcyBpbWcsCi5wcmV2aWV3LWxpc3QgaW1nIHsKICB3aWR0aDogMTAwJTsKICBoZWlnaHQ6IGF1dG87CiAgbWluLWhlaWdodDogMDsKICBhc3BlY3QtcmF0aW86IDEgLyAxOwogIGFsaWduLXNlbGY6IHN0YXJ0Owp9CgoucmV2aWV3LXBob3RvcyBpbWcsCi5wcmV2aWV3LWxpc3QgaW1nIHsKICBkaXNwbGF5OiBibG9jazsKICBvYmplY3QtZml0OiBjb250YWluOwogIGJhY2tncm91bmQ6ICNmMWY0ZWY7Cn0KCi5wcmV2aWV3LWxpc3QgaW1nIHsKICB3aWR0aDogMTAwcHg7CiAgZmxleDogMCAwIDEwMHB4Owp9CgouaGVyby12aXN1YWwgewogIGhlaWdodDogYXV0bzsKfQoKLmhlcm8tcGhvdG8gewogIGhlaWdodDogYXV0bzsKICBhc3BlY3QtcmF0aW86IDEgLyAxOwp9CgouZGV0YWlsLWhlcm8gLnByb2R1Y3QtaW1hZ2UgewogIGJvcmRlci1yYWRpdXM6IDE4cHg7Cn0K
+/* All image frames use the same square ratio, including mobile layouts.
+   The demo sprite consists of six square tiles: preserve their proportions. */
+.product-image,
+.hero-photo .product-image,
+.review-teaser > .product-image,
+.detail-hero .product-image,
+.review-photos .product-image,
+.review-photos img,
+.preview-list img {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 1 / 1;
+  align-self: start;
+}
+
+.review-photos img,
+.preview-list img {
+  display: block;
+  object-fit: contain;
+  background: #f1f4ef;
+}
+
+.preview-list img {
+  width: 100px;
+  flex: 0 0 100px;
+}
+
+.hero-visual {
+  height: auto;
+}
+
+.hero-photo {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.detail-hero .product-image {
+  border-radius: 18px;
+}

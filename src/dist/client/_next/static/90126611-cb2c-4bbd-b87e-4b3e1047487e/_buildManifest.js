@@ -1,1 +1,1 @@
-c2VsZi5fX0JVSUxEX01BTklGRVNUID0geyJfX3Jld3JpdGVzIjp7ImJlZm9yZUZpbGVzIjpbXSwiYWZ0ZXJGaWxlcyI6W10sImZhbGxiYWNrIjpbXX0sInNvcnRlZFBhZ2VzIjpbXX07c2VsZi5fX0JVSUxEX01BTklGRVNUX0NCICYmIHNlbGYuX19CVUlMRF9NQU5JRkVTVF9DQigp
+self.__BUILD_MANIFEST = {"__rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"sortedPages":[]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

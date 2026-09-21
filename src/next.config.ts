@@ -1,1 +1,16 @@
-aW1wb3J0IHR5cGUgeyBOZXh0Q29uZmlnIH0gZnJvbSAibmV4dCI7CgovLyBGb3JtZXIgc2FtcGxlIHByb2R1Y3RzIHdlcmUgcmVtb3ZlZDsgc2VuZCB0aGVpciBvbGQgVVJMcyB0byB0aGUgbWF0Y2hpbmcgY2F0ZWdvcnkuCmNvbnN0IG9sZFByb2R1Y3RzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0gewogICd0b2lsZXQtNTAnOjAsJ2xhbnRlcm4tbWluaSc6MSwnYmFnLTMwJzoyLCdwb3dlci01MDAnOjMsJ2Zvb2QtcmljZSc6NCwnYmF0dGVyeS0xMDAwMCc6NSwnd2F0ZXItMmwnOjYsJ3dpcGVzLTgwJzo3LCd0aGVybWFsLXNoZWV0Jzo4LAogICdmaXJzdGFpZC1raXQnOjksJ2hhbmQtY3JhbmstcmFkaW8nOjEwLCdmdXJuaXR1cmUtc3RyYXAnOjExLCdmb2xkYWJsZS1oZWxtZXQnOjEyLCdzdGFydGVyLWtpdC0xcCc6MTMsJ2tpZHMtY3VzaGlvbic6MTQsJ3dvbWVuLXBvdWNoJzoxNSwKICAnc2VuaW9yLWNhcmQnOjE2LCdwZXQtYm93bC1zZXQnOjE3LAp9OwoKY29uc3QgbmV4dENvbmZpZzogTmV4dENvbmZpZyA9IHsKICBhc3luYyByZWRpcmVjdHMoKSB7CiAgICByZXR1cm4gT2JqZWN0LmVudHJpZXMob2xkUHJvZHVjdHMpLm1hcCgoW2lkLCBjYXRdKSA9PiAoeyBzb3VyY2U6IGAvcHJvZHVjdHMvJHtpZH1gLCBkZXN0aW5hdGlvbjogYC9jYXRlZ29yaWVzLyR7Y2F0fWAsIHBlcm1hbmVudDogdHJ1ZSB9KSk7CiAgfSwKfTsKCmV4cG9ydCBkZWZhdWx0IG5leHRDb25maWc7Cg==
+import type { NextConfig } from "next";
+
+// Former sample products were removed; send their old URLs to the matching category.
+const oldProducts: Record<string, number> = {
+  'toilet-50':0,'lantern-mini':1,'bag-30':2,'power-500':3,'food-rice':4,'battery-10000':5,'water-2l':6,'wipes-80':7,'thermal-sheet':8,
+  'firstaid-kit':9,'hand-crank-radio':10,'furniture-strap':11,'foldable-helmet':12,'starter-kit-1p':13,'kids-cushion':14,'women-pouch':15,
+  'senior-card':16,'pet-bowl-set':17,
+};
+
+const nextConfig: NextConfig = {
+  async redirects() {
+    return Object.entries(oldProducts).map(([id, cat]) => ({ source: `/products/${id}`, destination: `/categories/${cat}`, permanent: true }));
+  },
+};
+
+export default nextConfig;
