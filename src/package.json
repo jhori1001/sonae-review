@@ -1,1 +1,53 @@
-ewogICJuYW1lIjogInNvbmFlLXJldmlldyIsCiAgInZlcnNpb24iOiAiMC4xLjAiLAogICJwcml2YXRlIjogdHJ1ZSwKICAiZW5naW5lcyI6IHsKICAgICJub2RlIjogIj49MjIuMTMuMCIKICB9LAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIsCiAgICAibGludCI6ICJlc2xpbnQgLiAtLWlnbm9yZS1wYXR0ZXJuIGRpc3QgLS1pZ25vcmUtcGF0dGVybiAubmV4dCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQGJhc2UtdWkvcmVhY3QiOiAiXjEuNy4wIiwKICAgICJAaG9va2Zvcm0vcmVzb2x2ZXJzIjogIl41LjcuMSIsCiAgICAiQHNoYWRjbi9yZWFjdCI6ICJeMC4zLjAiLAogICAgIkBuZW9uZGF0YWJhc2Uvc2VydmVybGVzcyI6ICJeMS4xLjAiLAogICAgIkB2ZXJjZWwvYmxvYiI6ICJeMi44LjAiLAogICAgImNsYXNzLXZhcmlhbmNlLWF1dGhvcml0eSI6ICIwLjcuMSIsCiAgICAiY2xzeCI6ICIyLjEuMSIsCiAgICAiY21kayI6ICJeMS4xLjEiLAogICAgImRhdGUtZm5zIjogIl40LjQuMCIsCiAgICAiZW1ibGEtY2Fyb3VzZWwtcmVhY3QiOiAiXjguNi4wIiwKICAgICJpbnB1dC1vdHAiOiAiXjEuNC4yIiwKICAgICJsdWNpZGUtcmVhY3QiOiAiXjEuMzEuMCIsCiAgICAibmV4dCI6ICIxNi4zLjQiLAogICAgIm5leHQtdGhlbWVzIjogIl4wLjQuNiIsCiAgICAicmFkaXgtdWkiOiAiXjEuNi43IiwKICAgICJyZWFjdCI6ICIxOS4yLjYiLAogICAgInJlYWN0LWRheS1waWNrZXIiOiAiXjEwLjAuMSIsCiAgICAicmVhY3QtZG9tIjogIjE5LjIuNiIsCiAgICAicmVhY3QtaG9vay1mb3JtIjogIl43Ljg1LjAiLAogICAgInJlYWN0LXJlc2l6YWJsZS1wYW5lbHMiOiAiXjQuMTIuMiIsCiAgICAicmVjaGFydHMiOiAiXjMuOC4wIiwKICAgICJzb25uZXIiOiAiXjIuMC44IiwKICAgICJ0YWlsd2luZC1tZXJnZSI6ICIzLjYuMCIsCiAgICAidmF1bCI6ICJeMS4xLjIiLAogICAgInpvZCI6ICJeMy4yNS43NiIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHRhaWx3aW5kY3NzL3Bvc3Rjc3MiOiAiNC4yLjEiLAogICAgIkB0eXBlcy9ub2RlIjogIjIyLjE5LjE5IiwKICAgICJAdHlwZXMvcmVhY3QiOiAiMTkuMi4xNCIsCiAgICAiQHR5cGVzL3JlYWN0LWRvbSI6ICIxOS4yLjMiLAogICAgImVzbGludCI6ICI5LjM5LjQiLAogICAgImVzbGludC1jb25maWctbmV4dCI6ICIxNi4zLjQiLAogICAgInRhaWx3aW5kY3NzIjogIjQuMi4xIiwKICAgICJ0dy1hbmltYXRlLWNzcyI6ICJeMS40LjAiLAogICAgInR5cGVzY3JpcHQiOiAiNS45LjMiCiAgfSwKICAidHlwZSI6ICJtb2R1bGUiCn0K
+{
+  "name": "sonae-review",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.7.0",
+    "@hookform/resolvers": "^5.7.1",
+    "@shadcn/react": "^0.3.0",
+    "@neondatabase/serverless": "^1.1.0",
+    "@vercel/blob": "^2.8.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "cmdk": "^1.1.1",
+    "date-fns": "^4.4.0",
+    "embla-carousel-react": "^8.6.0",
+    "input-otp": "^1.4.2",
+    "lucide-react": "^1.31.0",
+    "next": "16.3.4",
+    "next-themes": "^0.4.6",
+    "radix-ui": "^1.6.7",
+    "react": "19.2.6",
+    "react-day-picker": "^10.0.1",
+    "react-dom": "19.2.6",
+    "react-hook-form": "^7.85.0",
+    "react-resizable-panels": "^4.12.2",
+    "recharts": "^3.8.0",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "3.6.0",
+    "vaul": "^1.1.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "4.2.1",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}

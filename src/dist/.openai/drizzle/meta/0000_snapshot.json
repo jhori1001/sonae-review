@@ -1,1 +1,222 @@
-ewogICJ2ZXJzaW9uIjogIjYiLAogICJkaWFsZWN0IjogInNxbGl0ZSIsCiAgImlkIjogImQ2MjQ0MTdmLTgyMGMtNDgxNC1hMDI0LTk1MmNjNjdiMDM5ZCIsCiAgInByZXZJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiLAogICJ0YWJsZXMiOiB7CiAgICAicmVwb3J0cyI6IHsKICAgICAgIm5hbWUiOiAicmVwb3J0cyIsCiAgICAgICJjb2x1bW5zIjogewogICAgICAgICJpZCI6IHsKICAgICAgICAgICJuYW1lIjogImlkIiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiB0cnVlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInJldmlld19pZCI6IHsKICAgICAgICAgICJuYW1lIjogInJldmlld19pZCIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAidXNlcl9pZCI6IHsKICAgICAgICAgICJuYW1lIjogInVzZXJfaWQiLAogICAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IGZhbHNlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInJlYXNvbiI6IHsKICAgICAgICAgICJuYW1lIjogInJlYXNvbiIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAiY3JlYXRlZF9hdCI6IHsKICAgICAgICAgICJuYW1lIjogImNyZWF0ZWRfYXQiLAogICAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IGZhbHNlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInN0YXR1cyI6IHsKICAgICAgICAgICJuYW1lIjogInN0YXR1cyIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlLAogICAgICAgICAgImRlZmF1bHQiOiAiJ29wZW4nIgogICAgICAgIH0KICAgICAgfSwKICAgICAgImluZGV4ZXMiOiB7CiAgICAgICAgInJlcG9ydHNfdXNlcl9yZXZpZXciOiB7CiAgICAgICAgICAibmFtZSI6ICJyZXBvcnRzX3VzZXJfcmV2aWV3IiwKICAgICAgICAgICJjb2x1bW5zIjogWwogICAgICAgICAgICAidXNlcl9pZCIsCiAgICAgICAgICAgICJyZXZpZXdfaWQiCiAgICAgICAgICBdLAogICAgICAgICAgImlzVW5pcXVlIjogdHJ1ZQogICAgICAgIH0KICAgICAgfSwKICAgICAgImZvcmVpZ25LZXlzIjoge30sCiAgICAgICJjb21wb3NpdGVQcmltYXJ5S2V5cyI6IHt9LAogICAgICAidW5pcXVlQ29uc3RyYWludHMiOiB7fSwKICAgICAgImNoZWNrQ29uc3RyYWludHMiOiB7fQogICAgfSwKICAgICJyZXZpZXdfaW1hZ2VzIjogewogICAgICAibmFtZSI6ICJyZXZpZXdfaW1hZ2VzIiwKICAgICAgImNvbHVtbnMiOiB7CiAgICAgICAgImlkIjogewogICAgICAgICAgIm5hbWUiOiAiaWQiLAogICAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IHRydWUsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAicmV2aWV3X2lkIjogewogICAgICAgICAgIm5hbWUiOiAicmV2aWV3X2lkIiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiBmYWxzZSwKICAgICAgICAgICJub3ROdWxsIjogdHJ1ZSwKICAgICAgICAgICJhdXRvaW5jcmVtZW50IjogZmFsc2UKICAgICAgICB9LAogICAgICAgICJzdG9yYWdlX2tleSI6IHsKICAgICAgICAgICJuYW1lIjogInN0b3JhZ2Vfa2V5IiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiBmYWxzZSwKICAgICAgICAgICJub3ROdWxsIjogdHJ1ZSwKICAgICAgICAgICJhdXRvaW5jcmVtZW50IjogZmFsc2UKICAgICAgICB9LAogICAgICAgICJjb250ZW50X3R5cGUiOiB7CiAgICAgICAgICAibmFtZSI6ICJjb250ZW50X3R5cGUiLAogICAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IGZhbHNlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInBvc2l0aW9uIjogewogICAgICAgICAgIm5hbWUiOiAicG9zaXRpb24iLAogICAgICAgICAgInR5cGUiOiAiaW50ZWdlciIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IGZhbHNlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0KICAgICAgfSwKICAgICAgImluZGV4ZXMiOiB7fSwKICAgICAgImZvcmVpZ25LZXlzIjogewogICAgICAgICJyZXZpZXdfaW1hZ2VzX3Jldmlld19pZF9yZXZpZXdzX2lkX2ZrIjogewogICAgICAgICAgIm5hbWUiOiAicmV2aWV3X2ltYWdlc19yZXZpZXdfaWRfcmV2aWV3c19pZF9mayIsCiAgICAgICAgICAidGFibGVGcm9tIjogInJldmlld19pbWFnZXMiLAogICAgICAgICAgInRhYmxlVG8iOiAicmV2aWV3cyIsCiAgICAgICAgICAiY29sdW1uc0Zyb20iOiBbCiAgICAgICAgICAgICJyZXZpZXdfaWQiCiAgICAgICAgICBdLAogICAgICAgICAgImNvbHVtbnNUbyI6IFsKICAgICAgICAgICAgImlkIgogICAgICAgICAgXSwKICAgICAgICAgICJvbkRlbGV0ZSI6ICJjYXNjYWRlIiwKICAgICAgICAgICJvblVwZGF0ZSI6ICJubyBhY3Rpb24iCiAgICAgICAgfQogICAgICB9LAogICAgICAiY29tcG9zaXRlUHJpbWFyeUtleXMiOiB7fSwKICAgICAgInVuaXF1ZUNvbnN0cmFpbnRzIjoge30sCiAgICAgICJjaGVja0NvbnN0cmFpbnRzIjoge30KICAgIH0sCiAgICAicmV2aWV3cyI6IHsKICAgICAgIm5hbWUiOiAicmV2aWV3cyIsCiAgICAgICJjb2x1bW5zIjogewogICAgICAgICJpZCI6IHsKICAgICAgICAgICJuYW1lIjogImlkIiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiB0cnVlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0sCiAgICAgICAgInByb2R1Y3RfaWQiOiB7CiAgICAgICAgICAibmFtZSI6ICJwcm9kdWN0X2lkIiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiBmYWxzZSwKICAgICAgICAgICJub3ROdWxsIjogdHJ1ZSwKICAgICAgICAgICJhdXRvaW5jcmVtZW50IjogZmFsc2UKICAgICAgICB9LAogICAgICAgICJ1c2VyX2lkIjogewogICAgICAgICAgIm5hbWUiOiAidXNlcl9pZCIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAibmlja25hbWUiOiB7CiAgICAgICAgICAibmFtZSI6ICJuaWNrbmFtZSIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAicmF0aW5nIjogewogICAgICAgICAgIm5hbWUiOiAicmF0aW5nIiwKICAgICAgICAgICJ0eXBlIjogImludGVnZXIiLAogICAgICAgICAgInByaW1hcnlLZXkiOiBmYWxzZSwKICAgICAgICAgICJub3ROdWxsIjogdHJ1ZSwKICAgICAgICAgICJhdXRvaW5jcmVtZW50IjogZmFsc2UKICAgICAgICB9LAogICAgICAgICJ0aXRsZSI6IHsKICAgICAgICAgICJuYW1lIjogInRpdGxlIiwKICAgICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICAgInByaW1hcnlLZXkiOiBmYWxzZSwKICAgICAgICAgICJub3ROdWxsIjogdHJ1ZSwKICAgICAgICAgICJhdXRvaW5jcmVtZW50IjogZmFsc2UKICAgICAgICB9LAogICAgICAgICJib2R5IjogewogICAgICAgICAgIm5hbWUiOiAiYm9keSIsCiAgICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAgICJwcmltYXJ5S2V5IjogZmFsc2UsCiAgICAgICAgICAibm90TnVsbCI6IHRydWUsCiAgICAgICAgICAiYXV0b2luY3JlbWVudCI6IGZhbHNlCiAgICAgICAgfSwKICAgICAgICAiY3JlYXRlZF9hdCI6IHsKICAgICAgICAgICJuYW1lIjogImNyZWF0ZWRfYXQiLAogICAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgICAicHJpbWFyeUtleSI6IGZhbHNlLAogICAgICAgICAgIm5vdE51bGwiOiB0cnVlLAogICAgICAgICAgImF1dG9pbmNyZW1lbnQiOiBmYWxzZQogICAgICAgIH0KICAgICAgfSwKICAgICAgImluZGV4ZXMiOiB7CiAgICAgICAgInJldmlld3NfdXNlcl9wcm9kdWN0IjogewogICAgICAgICAgIm5hbWUiOiAicmV2aWV3c191c2VyX3Byb2R1Y3QiLAogICAgICAgICAgImNvbHVtbnMiOiBbCiAgICAgICAgICAgICJ1c2VyX2lkIiwKICAgICAgICAgICAgInByb2R1Y3RfaWQiCiAgICAgICAgICBdLAogICAgICAgICAgImlzVW5pcXVlIjogdHJ1ZQogICAgICAgIH0sCiAgICAgICAgInJldmlld3NfcHJvZHVjdF9jcmVhdGVkIjogewogICAgICAgICAgIm5hbWUiOiAicmV2aWV3c19wcm9kdWN0X2NyZWF0ZWQiLAogICAgICAgICAgImNvbHVtbnMiOiBbCiAgICAgICAgICAgICJwcm9kdWN0X2lkIiwKICAgICAgICAgICAgImNyZWF0ZWRfYXQiCiAgICAgICAgICBdLAogICAgICAgICAgImlzVW5pcXVlIjogZmFsc2UKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJmb3JlaWduS2V5cyI6IHt9LAogICAgICAiY29tcG9zaXRlUHJpbWFyeUtleXMiOiB7fSwKICAgICAgInVuaXF1ZUNvbnN0cmFpbnRzIjoge30sCiAgICAgICJjaGVja0NvbnN0cmFpbnRzIjoge30KICAgIH0KICB9LAogICJ2aWV3cyI6IHt9LAogICJlbnVtcyI6IHt9LAogICJfbWV0YSI6IHsKICAgICJzY2hlbWFzIjoge30sCiAgICAidGFibGVzIjoge30sCiAgICAiY29sdW1ucyI6IHt9CiAgfSwKICAiaW50ZXJuYWwiOiB7CiAgICAiaW5kZXhlcyI6IHt9CiAgfQp9
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "d624417f-820c-4814-a024-952cc67b039d",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "reports": {
+      "name": "reports",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "review_id": {
+          "name": "review_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "user_id": {
+          "name": "user_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "reason": {
+          "name": "reason",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'open'"
+        }
+      },
+      "indexes": {
+        "reports_user_review": {
+          "name": "reports_user_review",
+          "columns": [
+            "user_id",
+            "review_id"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "review_images": {
+      "name": "review_images",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "review_id": {
+          "name": "review_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "storage_key": {
+          "name": "storage_key",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "content_type": {
+          "name": "content_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "position": {
+          "name": "position",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "review_images_review_id_reviews_id_fk": {
+          "name": "review_images_review_id_reviews_id_fk",
+          "tableFrom": "review_images",
+          "tableTo": "reviews",
+          "columnsFrom": [
+            "review_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "reviews": {
+      "name": "reviews",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "user_id": {
+          "name": "user_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "nickname": {
+          "name": "nickname",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "rating": {
+          "name": "rating",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "body": {
+          "name": "body",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "reviews_user_product": {
+          "name": "reviews_user_product",
+          "columns": [
+            "user_id",
+            "product_id"
+          ],
+          "isUnique": true
+        },
+        "reviews_product_created": {
+          "name": "reviews_product_created",
+          "columns": [
+            "product_id",
+            "created_at"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}

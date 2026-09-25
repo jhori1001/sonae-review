@@ -1,1 +1,1 @@
-aW1wb3J0e3QgYXMgZX1mcm9tIi4vcnNjLXl6a0hVaUphLmpzIjt2YXIgdD1lKCgpPT57dGhyb3cgRXJyb3IoYFVuZXhwZWN0ZWRseSBjbGllbnQgcmVmZXJlbmNlIGV4cG9ydCAnQ2F0YWxvZ1ZpZXcnIGlzIGNhbGxlZCBvbiBzZXJ2ZXJgKX0sYDIxOTIyZmQxNTVjZWAsYENhdGFsb2dWaWV3YCk7ZXhwb3J0e3R9Ow==
+import{t as e}from"./rsc-yzkHUiJa.js";var t=e(()=>{throw Error(`Unexpectedly client reference export 'CatalogView' is called on server`)},`21922fd155ce`,`CatalogView`);export{t};

@@ -1,1 +1,5 @@
-ewogICJkZWJ1Z1BvcnRBZGRyZXNzIjogIjEyNy4wLjAuMTo2MTI3OSIsCiAgImRlZmF1bHRFbnRyeXBvaW50U2VydmljZSI6ICJjb3JlOnVzZXI6X19yb3V0ZXItd29ya2VyX18iLAogICJ1c2VyV29ya2VyU2VydmljZSI6ICJjb3JlOnVzZXI6X19yb3V0ZXItd29ya2VyX18iCn0=
+{
+  "debugPortAddress": "127.0.0.1:61279",
+  "defaultEntrypointService": "core:user:__router-worker__",
+  "userWorkerService": "core:user:__router-worker__"
+}

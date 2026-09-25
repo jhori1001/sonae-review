@@ -1,1 +1,2 @@
-aW1wb3J0IHsgSG9tZVBhZ2UgfSBmcm9tICdAL2NvbXBvbmVudHMvc2l0ZSc7CmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKXtyZXR1cm4gPEhvbWVQYWdlLz59DQo=
+import { HomePage } from '@/components/site';
+export default function Home(){return <HomePage/>}

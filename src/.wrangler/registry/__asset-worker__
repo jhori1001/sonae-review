@@ -1,1 +1,5 @@
-ewogICJkZWJ1Z1BvcnRBZGRyZXNzIjogIjEyNy4wLjAuMTo2MTI3OSIsCiAgImRlZmF1bHRFbnRyeXBvaW50U2VydmljZSI6ICJjb3JlOnVzZXI6X19hc3NldC13b3JrZXJfXyIsCiAgInVzZXJXb3JrZXJTZXJ2aWNlIjogImNvcmU6dXNlcjpfX2Fzc2V0LXdvcmtlcl9fIgp9
+{
+  "debugPortAddress": "127.0.0.1:61279",
+  "defaultEntrypointService": "core:user:__asset-worker__",
+  "userWorkerService": "core:user:__asset-worker__"
+}

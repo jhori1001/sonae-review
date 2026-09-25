@@ -1,1 +1,1 @@
-aW1wb3J0e1kgYXMgZSx0fWZyb20iLi4vLi4vaW5kZXguanMiO3ZhciBuPWUoKGU9Pnt2YXIgbj10KCk7ZS52ZXJzaW9uPW4udmVyc2lvbixlLnByZXJlbmRlcj1uLnByZXJlbmRlcixlLnJlc3VtZUFuZFByZXJlbmRlcj1uLnJlc3VtZUFuZFByZXJlbmRlcn0pKTtleHBvcnQgZGVmYXVsdCBuKCk7
+import{Y as e,t}from"../../index.js";var n=e((e=>{var n=t();e.version=n.version,e.prerender=n.prerender,e.resumeAndPrerender=n.resumeAndPrerender}));export default n();

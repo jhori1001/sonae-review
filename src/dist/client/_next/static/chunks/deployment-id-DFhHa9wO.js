@@ -1,1 +1,1 @@
-dmFyIGU9YHgtZGVwbG95bWVudC1pZGA7ZnVuY3Rpb24gdCgpe31mdW5jdGlvbiBuKHQsbj12b2lkIDApe24mJnQuc2V0KGUsbil9ZXhwb3J0e3QgYXMgbixuIGFzIHR9Ow==
+var e=`x-deployment-id`;function t(){}function n(t,n=void 0){n&&t.set(e,n)}export{t as n,n as t};

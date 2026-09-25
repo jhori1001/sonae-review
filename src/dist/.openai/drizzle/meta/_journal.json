@@ -1,1 +1,13 @@
-ewogICJ2ZXJzaW9uIjogIjciLAogICJkaWFsZWN0IjogInNxbGl0ZSIsCiAgImVudHJpZXMiOiBbCiAgICB7CiAgICAgICJpZHgiOiAwLAogICAgICAidmVyc2lvbiI6ICI2IiwKICAgICAgIndoZW4iOiAxNzg5NDI5ODUwMTMxLAogICAgICAidGFnIjogIjAwMDBfZHJ5X3JvbGFuZF9kZXNjaGFpbiIsCiAgICAgICJicmVha3BvaW50cyI6IHRydWUKICAgIH0KICBdCn0=
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789429850131,
+      "tag": "0000_dry_roland_deschain",
+      "breakpoints": true
+    }
+  ]
+}

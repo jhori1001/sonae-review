@@ -1,1 +1,1 @@
-aW1wb3J0e3QgYXMgZX1mcm9tIi4vcm9sbGRvd24tcnVudGltZS1EVW5NVDVCUC5qcyI7aW1wb3J0e3IgYXMgdH1mcm9tIi4vZnJhbWV3b3JrfmluZGV4fnBhZ2V+cGFnZX5sYXlvdXR+cGFnZX5wYWdlfnBhZ2V+cGFnZX5wYWdlfnBhZ2V+YXBwLXJvdXRlLWhhbmRsZXItZGlzcGF0Y2gtQ185ajhNbGEuanMiO3ZhciBuPWUoKGU9PntlLnByZXJlbmRlcj10KCkucHJlcmVuZGVyfSkpO2V4cG9ydHtuIGFzIHR9Ow==
+import{t as e}from"./rolldown-runtime-DUnMT5BP.js";import{r as t}from"./framework~index~page~page~layout~page~page~page~page~page~page~app-route-handler-dispatch-C_9j8Mla.js";var n=e((e=>{e.prerender=t().prerender}));export{n as t};

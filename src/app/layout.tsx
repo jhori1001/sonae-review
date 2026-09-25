@@ -1,1 +1,6 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgJy4vZ2xvYmFscy5jc3MnOwppbXBvcnQgJy4vbWVkaWEuY3NzJzsKaW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICdAL2NvbXBvbmVudHMvc2l0ZSc7CmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGE9e3RpdGxlOntkZWZhdWx0OifjgZ3jgarjgYjjg6zjg5Pjg6Xjg7wgfCDlhpnnnJ/jgajlj6PjgrPjg5/jgafpgbjjgbbpmLLngb3jgrDjg4PjgronLHRlbXBsYXRlOiclcyB8IOOBneOBquOBiOODrOODk+ODpeODvCd9LGRlc2NyaXB0aW9uOifosrfjgYbliY3jgavjgIHkvb/jgaPjgZ/kurrjga7jg6rjgqLjg6vjgarlj6PjgrPjg5/jgpLjgILlhpnnnJ/jg7vlj47ntI3mgKfjg7vkvb/jgYTjgoTjgZnjgZXjgYvjgonpmLLngb3jgrDjg4PjgrrjgpLmjqLjgZvjgovjg6zjg5Pjg6Xjg7zjgrXjgqTjg4jjgIInLHJvYm90czp7aW5kZXg6ZmFsc2UsZm9sbG93OmZhbHNlfSxpY29uczp7aWNvbjonL2Zhdmljb24uc3ZnJ319OwpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMYXlvdXQoe2NoaWxkcmVufTp7Y2hpbGRyZW46UmVhY3QuUmVhY3ROb2RlfSl7cmV0dXJuIDxodG1sIGxhbmc9ImphIj48Ym9keT48SGVhZGVyLz57Y2hpbGRyZW59PEZvb3Rlci8+PC9ib2R5PjwvaHRtbD59DQo=
+import type { Metadata } from 'next';
+import './globals.css';
+import './media.css';
+import { Header, Footer } from '@/components/site';
+export const metadata: Metadata={title:{default:'そなえレビュー | 写真と口コミで選ぶ防災グッズ',template:'%s | そなえレビュー'},description:'買う前に、使った人のリアルな口コミを。写真・収納性・使いやすさから防災グッズを探せるレビューサイト。',robots:{index:false,follow:false},icons:{icon:'/favicon.svg'}};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="ja"><body><Header/>{children}<Footer/></body></html>}

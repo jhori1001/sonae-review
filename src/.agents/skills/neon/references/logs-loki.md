@@ -1,1 +1,61 @@
-IyBMb2dzOiBDTEksIExva2ksIGFuZCBTREsgcGFnaW5hdGlvbg0KDQpOZW9uIGV4cG9zZXMgYnJhbmNoLXNjb3BlZCBsb2dzLiAqKlRvZGF5IHRoZXkgY292ZXIgTmVvbiBGdW5jdGlvbnMgYW5kIE9iamVjdCBTdG9yYWdlIG9ubHkuKiogUG9zdGdyZXMgY29tcHV0ZXMgYW5kIHRoZSBBSSBHYXRld2F5IGFyZSBjb21pbmc7IHVudGlsIHRoZW4sIG5laXRoZXIgZW1pdHMgcmVjb3Jkcy4gTG9ncyBhcmUgcmVnaW9uLWdhdGVkIGxpa2UgdGhlIG90aGVyIGJldGEgc2VydmljZXMuIGB1cy1lYXN0LTJgIGFuZCBgZXUtY2VudHJhbC0xYCBhcmUgZW5hYmxlZCB0b2RheS4gQSBicmFuY2ggdGhhdCBjYW4ndCBzZXJ2ZSBsb2dzIGF0IGFsbCBhbnN3ZXJzIGA0MDRgIHdpdGggYHJlYXNvbjogdGVsZW1ldHJ5X25vdF9lbmFibGVkYCAodGhlIG1lc3NhZ2Ugc2F5cyB3aGV0aGVyIGl0J3MgdGhlIHdyb25nIHJlZ2lvbiBvciBhIGJyYW5jaCBub3QgY29sbGVjdGluZyB0ZWxlbWV0cnkgeWV0KSwgdmVyc3VzIGEgYDIwMGAgZW1wdHkgcmVzdWx0IHdoZW4gdGhlIGJyYW5jaCBpcyBlbmFibGVkIGJ1dCBoYXMgbm8gcmVjb3JkcyBpbiB0aGUgd2luZG93OyBhbiB1bmtub3duIGJyYW5jaCBhbnN3ZXJzIGByZWFzb246IGJyYW5jaF9ub3RfZm91bmRgLg0KDQpVc2UgTmVvbiBDTEkgMy4xIG9yIG5ld2VyIGZpcnN0LiAqKkRlY2lkZSB3aGljaCBicmFuY2ggeW91IGFyZSBxdWVyeWluZy4qKiBXaXRob3V0IGAtLWJyYW5jaGAsIHRoZSBDTEkgdXNlcyB0aGUgYnJhbmNoIHBpbm5lZCBpbiBgLm5lb25gLCBvciB0aGUgcHJvamVjdCdzIGRlZmF1bHQgYnJhbmNoIHdoZW4gdGhlIHdvcmtzcGFjZSBpc24ndCBsaW5rZWQuIEEgZGVwbG95ZWQgZnVuY3Rpb24gb3IgYnVja2V0IHVzdWFsbHkgbGl2ZXMgb24gYSBkaWZmZXJlbnQgYnJhbmNoIHRoYW4gdGhlIG9uZSBjaGVja2VkIG91dCBmb3IgZGV2ZWxvcG1lbnQsIHNvIGFuIGVtcHR5IHJlc3VsdCBpcyBtb3JlIG9mdGVuIHRoZSB3cm9uZyBicmFuY2ggdGhhbiBhIG1pc3NpbmcgbG9nLg0KDQpgYGBiYXNoDQpuZW9uIGxvZ3MgcXVlcnkgLS1zaW5jZSAxaA0KbmVvbiBsb2dzIHF1ZXJ5IC0tYnJhbmNoIHByb2R1Y3Rpb24gLS1zb3VyY2UgZnVuY3Rpb24gLS1taW5pbXVtLXNldmVyaXR5IGVycm9yIC0tc2luY2UgNmgNCm5lb24gbG9ncyBxdWVyeSAtLXNvdXJjZSBzdG9yYWdlIC0tc2luY2UgMWggLS1vdXRwdXQganNvbg0KbmVvbiBsb2dzIGZpZWxkcw0KbmVvbiBsb2dzIGZpZWxkLXZhbHVlcyBzZXJ2aWNlX25hbWUgLS1zaW5jZSAxaA0KYGBgDQoNCmAtLXNvdXJjZWAgYWNjZXB0cyBgZnVuY3Rpb25gLCBgc3RvcmFnZWAsIGFuZCBgcGdfZW5kcG9pbnRgLCBidXQgb25seSBgZnVuY3Rpb25gIGFuZCBgc3RvcmFnZWAgcmV0dXJuIHJlY29yZHMgdG9kYXkg4oCUIGBwZ19lbmRwb2ludGAgaXMgYWNjZXB0ZWQgYW5kIGNvbWVzIGJhY2sgZW1wdHkgdW50aWwgUG9zdGdyZXMgbG9ncyBzaGlwLiBUaGUgd2luZG93IGRlZmF1bHRzIHRvIDFoIG9uIGBxdWVyeWAgYW5kIDZoIG9uIGBmaWVsZC12YWx1ZXNgLCBhbmQgY2Fubm90IGV4Y2VlZCA3ZCBvbiBlaXRoZXIuIElmIE5lb24gcmVwb3J0cyBgLS1taW5pbXVtLXNldmVyaXR5YCBhcyB1bnN1cHBvcnRlZCBvbiBhIGJyYW5jaCwgdXNlIGAtLXNldmVyaXR5LXRleHRgIGluc3RlYWQgKGFuIGV4YWN0LCBjYXNlLXNlbnNpdGl2ZSBtYXRjaCwgZS5nLiBgRVJST1JgKTsgc2V2ZXJpdGllcyB2YXJ5IGJ5IHNvdXJjZSwgc28gY29uZmlybSB3aGF0IGEgYnJhbmNoIGNhcnJpZXMgd2l0aCBgbmVvbiBsb2dzIGZpZWxkLXZhbHVlcyBzZXZlcml0eV90ZXh0YC4gUnVuIGBuZW9uIGxvZ3MgLS1oZWxwYCBmb3IgdGhlIGZ1bGwgZmlsdGVyIGFuZCBwYWdpbmF0aW9uIGludGVyZmFjZS4NCg0KYC0tbG9ncWxgIHJlcGxhY2VzIHRoZSBzdHJ1Y3R1cmVkIGZpbHRlcnMgd2l0aCBhIHJhdyBzdHJlYW0gc2VsZWN0b3Igb3IgbGluZSBmaWx0ZXIuIEl0cyBzdHJlYW0gbGFiZWwgaXMgYGVudGl0eV90eXBlYCwgbm90IGBzb3VyY2VgOg0KDQpgYGBiYXNoDQpuZW9uIGxvZ3MgcXVlcnkgLS1zaW5jZSAxaCAtLWxvZ3FsICd7ZW50aXR5X3R5cGU9ImZ1bmN0aW9uIn0gfD0gInRpbWVvdXQiJw0KYGBgDQoNCklmIHRoZSBDTEkgaXMgdW5hdmFpbGFibGUsIGZhbGwgYmFjayB0byB0aGUgTmVvbiBNQ1Agc2VydmVyJ3MgcmVhZC1vbmx5IGBxdWVyeV9sb2dzYCwgYGxpc3RfbG9nX2ZpZWxkc2AsIGFuZCBgbGlzdF9sb2dfZmllbGRfdmFsdWVzYCB0b29scy4NCg0KIyMgTG9raS1jb21wYXRpYmxlIHJlYWQgQVBJDQoNCkZvciBkaXJlY3QgSFRUUCByZWFkcywgYXV0aGVudGljYXRlIHdpdGggYEF1dGhvcml6YXRpb246IEJlYXJlciA8TkVPTl9BUElfS0VZPmAgYW5kIHVzZSB0aGlzIGJyYW5jaC1zY29wZWQgYmFzZSBVUkw6DQoNCmBgYHRleHQNCmh0dHBzOi8vY29uc29sZS5uZW9uLnRlY2gvdGVsZW1ldHJ5L3YxL3Byb2plY3RzL3twcm9qZWN0SWR9L2JyYW5jaGVzL3ticmFuY2hJZH0vbG9raQ0KYGBgDQoNClRoZSBhdmFpbGFibGUgZW5kcG9pbnRzIGFyZToNCg0KLSBgR0VUIC9hcGkvdjEvcXVlcnlfcmFuZ2VgDQotIGBHRVQgL2FwaS92MS9sYWJlbHNgDQotIGBHRVQgL2FwaS92MS9sYWJlbC97bmFtZX0vdmFsdWVzYA0KDQpUaGlzIGlzIGEgcmVhZC1vbmx5IExva2ktY29tcGF0aWJsZSBzdWJzZXQsIG5vdCBhIHB1c2ggZW5kcG9pbnQgb3IgY29tcGxldGUgTG9raSBkZXBsb3ltZW50LiBgcXVlcnlfcmFuZ2VgIHN1cHBvcnRzIExvZ1FMIHN0cmVhbSBzZWxlY3RvcnMgYW5kIGxpbmUgZmlsdGVycywgcGx1cyBgc2luY2VgIG9yIGBzdGFydGAvYGVuZGAsIGBsaW1pdGAsIGFuZCBgZGlyZWN0aW9uYDsgaXQgZG9lcyBub3Qgc3VwcG9ydCBhZ2dyZWdhdGlvbnMsIHBhcnNlcnMsIG9yIGZvcm1hdHRpbmcgc3RhZ2VzLg0KDQpUaGUgcGF0aHMgYWJvdmUgYXJlIHRoZSBvbmVzIHRvIGNhbGwgZGlyZWN0bHkuIEEgTG9raSBjbGllbnQgdGhhdCBidWlsZHMgaXRzIG93biBwYXRocyDigJQgYSBHcmFmYW5hIGRhdGEgc291cmNlIGFwcGVuZHMgYC9sb2tpL2FwaS92MWAgdG8gd2hhdGV2ZXIgVVJMIGl0IGlzIGdpdmVuIOKAlCBtYXkgbmVlZCBhIGRpZmZlcmVudCByb290LCBzbyBjb25maXJtIHRoZSBkYXRhLXNvdXJjZSBVUkwgYWdhaW5zdCB0aGUgTmVvbiBkb2NzIHJhdGhlciB0aGFuIHBhc3RpbmcgdGhpcyBiYXNlLg0KDQpJbiBUeXBlU2NyaXB0IGFwcGxpY2F0aW9ucywgdXNlIGBAbmVvbi9zZGtgLiBQcm9qZWN0IGFuZCBicmFuY2ggYXJlIHBvc2l0aW9uYWwsIGFuZCBgcXVlcnlgIHJldHVybnMgYSBsYXp5IHBhZ2luYXRlZCBpdGVyYWJsZSByYXRoZXIgdGhhbiBhIHByb21pc2U6DQoNCmBgYHR5cGVzY3JpcHQNCmZvciBhd2FpdCAoY29uc3QgcmVjb3JkIG9mIG5lb24ubG9ncy5xdWVyeShwcm9qZWN0SWQsIGJyYW5jaElkLCB7DQogIHNpbmNlOiAiMWgiLA0KICBzb3VyY2U6ICJmdW5jdGlvbiIsDQp9KSkgew0KICBjb25zb2xlLmxvZyhyZWNvcmQudGltZXN0YW1wLCByZWNvcmQuc2V2ZXJpdHlfdGV4dCwgcmVjb3JkLm1lc3NhZ2UpOw0KfQ0KDQpjb25zdCB7IGRhdGE6IGZpZWxkcyB9ID0gYXdhaXQgbmVvbi5sb2dzLmZpZWxkcyhwcm9qZWN0SWQsIGJyYW5jaElkKTsNCmNvbnN0IHsgZGF0YTogc2VydmljZU5hbWVzIH0gPSBhd2FpdCBuZW9uLmxvZ3MuZmllbGRWYWx1ZXMoDQogIHByb2plY3RJZCwNCiAgYnJhbmNoSWQsDQogICJzZXJ2aWNlX25hbWUiLA0KKTsNCmBgYA0KDQpgcXVlcnlgJ3MgaXRlcmF0b3IgYWx3YXlzIHRocm93cyBvbiBlcnJvciwgYnV0IGBmaWVsZHNgIGFuZCBgZmllbGRWYWx1ZXNgIGZvbGxvdyB0aGUgY2xpZW50J3MgYHRocm93T25FcnJvcmAsIHdoaWNoIGRlZmF1bHRzIHRvIGBmYWxzZWAgYW5kIGhhbmRzIGJhY2sgYHsgZGF0YSwgZXJyb3IgfWAuIGBmaWVsZFZhbHVlc2AgcmVzb2x2ZXMgdG8gdGhlIHdob2xlIHJlc3BvbnNlLCBub3QgYSBiYXJlIGFycmF5OiByZWFkIGBzZXJ2aWNlTmFtZXMudmFsdWVzYCwgYW5kIHRyZWF0IHRoZW0gYXMgYW4gYXJiaXRyYXJ5IHN1YnNldCB3aGVuZXZlciBgc2VydmljZU5hbWVzLmlzX3RydW5jYXRlZGAgaXMgdHJ1ZS4NCg==
+# Logs: CLI, Loki, and SDK pagination
+
+Neon exposes branch-scoped logs. **Today they cover Neon Functions and Object Storage only.** Postgres computes and the AI Gateway are coming; until then, neither emits records. Logs are region-gated like the other beta services. `us-east-2` and `eu-central-1` are enabled today. A branch that can't serve logs at all answers `404` with `reason: telemetry_not_enabled` (the message says whether it's the wrong region or a branch not collecting telemetry yet), versus a `200` empty result when the branch is enabled but has no records in the window; an unknown branch answers `reason: branch_not_found`.
+
+Use Neon CLI 3.1 or newer first. **Decide which branch you are querying.** Without `--branch`, the CLI uses the branch pinned in `.neon`, or the project's default branch when the workspace isn't linked. A deployed function or bucket usually lives on a different branch than the one checked out for development, so an empty result is more often the wrong branch than a missing log.
+
+```bash
+neon logs query --since 1h
+neon logs query --branch production --source function --minimum-severity error --since 6h
+neon logs query --source storage --since 1h --output json
+neon logs fields
+neon logs field-values service_name --since 1h
+```
+
+`--source` accepts `function`, `storage`, and `pg_endpoint`, but only `function` and `storage` return records today — `pg_endpoint` is accepted and comes back empty until Postgres logs ship. The window defaults to 1h on `query` and 6h on `field-values`, and cannot exceed 7d on either. If Neon reports `--minimum-severity` as unsupported on a branch, use `--severity-text` instead (an exact, case-sensitive match, e.g. `ERROR`); severities vary by source, so confirm what a branch carries with `neon logs field-values severity_text`. Run `neon logs --help` for the full filter and pagination interface.
+
+`--logql` replaces the structured filters with a raw stream selector or line filter. Its stream label is `entity_type`, not `source`:
+
+```bash
+neon logs query --since 1h --logql '{entity_type="function"} |= "timeout"'
+```
+
+If the CLI is unavailable, fall back to the Neon MCP server's read-only `query_logs`, `list_log_fields`, and `list_log_field_values` tools.
+
+## Loki-compatible read API
+
+For direct HTTP reads, authenticate with `Authorization: Bearer <NEON_API_KEY>` and use this branch-scoped base URL:
+
+```text
+https://console.neon.tech/telemetry/v1/projects/{projectId}/branches/{branchId}/loki
+```
+
+The available endpoints are:
+
+- `GET /api/v1/query_range`
+- `GET /api/v1/labels`
+- `GET /api/v1/label/{name}/values`
+
+This is a read-only Loki-compatible subset, not a push endpoint or complete Loki deployment. `query_range` supports LogQL stream selectors and line filters, plus `since` or `start`/`end`, `limit`, and `direction`; it does not support aggregations, parsers, or formatting stages.
+
+The paths above are the ones to call directly. A Loki client that builds its own paths — a Grafana data source appends `/loki/api/v1` to whatever URL it is given — may need a different root, so confirm the data-source URL against the Neon docs rather than pasting this base.
+
+In TypeScript applications, use `@neon/sdk`. Project and branch are positional, and `query` returns a lazy paginated iterable rather than a promise:
+
+```typescript
+for await (const record of neon.logs.query(projectId, branchId, {
+  since: "1h",
+  source: "function",
+})) {
+  console.log(record.timestamp, record.severity_text, record.message);
+}
+
+const { data: fields } = await neon.logs.fields(projectId, branchId);
+const { data: serviceNames } = await neon.logs.fieldValues(
+  projectId,
+  branchId,
+  "service_name",
+);
+```
+
+`query`'s iterator always throws on error, but `fields` and `fieldValues` follow the client's `throwOnError`, which defaults to `false` and hands back `{ data, error }`. `fieldValues` resolves to the whole response, not a bare array: read `serviceNames.values`, and treat them as an arbitrary subset whenever `serviceNames.is_truncated` is true.

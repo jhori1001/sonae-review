@@ -1,1 +1,58 @@
-J3VzZSBjbGllbnQnOwppbXBvcnQge3VzZVN0YXRlfSBmcm9tICdyZWFjdCc7CmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7CmltcG9ydCB7QXJyb3dSaWdodH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKaW1wb3J0IHtwcm9kdWN0cyxjYXRlZ29yaWVzLHR5cGUgUHJvZHVjdH0gZnJvbSAnQC9saWIvY2F0YWxvZyc7CmltcG9ydCB7UHJvZHVjdENhcmR9IGZyb20gJy4vc2l0ZSc7Cgpjb25zdCBkaXNhc3Rlckxpc3Q9WyflnLDpnIcnLCflj7DpoqgnLCflpKfpm6gnLCflgZzpm7snLCfpgb/pm6MnXSBhcyBjb25zdDsKY29uc3QgZGlzYXN0ZXJFc3NlbnRpYWxzOlJlY29yZDxzdHJpbmcsc3RyaW5nW10+PXsKICflnLDpnIcnOlsn6Ziy54G944K744OD44OIJywn6Ziy54G944OQ44OD44KwJywn44OY44Or44Oh44OD44OIJywn5a625YW36Lui5YCS6Ziy5q2iJywn57Ch5piT44OI44Kk44OsJywn6aOy5paZ5rC0Jywn6Z2e5bi46aOfJywn5pWR5oCl55So5ZOBJ10sCiAn5Y+w6aKoJzpbJ+mYsueBveOCu+ODg+ODiCcsJ+ODqeOCpOODiOODu+ODqeODs+OCv+ODsycsJ+ODqeOCuOOCqicsJ+ODouODkOOCpOODq+ODkOODg+ODhuODquODvCcsJ+mjsuaWmeawtCcsJ+mdnuW4uOmjnycsJ+ewoeaYk+ODiOOCpOODrCddLAogJ+Wkp+mbqCc6WyfpmLLngb3jg5Djg4PjgrAnLCfmlZHmgKXnlKjlk4EnLCfjg6njgqTjg4jjg7vjg6njg7Pjgr/jg7MnLCfpmLLngb3jgrvjg4Pjg4gnLCfpo7LmlpnmsLQnLCfjg6njgrjjgqonXSwKICflgZzpm7snOlsn44Od44O844K/44OW44Or6Zu75rqQJywn44Oi44OQ44Kk44Or44OQ44OD44OG44Oq44O8Jywn44Op44Kk44OI44O744Op44Oz44K/44OzJywn44Op44K444KqJywn6Z2e5bi46aOfJywn6Ziy5a+S55So5ZOBJ10sCiAn6YG/6ZujJzpbJ+mYsueBveODkOODg+OCsCcsJ+mYsueBveOCu+ODg+ODiCcsJ+ewoeaYk+ODiOOCpOODrCcsJ+ihm+eUn+eUqOWTgScsJ+mYsuWvkueUqOWTgScsJ+mjsuaWmeawtCcsJ+mdnuW4uOmjnyddLAp9Owpjb25zdCBob3VzZWhvbGRzPVsKIHtpZDonc29sbycsbGFiZWw6J+S4gOS6uuaaruOCieOBlycsZXh0cmE6WyfpmLLngb3jgrvjg4Pjg4gnXSxub3RlOifjgrPjg7Pjg5Hjgq/jg4jjgacx5Lq65YiG44GM5o+D44GG44KC44Gu44GL44KJ44CCJ30sCiB7aWQ6J2ZhbWlseScsbGFiZWw6J+WutuaXj+ODu+S6jOS6uuS7peS4iicsZXh0cmE6WyfpmLLngb3jgrvjg4Pjg4gnLCfpo7LmlpnmsLQnXSxub3RlOifkurrmlbDliIbjga7msLTjg7vpo5/mlpnjgpLlhYjjgavnorrkv53jgZfjgb7jgZnjgIInfSwKIHtpZDona2lkcycsbGFiZWw6J+WtkOOBqeOCguOBjOOBhOOCiycsZXh0cmE6WyflrZDjganjgoLlkJHjgZEnLCfooZvnlJ/nlKjlk4EnXSxub3RlOifpmLLngb3poK3lt77jgarjganjgIHlrZDjganjgoLnlKjjgpLlhYjjgavjgIInfSwKIHtpZDonc2VuaW9yJyxsYWJlbDon6auY6b2i6ICF44Go5ZCM5bGFJyxleHRyYTpbJ+mrmOm9ouiAheWQkeOBkScsJ+ihm+eUn+eUqOWTgScsJ+mYsuWvkueUqOWTgSddLG5vdGU6J+S7i+itt+ODu+ODiOOCpOODrOODu+mYsuWvkuOBvuOCj+OCiuOCkumHjeimluOBl+OBvuOBmeOAgid9LAoge2lkOidwZXQnLGxhYmVsOifjg5rjg4Pjg4jjgajmmq7jgonjgZknLGV4dHJhOlsn44Oa44OD44OI6Ziy54G9J10sbm90ZTon5ZCM6KGM6YG/6Zuj44Gr5b+F6KaB44Gq44KC44Gu44KS6L+95Yqg44GX44G+44GZ44CCJ30sCiB7aWQ6J3dvbWFuJyxsYWJlbDon5aWz5oCnJyxleHRyYTpbJ+Wls+aAp+WQkeOBkScsJ+ihm+eUn+eUqOWTgSddLG5vdGU6J+ihm+eUn+eUqOWTgeOChOWls+aAp+WQkeOBkeOCu+ODg+ODiOOCkumHjeimluOBl+OBvuOBmeOAgid9LApdIGFzIGNvbnN0Owpjb25zdCByZWFzb25zOlJlY29yZDxzdHJpbmcsc3RyaW5nPj17CiAn6Ziy54G944K744OD44OIJzon44G+44Ga5LiA5byP44Gn5o+D44GI44KL5a6a55Wq44CCJywn6Ziy54G944OQ44OD44KwJzon44GZ44GQ5oyB44Gh5Ye644Gb44KL54q25oWL44Gr44GX44Gm44GK44GP44CCJywn44OY44Or44Oh44OD44OIJzon6JC95LiL54mp44GL44KJ6aCt44KS5a6I44KL44CCJywn5a625YW36Lui5YCS6Ziy5q2iJzon5a6244Gu5Lit44Gu44Kx44Ks44KS6Ziy44GQ44CCJywKICfnsKHmmJPjg4jjgqTjg6wnOifmlq3msLTjg7vpgb/pm6PmiYDjga7jg4jjgqTjg6zlr77nrZbjgIInLCfpo7LmlpnmsLQnOicx5Lq6MeaXpTNM44CB5pyA5L2OM+aXpeWIhuOAgicsJ+mdnuW4uOmjnyc6J+eBq+OCkuS9v+OCj+OBmumjn+OBueOCieOCjOOCi+WCmeiThOOAgicsJ+aVkeaApeeUqOWTgSc6J+Wwj+OBleOBquOCseOCrOOBq+iHquWIhuOBp+WvvuW/nOOAgicsCiAn44Op44Kk44OI44O744Op44Oz44K/44OzJzon5YGc6Zu75pmC44Gu5piO44GL44KK44KS56K65L+d44CCJywn44Op44K444KqJzon6YCa5L+h44GM6YCU5YiH44KM44Gm44KC5oOF5aCx44KS5b6X44KL44CCJywn44Oi44OQ44Kk44Or44OQ44OD44OG44Oq44O8Jzon44K544Oe44Ob44Gu6Zu75rqQ44KS56K65L+d44CCJywn44Od44O844K/44OW44Or6Zu75rqQJzon6ZW35byV44GP5YGc6Zu744Gr44CCJywKICfpmLLlr5LnlKjlk4EnOiflhqzjga7lgZzpm7vjg7vpgb/pm6PmiYDjga7lr5LjgZXlr77nrZbjgIInLCfooZvnlJ/nlKjlk4EnOifmsLTjgYzkvb/jgYjjgarjgYTmmYLjga7muIXmvZTjgpLkv53jgaTjgIInLCflrZDjganjgoLlkJHjgZEnOiflrZDjganjgoLlsILnlKjjga7pmLLngb3nlKjlk4HjgIInLCfpq5jpvaLogIXlkJHjgZEnOifku4vorbfjgoTmjIHnl4XjgavphY3mha7jgZfjgZ/jgoLjga7jgIInLAogJ+Wls+aAp+WQkeOBkSc6J+Wls+aAp+OBrumBv+mbo+eUn+a0u+OBq+mFjeaFruOBl+OBn+OCguOBruOAgicsJ+ODmuODg+ODiOmYsueBvSc6J+ODmuODg+ODiOOBqOS4gOe3kuOBrumBv+mbo+OBq+OAgicsCn07CmNvbnN0IHRvcD0oY2F0ZWdvcnk6c3RyaW5nKT0+cHJvZHVjdHMuZmlsdGVyKHA9PnAuY2F0ZWdvcnk9PT1jYXRlZ29yeSkuc29ydCgoYTpQcm9kdWN0LGI6UHJvZHVjdCk9PihiLnJha3V0ZW5SZXZpZXdDb3VudHx8MCkqKGIucmFrdXRlblJldmlld0F2ZXJhZ2V8fDApLShhLnJha3V0ZW5SZXZpZXdDb3VudHx8MCkqKGEucmFrdXRlblJldmlld0F2ZXJhZ2V8fDApKS5zbGljZSgwLDMpOwoKZXhwb3J0IGZ1bmN0aW9uIEd1aWRlVmlldyh7aW5pdGlhbERpc2FzdGVyPScnLGluaXRpYWxIb3VzZWhvbGRzPVtdfTp7aW5pdGlhbERpc2FzdGVyPzpzdHJpbmc7aW5pdGlhbEhvdXNlaG9sZHM/OnN0cmluZ1tdfSl7CiBjb25zdCBbZGlzYXN0ZXIsc2V0RGlzYXN0ZXJdPXVzZVN0YXRlKGluaXRpYWxEaXNhc3Rlcik7CiBjb25zdCBbcGlja2VkLHNldFBpY2tlZF09dXNlU3RhdGU8c3RyaW5nW10+KGluaXRpYWxIb3VzZWhvbGRzKTsKIGNvbnN0IHRvZ2dsZT0oaWQ6c3RyaW5nKT0+c2V0UGlja2VkKHA9PnAuaW5jbHVkZXMoaWQpP3AuZmlsdGVyKHg9PnghPT1pZCk6Wy4uLnAsaWRdKTsKIGNvbnN0IGV4dHJhczpzdHJpbmdbXT1ob3VzZWhvbGRzLmZpbHRlcihoPT5waWNrZWQuaW5jbHVkZXMoaC5pZCkpLmZsYXRNYXAoaD0+aC5leHRyYSk7CiBjb25zdCBiYXNlPWRpc2FzdGVyP2Rpc2FzdGVyRXNzZW50aWFsc1tkaXNhc3Rlcl06W107CiBjb25zdCBvcmRlcmVkPVsuLi5uZXcgU2V0KFsuLi5leHRyYXMsLi4uYmFzZV0pXS5maWx0ZXIoYz0+KGNhdGVnb3JpZXMgYXMgcmVhZG9ubHkgc3RyaW5nW10pLmluY2x1ZGVzKGMpKTsKIGNvbnN0IGZvcllvdT1uZXcgU2V0PHN0cmluZz4oZXh0cmFzKTsKIHJldHVybiA8PgogIDxzZWN0aW9uIGNsYXNzTmFtZT0iZ3VpZGUtc3RlcCI+PGgyPjxzcGFuPjE8L3NwYW4+5YKZ44GI44Gf44GE54G95a6z44KS6YG444G2PC9oMj4KICAgPGRpdiBjbGFzc05hbWU9ImNoaXAtcm93Ij57ZGlzYXN0ZXJMaXN0Lm1hcChkPT48YnV0dG9uIHR5cGU9ImJ1dHRvbiIga2V5PXtkfSBjbGFzc05hbWU9e2BjaGlwICR7ZGlzYXN0ZXI9PT1kPydvbic6Jyd9YH0gYXJpYS1wcmVzc2VkPXtkaXNhc3Rlcj09PWR9IG9uQ2xpY2s9eygpPT5zZXREaXNhc3RlcihkaXNhc3Rlcj09PWQ/Jyc6ZCl9PntkfTwvYnV0dG9uPil9PC9kaXY+CiAgPC9zZWN0aW9uPgogIDxzZWN0aW9uIGNsYXNzTmFtZT0iZ3VpZGUtc3RlcCI+PGgyPjxzcGFuPjI8L3NwYW4+44GC44Gm44Gv44G+44KL5a625peP5qeL5oiQ44KS6YG444G2PHNtYWxsPu+8iOikh+aVsE9L77yJPC9zbWFsbD48L2gyPgogICA8ZGl2IGNsYXNzTmFtZT0iY2hpcC1yb3ciPntob3VzZWhvbGRzLm1hcChoPT48YnV0dG9uIHR5cGU9ImJ1dHRvbiIga2V5PXtoLmlkfSBjbGFzc05hbWU9e2BjaGlwICR7cGlja2VkLmluY2x1ZGVzKGguaWQpPydvbic6Jyd9YH0gYXJpYS1wcmVzc2VkPXtwaWNrZWQuaW5jbHVkZXMoaC5pZCl9IG9uQ2xpY2s9eygpPT50b2dnbGUoaC5pZCl9PntoLmxhYmVsfTwvYnV0dG9uPil9PC9kaXY+CiAgIHtob3VzZWhvbGRzLmZpbHRlcihoPT5waWNrZWQuaW5jbHVkZXMoaC5pZCkpLm1hcChoPT48cCBrZXk9e2guaWR9IGNsYXNzTmFtZT0ibXV0ZWQgZ3VpZGUtbm90ZSI+e2gubGFiZWx977yae2gubm90ZX08L3A+KX0KICA8L3NlY3Rpb24+CiAgeyFkaXNhc3RlciYmIXBpY2tlZC5sZW5ndGg/PGRpdiBjbGFzc05hbWU9ImVtcHR5LXN0YXRlIj48aDI+5LiK44GuMuOBpOOCkumBuOOBtuOBqOOAgeaPg+OBiOOCi+mghueVquOBjOihqOekuuOBleOCjOOBvuOBmTwvaDI+PHA+44G+44Ga44Gv5YKZ44GI44Gf44GE54G95a6z44GL44KJ6YG444KT44Gn44G/44Gm44GP44Gg44GV44GE44CCPC9wPjwvZGl2PjoKICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJndWlkZS1yZXN1bHQiPjxoMj7jgYLjgarjgZ/jgavjgYrjgZnjgZnjgoHjga7lgpnjgYh7ZGlzYXN0ZXImJjw+77yIe2Rpc2FzdGVyfe+8iTwvPn08L2gyPgogICAge29yZGVyZWQubWFwKChjLGkpPT57Y29uc3QgaXRlbXM9dG9wKGMpO3JldHVybiA8ZGl2IGNsYXNzTmFtZT0iZ3VpZGUtYmxvY2siIGtleT17Y30+CiAgICAgPGRpdiBjbGFzc05hbWU9Imd1aWRlLWJsb2NrLWhlYWQiPjxzcGFuIGNsYXNzTmFtZT0iZ3VpZGUtbnVtIj57aSsxfTwvc3Bhbj48ZGl2PjxoMz57Y317Zm9yWW91LmhhcyhjKSYmPGVtPuOBguOBquOBn+OBruWutuW6reWQkeOBkTwvZW0+fTwvaDM+PHAgY2xhc3NOYW1lPSJtdXRlZCI+e3JlYXNvbnNbY119PC9wPjwvZGl2PjxMaW5rIGhyZWY9e2AvY2F0ZWdvcmllcy8keyhjYXRlZ29yaWVzIGFzIHJlYWRvbmx5IHN0cmluZ1tdKS5pbmRleE9mKGMpfWB9PuOCguOBo+OBqOimi+OCizxBcnJvd1JpZ2h0IHNpemU9ezE1fS8+PC9MaW5rPjwvZGl2PgogICAgIDxkaXYgY2xhc3NOYW1lPSJwcm9kdWN0LWdyaWQgdGhyZWUiPntpdGVtcy5tYXAocD0+PFByb2R1Y3RDYXJkIGtleT17cC5pZH0gcHJvZHVjdD17cH0vPil9PC9kaXY+CiAgICA8L2Rpdj59KX0KICAgPC9zZWN0aW9uPn0KIDwvPjsKfQo=
+'use client';
+import {useState} from 'react';
+import Link from 'next/link';
+import {ArrowRight} from 'lucide-react';
+import {products,categories,type Product} from '@/lib/catalog';
+import {ProductCard} from './site';
+import {Reveal} from './reveal';
+
+const disasterList=['地震','台風','大雨','停電','避難'] as const;
+const disasterEssentials:Record<string,string[]>={
+ '地震':['防災セット','防災バッグ','ヘルメット','家具転倒防止','簡易トイレ','飲料水','非常食','救急用品'],
+ '台風':['防災セット','ライト・ランタン','ラジオ','モバイルバッテリー','飲料水','非常食','簡易トイレ'],
+ '大雨':['防災バッグ','救急用品','ライト・ランタン','防災セット','飲料水','ラジオ'],
+ '停電':['ポータブル電源','モバイルバッテリー','ライト・ランタン','ラジオ','非常食','防寒用品'],
+ '避難':['防災バッグ','防災セット','簡易トイレ','衛生用品','防寒用品','飲料水','非常食'],
+};
+const households=[
+ {id:'solo',label:'一人暮らし',extra:['防災セット'],note:'コンパクトで1人分が揃うものから。'},
+ {id:'family',label:'家族・二人以上',extra:['防災セット','飲料水'],note:'人数分の水・食料を先に確保します。'},
+ {id:'kids',label:'子どもがいる',extra:['子ども向け','衛生用品'],note:'防災頭巾など、子ども用を先に。'},
+ {id:'senior',label:'高齢者と同居',extra:['高齢者向け','衛生用品','防寒用品'],note:'介護・トイレ・防寒まわりを重視します。'},
+ {id:'pet',label:'ペットと暮らす',extra:['ペット防災'],note:'同行避難に必要なものを追加します。'},
+ {id:'woman',label:'女性',extra:['女性向け','衛生用品'],note:'衛生用品や女性向けセットを重視します。'},
+] as const;
+const reasons:Record<string,string>={
+ '防災セット':'まず一式で揃える定番。','防災バッグ':'すぐ持ち出せる状態にしておく。','ヘルメット':'落下物から頭を守る。','家具転倒防止':'家の中のケガを防ぐ。',
+ '簡易トイレ':'断水・避難所のトイレ対策。','飲料水':'1人1日3L、最低3日分。','非常食':'火を使わず食べられる備蓄。','救急用品':'小さなケガに自分で対応。',
+ 'ライト・ランタン':'停電時の明かりを確保。','ラジオ':'通信が途切れても情報を得る。','モバイルバッテリー':'スマホの電源を確保。','ポータブル電源':'長引く停電に。',
+ '防寒用品':'冬の停電・避難所の寒さ対策。','衛生用品':'水が使えない時の清潔を保つ。','子ども向け':'子ども専用の防災用品。','高齢者向け':'介護や持病に配慮したもの。',
+ '女性向け':'女性の避難生活に配慮したもの。','ペット防災':'ペットと一緒の避難に。',
+};
+const top=(category:string)=>products.filter(p=>p.category===category).sort((a:Product,b:Product)=>(b.rakutenReviewCount||0)*(b.rakutenReviewAverage||0)-(a.rakutenReviewCount||0)*(a.rakutenReviewAverage||0)).slice(0,3);
+
+export function GuideView({initialDisaster='',initialHouseholds=[]}:{initialDisaster?:string;initialHouseholds?:string[]}){
+ const [disaster,setDisaster]=useState(initialDisaster);
+ const [picked,setPicked]=useState<string[]>(initialHouseholds);
+ const toggle=(id:string)=>setPicked(p=>p.includes(id)?p.filter(x=>x!==id):[...p,id]);
+ const extras:string[]=households.filter(h=>picked.includes(h.id)).flatMap(h=>h.extra);
+ const base=disaster?disasterEssentials[disaster]:[];
+ const ordered=[...new Set([...extras,...base])].filter(c=>(categories as readonly string[]).includes(c));
+ const forYou=new Set<string>(extras);
+ return <>
+  <section className="guide-step"><h2><span>1</span>備えたい災害を選ぶ</h2>
+   <div className="chip-row">{disasterList.map(d=><button type="button" key={d} className={`chip ${disaster===d?'on':''}`} aria-pressed={disaster===d} onClick={()=>setDisaster(disaster===d?'':d)}>{d}</button>)}</div>
+  </section>
+  <section className="guide-step"><h2><span>2</span>あてはまる家族構成を選ぶ<small>（複数OK）</small></h2>
+   <div className="chip-row">{households.map(h=><button type="button" key={h.id} className={`chip ${picked.includes(h.id)?'on':''}`} aria-pressed={picked.includes(h.id)} onClick={()=>toggle(h.id)}>{h.label}</button>)}</div>
+   {households.filter(h=>picked.includes(h.id)).map(h=><p key={h.id} className="muted guide-note">{h.label}：{h.note}</p>)}
+  </section>
+  {!disaster&&!picked.length?<div className="empty-state"><h2>上の2つを選ぶと、揃える順番が表示されます</h2><p>まずは備えたい災害から選んでみてください。</p></div>:
+   <section className="guide-result"><h2>あなたにおすすめの備え{disaster&&<>（{disaster}）</>}</h2>
+    {ordered.map((c,i)=>{const items=top(c);return <div className="guide-block" key={c}>
+     <div className="guide-block-head"><span className="guide-num">{i+1}</span><div><h3>{c}{forYou.has(c)&&<em>あなたの家庭向け</em>}</h3><p className="muted">{reasons[c]}</p></div><Link href={`/categories/${(categories as readonly string[]).indexOf(c)}`}>もっと見る<ArrowRight size={15}/></Link></div>
+     <Reveal className="product-grid three" stagger>{items.map(p=><ProductCard key={p.id} product={p}/>)}</Reveal>
+    </div>})}
+   </section>}
+ </>;
+}

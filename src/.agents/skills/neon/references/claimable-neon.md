@@ -1,1 +1,117 @@
-IyBDbGFpbWFibGUgTmVvbg0KDQpDbGFpbWFibGUgTmVvbiBwcm92aXNpb25zIGEgdGVtcG9yYXJ5IE5lb24gcHJvamVjdCDigJQgTGFrZWJhc2UgUG9zdGdyZXMsIGFuZCBvcHRpb25hbGx5IHRoZSBEYXRhIEFQSSBhbmQgTWFuYWdlZCBCZXR0ZXIgQXV0aCDigJQgYmVmb3JlIGEgaHVtYW4gY3JlYXRlcyBhbiBhY2NvdW50LiBUaGUgYWdlbnQgaG9sZHMgYW4gaWRlbnRpdHkgYXNzZXJ0aW9uLCBub3QgYSBOZW9uIEFQSSBrZXkuIEEgaHVtYW4gY2FuIGxhdGVyIGNsYWltIHRoZSBwcm9qZWN0IGludG8gdGhlaXIgb3JnYW5pemF0aW9uLg0KDQpUaGlzIGZsb3cgZm9sbG93cyB0aGUgW2F1dGgubWRdKGh0dHBzOi8vY2xhaW1hYmxlLm5lb24udGVjaC9hdXRoLm1kKSBwcm90b2NvbC4gRmV0Y2ggYGh0dHBzOi8vY2xhaW1hYmxlLm5lb24udGVjaC9hdXRoLm1kYCBmb3IgcmVxdWVzdCBhbmQgcmVzcG9uc2UgZmllbGRzLiBSRVNUIGlzIG9uIGBodHRwczovL2NsYWltYWJsZS5uZW9uLnRlY2hgLiBVc2UgdGhlIHRhYmxlIGJlbG93OyBkbyBub3QgaW52ZW50IG90aGVyIGlkZW50aXR5IHBhdGhzLg0KDQpVc2UgdGhpcyBhZnRlciB0aGUgbmVvbiBza2lsbCBhY2NvdW50IGNoZWNrIGZvdW5kIG5vIGFjY291bnQuDQoNCiMjIFBhdGgNCg0KMS4gSW5zdGFsbCB0aGUgQ0xJOiBgbnBtIGkgLWcgbmVvbkBsYXRlc3RgDQoyLiBJZiBgbmVvbiBjbGFpbSAtLWhlbHBgIGRvZXMgbm90IGxpc3QgYGNyZWF0ZWAsIHNraXAgdG8gW0lmIG5lb24gY2xhaW0gaXMgbWlzc2luZ10oI2lmLW5lb24tY2xhaW0taXMtbWlzc2luZykuDQozLiBXcml0ZSBhIGBuZW9uLnRzYCB0aGF0IGRlY2xhcmVzIHRoZSBzZXJ2aWNlcyB5b3UgbmVlZCwgb3Igc2tpcCB0aGUgZmlsZSBhbmQgcGFzcyBgLS1zZXJ2aWNlYCBvbiBjcmVhdGUuIFBvc3RncmVzIGlzIGFsd2F5cyByZXF1ZXN0ZWQuIFJlcXVlc3QgQXV0aCB3aGVuIGxvZ2luIGlzIG5lZWRlZC4gUmVxdWVzdCBgZGF0YS1hcGlgIG9ubHkgZm9yIFBvc3RnUkVTVCAvIFN1cGFiYXNlIGRhdGFiYXNlLWNsaWVudCBjb21wYXRpYmlsaXR5Lg0KNC4gQ3JlYXRlIHRoZSBwcm9qZWN0OiBgbmVvbiBjbGFpbSBjcmVhdGUgLS1lbnYtcHVsbGAgKGFkZCBgLS1zZXJ2aWNlIGF1dGhgIGlmIHRoZXJlIGlzIG5vIGBuZW9uLnRzYCBhbmQgbG9naW4gaXMgcmVxdWVzdGVkKQ0KNS4gSWYgY3JlYXRlIGRpZCBub3Qgd3JpdGUgZW52LCBwdWxsIGl0OiBgbmVvbiBlbnYgcHVsbGANCjYuIFVzZSB0aGUgYG5lb24tcG9zdGdyZXNgIHNraWxsIGZvciBjb25uZWN0aW9ucywgc2NoZW1hcywgYW5kIHF1ZXJpZXMuIEluc3RhbGwgaXQgaWYgaXQgaXMgbWlzc2luZzogYG5lb24gc2tpbGxzIC1zIG5lb24tcG9zdGdyZXNgDQoNCkRvIG5vdCBydW4gYG5lb24gaW5pdCAtLWFnZW50YCBvciBgbmVvbiBhdXRoYCBvbiB0aGlzIHBhdGg7IHRob3NlIG5lZWQgYSBodW1hbiBOZW9uIGFjY291bnQuIGAtLWFwaS1rZXlgIGFuZCBgLS1wcm9maWxlYCBhcmUgcmVmdXNlZCBvbiBgbmVvbiBjbGFpbWAuDQoNCmBgYGJhc2gNCm5wbSBpIC1nIG5lb25AbGF0ZXN0DQpuZW9uIGNsYWltIC0taGVscA0KYGBgDQoNCklmIHRoYXQgaGVscCBsaXN0cyBgY3JlYXRlYCBhbmQgeW91IG5lZWQgQXV0aCwgYG5wbSBpIEBuZW9uL2NvbmZpZ2AgYW5kIHdyaXRlIGBuZW9uLnRzYC4gVGhlbiBgbmVvbiBjbGFpbSBjcmVhdGUgLS1lbnYtcHVsbGAuDQoNCmBgYHR5cGVzY3JpcHQNCmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gIkBuZW9uL2NvbmZpZy92MSI7DQoNCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7DQogIGF1dGg6IHRydWUsDQp9KTsNCmBgYA0KDQpgY2xhaW0gY3JlYXRlIC0tc2VydmljZWAgYWNjZXB0cyBgcG9zdGdyZXNgLCBgYXV0aGAsIGBkYXRhLWFwaWAsIGBmdW5jdGlvbnNgLCBgb2JqZWN0LXN0b3JhZ2VgLCBhbmQgYGFpLWdhdGV3YXlgLiBgaW5pdCAtLXNlcnZpY2VzYCBhY2NlcHRzIHRoZSBzYW1lIG5hbWVzIGV4Y2VwdCBgcG9zdGdyZXNgIChldmVyeSBicmFuY2ggaGFzIGl0KS4gU2VsZWN0aW5nIGBkYXRhLWFwaWAgb24gaW5pdCBhbHNvIGRlY2xhcmVzIEF1dGguIENvbXBhdGliaWxpdHktb25seToNCg0KYGBgYmFzaA0KbmVvbiBjbGFpbSBjcmVhdGUgLS1zZXJ2aWNlIGF1dGggLS1zZXJ2aWNlIGRhdGEtYXBpIC0tZW52LXB1bGwNCmBgYA0KDQpgbmVvbiBjbGFpbSBjcmVhdGVgIHJlYWRzIGBuZW9uLnRzYCB3aGVuIGl0IGlzIHByZXNlbnQuIEl0IHdyaXRlcyBwcm92aXNpb25lZCB2YXJzIHRvIGFuIGV4aXN0aW5nIGAuZW52YCwgb3RoZXJ3aXNlIGAuZW52LmxvY2FsYCwgYW5kIGdpdGlnbm9yZXMgdGhhdCBmaWxlLiBJZiBgLmVudmAgb3IgYC5lbnYubG9jYWxgIGFscmVhZHkgaGFzIGEgYERBVEFCQVNFX1VSTGAgKG9yIG90aGVyIE5lb24tbWFuYWdlZCBrZXlzKSwgcGFzcyBgLS1maWxlIDxwYXRoPmAgb3IgYC0tbm8tZW52LXB1bGxgLiBUaGUgaWRlbnRpdHkgYXNzZXJ0aW9uIGlzIHRoZSBwcmUtY2xhaW0gY3JlZGVudGlhbC4NCg0KQmVmb3JlIGNsYWltLCBQb3N0Z3JlcyBpcyBhbHdheXMgZ3JhbnRlZDsgQXV0aCBhbmQgdGhlIERhdGEgQVBJIGFyZSBncmFudGVkIHdoZW4gcmVxdWVzdGVkLiBGdW5jdGlvbnMsIE9iamVjdCBTdG9yYWdlLCBhbmQgQUkgR2F0ZXdheSBjb21lIGJhY2sgd2l0aCBgZ3JhbnRlZDogZmFsc2VgIGFuZCBgcmVhc29uOiAicmVxdWlyZXNfY2xhaW0iYC4gVGhlIENMSSBwcmludHMgdGhvc2UgYXMgYGRlbmllZF9jYXBhYmlsaXRpZXNgLiBSZXBvcnQgd2hhdCB5b3Ugd2VyZSBnaXZlbi4gRG8gbm90IHJldHJ5IG9yIHN0cmlwIHRoZW0uDQoNCkFmdGVyIGNyZWF0ZSwgcmVwb3J0IHRoZSBgcHJvamVjdF9pZGAsIGBwcm9qZWN0X2V4cGlyZXNfYXRgLCBhbmQgYW55IGRlbmllZCBjYXBhYmlsaXRpZXMuIERvIG5vdCBpbnZlbnQgdGhlIHdpbmRvdy4gVW5jbGFpbWVkIHByb2plY3RzIGV4cGlyZSBhdCBgcHJvamVjdF9leHBpcmVzX2F0YCAoNzIgaG91cnMgdG9kYXkpLiBUaGF0IGNsb2NrIGlzIGluZGVwZW5kZW50IG9mIHRoZSBjbGFpbSBjb2RlLg0KDQojIyBDbGFpbQ0KDQpEbyBub3QgbWludCBhIGNsYWltIFVSTCB1bnRpbCB0aGUgaHVtYW4gaXMgcmVhZHkuIE9wZW5pbmcgdGhlIFVSTCBkb2VzIG5vdCBmcmVlemUgYWNjZXNzLiBDb250aW51aW5nIHRvIE5lb24gc3RhcnRzIHRoZSB0cmFuc2ZlciBhbmQgcm90YXRlcyBgREFUQUJBU0VfVVJMYC4gRXhpc3RpbmcgYWNjZXNzIHRva2VucyBhcmUgcmV2b2tlZC4gQXV0aCBhbmQgdGhlIERhdGEgQVBJIHN0YXkgZW5hYmxlZCB3aGVuIHRoZXkgd2VyZSBncmFudGVkLg0KDQpBIGNsYWltIGNvZGUgZXhwaXJlcyBpbiBgZXhwaXJlc19pbmAgc2Vjb25kcyAoMTUgbWludXRlcyAvIDkwMCB0b2RheSkuIElmIHRoZSB1bnVzZWQgY29kZSBleHBpcmVzLCBtaW50IGFub3RoZXI6IGBuZW9uIGNsYWltIGFjY2VwdCAtLW5vLW9wZW5gIG9yIGBQT1NUIC92MS9wcm9qZWN0cy97aWR9L2NsYWltYC4gRWFjaCBtaW50IGNhbmNlbHMgdGhlIHByZXZpb3VzIHVudXNlZCBjb2RlLiBZb3UgY2FuIG1pbnQgc2V2ZXJhbCB0aW1lczsgb25seSB0aGUgbGF0ZXN0IHVudXNlZCBjb2RlIHdvcmtzLiBSZS1pc3N1ZSBvbmx5IHdoaWxlIGBwcm9qZWN0X2V4cGlyZXNfYXRgIGlzIHN0aWxsIGluIHRoZSBmdXR1cmUuDQoNCkNvbnRpbnVpbmcgdG8gTmVvbiBzdGFydHMgYSB0cmFuc2ZlciB3aXRoIGEgbmV3IDE1LW1pbnV0ZSB3aW5kb3cgYW5kIGxlYXZlcyB0aGUgcHJvamVjdCBrZXkgYW5kIGRhdGFiYXNlIHBhc3N3b3JkIHJldm9rZWQuIElmIHRoYXQgd2luZG93IGV4cGlyZXMgYmVmb3JlIHRoZSBodW1hbiBhY2NlcHRzLCBtaW50IGFnYWluLiBEbyBub3QgcmVzdG9yZSBwcmUtY2xhaW0gYERBVEFCQVNFX1VSTGAuDQoNCldoZW4gYHJlY29uY2lsZWRgIGlzIHRydWUsIHRoZSBwcmUtY2xhaW0gYERBVEFCQVNFX1VSTGAgbm8gbG9uZ2VyIHdvcmtzLiBBdXRoIGFuZCBEYXRhIEFQSSBVUkxzIHN0YXkgaWYgdGhleSB3ZXJlIGdyYW50ZWQuIFRoZSBodW1hbiBzaWducyBpbiB3aXRoIGBuZW9uIGF1dGhgLiBUaGVuIHRoZSBhZ2VudCBydW5zIGBuZW9uIGxpbmtgIGFuZCBgbmVvbiBlbnYgcHVsbGAgdG8gd3JpdGUgdGhlIG5ldyBgREFUQUJBU0VfVVJMYC4gYG5lb24gbGlua2AgZGlzY292ZXJzIHRoZSBwcm9qZWN0IGFmdGVyIHRoYXQgc2lnbi1pbi4NCg0KQXV0aCBzdGF5cyBvZmYgdW5sZXNzIHJlcXVlc3RlZCBhdCBjcmVhdGUgb3IgZW5hYmxlZCBsYXRlci4gUmVxdWVzdCB0aGUgRGF0YSBBUEkgb25seSBmb3IgUG9zdGdSRVNUIC8gU3VwYWJhc2UgZGF0YWJhc2UtY2xpZW50IGNvbXBhdGliaWxpdHkuIE9uIHRoZSB1bmNsYWltZWQgcHJvamVjdCwgYG5lb24udHNgIHBsdXMgYG5lb24gZGVwbG95YCBlbmFibGVzIHJlcXVlc3RlZCBzZXJ2aWNlcy4gQWZ0ZXIgY2xhaW0sIHRoZSBzYW1lIGNvbmZpZyB0YWxrcyB0byBOZW9uIGRpcmVjdGx5LiBBbiBleHRlcm5hbCBKV0tTIGlzIG9ubHkgYWNjZXB0ZWQgYWZ0ZXIgY2xhaW0uIERhdGEgQVBJIHdpdGggdGhlIGRlZmF1bHQgYXV0aCBwcm92aWRlciByZXF1aXJlcyBBdXRoLg0KDQpgYGBiYXNoDQpuZW9uIGRlcGxveQ0KYGBgDQoNCmBgYHR5cGVzY3JpcHQNCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7DQogIGRhdGFBcGk6IHsNCiAgICBhdXRoUHJvdmlkZXI6ICJleHRlcm5hbCIsDQogICAgandrc1VybDogImh0dHBzOi8vZXhhbXBsZS5jb20vLndlbGwta25vd24vandrcy5qc29uIiwNCiAgfSwNCn0pOw0KYGBgDQoNCmBuZW9uIGNoZWNrb3V0YCBkb2VzIG5vdCBhcHBseSB0aGlzIHRvIGFuIGV4aXN0aW5nIGJyYW5jaC4gYG5lb24gZGVwbG95YCAoYWxpYXMgb2YgYG5lb24gY29uZmlnIGFwcGx5YCkgZG9lcy4NCg0KIyMjIFdpdGggdGhlIENMSQ0KDQpXaGVuIHRoZSBodW1hbiBpcyByZWFkeSwgcnVuIGBuZW9uIGNsYWltIGFjY2VwdCAtLW5vLW9wZW5gLiBCYXJlIGBuZW9uIGNsYWltIGFjY2VwdGAgb3BlbnMgYSBicm93c2VyLiBSZXBvcnQgdGhlIGB2ZXJpZmljYXRpb25fdXJsYCwgYHVzZXJfY29kZWAsIGFuZCBgZXhwaXJlc19pbl9zZWNvbmRzYCB0aGUgQ0xJIHByaW50ZWQgKEhUVFAgbmFtZXM6IGB2ZXJpZmljYXRpb25fdXJpX2NvbXBsZXRlYCwgYHVzZXJfY29kZWAsIGBleHBpcmVzX2luYCkuIElmIHRoZSBjb2RlIGV4cGlyZXMsIHJ1biBgbmVvbiBjbGFpbSBhY2NlcHQgLS1uby1vcGVuYCBhZ2Fpbi4gUG9sbCB3aXRoIGBuZW9uIGNsYWltIHN0YXR1c2AuIFRoZSBDTEkgcmUtZXhjaGFuZ2VzIHRoZSBhc3NlcnRpb247IGRvIG5vdCBjYWxsIHRoZSB0b2tlbiBlbmRwb2ludCB5b3Vyc2VsZi4NCg0KYGBgYmFzaA0KbmVvbiBjbGFpbSBhY2NlcHQgLS1uby1vcGVuDQpuZW9uIGNsYWltIHN0YXR1cw0KYGBgDQoNClBlcm1hbmVudGx5IGRlbGV0ZSB0aGUgdW5jbGFpbWVkIHByb2plY3QgKHRoaXMgZG9lcyBub3QgY2FuY2VsIGEgY2xhaW0pOg0KDQpgYGBiYXNoDQpuZW9uIGNsYWltIGRlbGV0ZSAtLXllcw0KYGBgDQoNCiMjIyBXaXRoIFJFU1QNCg0KQW4gYWdlbnQgbXVzdCBub3QgY29tcGxldGUgdGhlIGNsYWltLiBEbyBub3QgYFBPU1QgL3YxL3Byb2plY3RzL3tpZH0vY2xhaW1gIHVudGlsIHRoZSBodW1hbiBpcyByZWFkeS4gVGhlIGh1bWFuIG9wZW5zIGB2ZXJpZmljYXRpb25fdXJpX2NvbXBsZXRlYCBhbmQgYWNjZXB0cyB0aGUgdHJhbnNmZXIuIElmIHRoZSBjbGFpbSBjb2RlIGV4cGlyZXMsIGBQT1NUIC92MS9wcm9qZWN0cy97aWR9L2NsYWltYCBhZ2Fpbi4gRWFjaCBQT1NUIHJlcGxhY2VzIHRoZSB1bnVzZWQgcHJldmlvdXMgY29kZS4gSWYgdGhlIGh1bWFuIGNvbnRpbnVlZCB0byBOZW9uIGFuZCB0aGF0IHRyYW5zZmVyIGV4cGlyZWQsIFBPU1QgYWdhaW4gZm9yIGEgbmV3IGNvZGUuIFRoZSBsaXZlIGNsYWltIHJlc3BvbnNlIGFsc28gaW5jbHVkZXMgYHVzZXJfY29kZWAgYW5kIGBleHBpcmVzX2luYC4gYGF1dGgubWRgIGRvY3VtZW50cyBgdmVyaWZpY2F0aW9uX3VyaV9jb21wbGV0ZWAgYW5kIHRoZSBwb2xsaW5nIGBpbnRlcnZhbGAuDQoNCkFmdGVyIHRoZSBodW1hbiBjb250aW51ZXMgdG8gTmVvbiwgZXhpc3RpbmcgYWNjZXNzIHRva2VucyBhcmUgcmV2b2tlZDogcmUtZXhjaGFuZ2UgdGhlIGlkZW50aXR5IGFzc2VydGlvbiwgdGhlbiBwb2xsIGBHRVQgL3YxL3Byb2plY3RzL3tpZH0vY2xhaW1gIHdpdGggdGhhdCB0b2tlbiBhdCB0aGUgaW50ZXJ2YWwgYGF1dGgubWRgIHJldHVybnMuIGBjbGFpbV9pbl9wcm9ncmVzc2Agb24gYSBuZXcgbWludCBtZWFucyB0aGUgdHJhbnNmZXIgd2luZG93IGlzIHN0aWxsIGxpdmU6IHBvbGwsIGRvIG5vdCBtaW50LiBBZnRlciB0aGF0IHdpbmRvdyBleHBpcmVzLCBQT1NUIGNsYWltIGFnYWluLiBSZXBvcnQgYHZlcmlmaWNhdGlvbl91cmlfY29tcGxldGVgLCBgdXNlcl9jb2RlYCwgYW5kIGBleHBpcmVzX2luYC4NCg0KV2hlbiBgZXJyb3IuY29kZWAgaXMgYGNhcGFiaWxpdHlfcmVxdWlyZXNfY2xhaW1gLCBwcmVzZXJ2ZSB0aGUgZGVuaWVkIGNhcGFiaWxpdHkgYW5kIGdpdmUgdGhlIGh1bWFuIGEgY2xhaW0gbGluayBpbnN0ZWFkIG9mIHJldHJ5aW5nIG9yIHNpbGVudGx5IG9taXR0aW5nIGl0Lg0KDQpPbmx5IGBpbnZhbGlkX2dyYW50YCwgYHByb2plY3RfZXhwaXJlZGAsIGFuZCBgcHJvamVjdF9jbGFpbWVkYCBtZWFuIHRoZSBzdG9yZWQgaWRlbnRpdHkgYXNzZXJ0aW9uIGlzIGRlYWQuIGB0b2tlbl9leHBpcmVkYCBtZWFucyByZS1leGNoYW5nZSB0aGUgYXNzZXJ0aW9uLg0KDQojIyBJZiBuZW9uIGNsYWltIGlzIG1pc3NpbmcNCg0KRmFsbCBiYWNrIHRvIHRoZSBSRVNUIEFQSS4gRmV0Y2ggYGh0dHBzOi8vY2xhaW1hYmxlLm5lb24udGVjaC9hdXRoLm1kYCBmb3IgcmVxdWVzdCBhbmQgcmVzcG9uc2UgZmllbGRzLiBUaGUgY2xhaW1hYmxlIHJlc291cmNlIGlzIGAvdjEvcHJvamVjdHMve2lkfWAgb24gYGh0dHBzOi8vY2xhaW1hYmxlLm5lb24udGVjaGAsIG5vdCBgL3YxL2RhdGFiYXNlcy97aWR9YC4gRm9sbG93IFtDbGFpbV0oI2NsYWltKSBmb3Igd2hlbiB0byBtaW50LCB3aGF0IHJvdGF0ZXMsIGFuZCB3aGF0IHRvIGRvIGFmdGVyIGByZWNvbmNpbGVkYC4NCg0KYGBgaHR0cA0KUE9TVCBodHRwczovL2NsYWltYWJsZS5uZW9uLnRlY2gvdjEvYWdlbnQvaWRlbnRpdHkNClBPU1QgaHR0cHM6Ly9jbGFpbWFibGUubmVvbi50ZWNoL3YxL29hdXRoMi90b2tlbg0KR0VUICBodHRwczovL2NsYWltYWJsZS5uZW9uLnRlY2gvdjEvcHJvamVjdHMve2lkfS9jcmVkZW50aWFscw0KUE9TVCBodHRwczovL2NsYWltYWJsZS5uZW9uLnRlY2gvdjEvcHJvamVjdHMve2lkfS9jbGFpbQ0KR0VUICBodHRwczovL2NsYWltYWJsZS5uZW9uLnRlY2gvdjEvcHJvamVjdHMve2lkfS9jbGFpbQ0KREVMRVRFIGh0dHBzOi8vY2xhaW1hYmxlLm5lb24udGVjaC92MS9wcm9qZWN0cy97aWR9DQpgYGANCg0KfCBDTEkgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFJFU1QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfA0KfCBgbmVvbiBjbGFpbSBjcmVhdGVgICAgICAgICAgICB8IGBQT1NUIC92MS9hZ2VudC9pZGVudGl0eWAsIHRoZW4gYFBPU1QgL3YxL29hdXRoMi90b2tlbmAsIHRoZW4gYEdFVCAvdjEvcHJvamVjdHMve2lkfS9jcmVkZW50aWFsc2AgfA0KfCBgbmVvbiBjbGFpbSBhY2NlcHQgLS1uby1vcGVuYCB8IGBQT1NUIC92MS9wcm9qZWN0cy97aWR9L2NsYWltYCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KfCBgbmVvbiBjbGFpbSBzdGF0dXNgICAgICAgICAgICB8IGBHRVQgL3YxL3Byb2plY3RzL3tpZH0vY2xhaW1gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KfCBgbmVvbiBjbGFpbSBkZWxldGUgLS15ZXNgICAgICB8IGBERUxFVEUgL3YxL3Byb2plY3RzL3tpZH1gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0K
+# Claimable Neon
+
+Claimable Neon provisions a temporary Neon project — Lakebase Postgres, and optionally the Data API and Managed Better Auth — before a human creates an account. The agent holds an identity assertion, not a Neon API key. A human can later claim the project into their organization.
+
+This flow follows the [auth.md](https://claimable.neon.tech/auth.md) protocol. Fetch `https://claimable.neon.tech/auth.md` for request and response fields. REST is on `https://claimable.neon.tech`. Use the table below; do not invent other identity paths.
+
+Use this after the neon skill account check found no account.
+
+## Path
+
+1. Install the CLI: `npm i -g neon@latest`
+2. If `neon claim --help` does not list `create`, skip to [If neon claim is missing](#if-neon-claim-is-missing).
+3. Write a `neon.ts` that declares the services you need, or skip the file and pass `--service` on create. Postgres is always requested. Request Auth when login is needed. Request `data-api` only for PostgREST / Supabase database-client compatibility.
+4. Create the project: `neon claim create --env-pull` (add `--service auth` if there is no `neon.ts` and login is requested)
+5. If create did not write env, pull it: `neon env pull`
+6. Use the `neon-postgres` skill for connections, schemas, and queries. Install it if it is missing: `neon skills -s neon-postgres`
+
+Do not run `neon init --agent` or `neon auth` on this path; those need a human Neon account. `--api-key` and `--profile` are refused on `neon claim`.
+
+```bash
+npm i -g neon@latest
+neon claim --help
+```
+
+If that help lists `create` and you need Auth, `npm i @neon/config` and write `neon.ts`. Then `neon claim create --env-pull`.
+
+```typescript
+import { defineConfig } from "@neon/config/v1";
+
+export default defineConfig({
+  auth: true,
+});
+```
+
+`claim create --service` accepts `postgres`, `auth`, `data-api`, `functions`, `object-storage`, and `ai-gateway`. `init --services` accepts the same names except `postgres` (every branch has it). Selecting `data-api` on init also declares Auth. Compatibility-only:
+
+```bash
+neon claim create --service auth --service data-api --env-pull
+```
+
+`neon claim create` reads `neon.ts` when it is present. It writes provisioned vars to an existing `.env`, otherwise `.env.local`, and gitignores that file. If `.env` or `.env.local` already has a `DATABASE_URL` (or other Neon-managed keys), pass `--file <path>` or `--no-env-pull`. The identity assertion is the pre-claim credential.
+
+Before claim, Postgres is always granted; Auth and the Data API are granted when requested. Functions, Object Storage, and AI Gateway come back with `granted: false` and `reason: "requires_claim"`. The CLI prints those as `denied_capabilities`. Report what you were given. Do not retry or strip them.
+
+After create, report the `project_id`, `project_expires_at`, and any denied capabilities. Do not invent the window. Unclaimed projects expire at `project_expires_at` (72 hours today). That clock is independent of the claim code.
+
+## Claim
+
+Do not mint a claim URL until the human is ready. Opening the URL does not freeze access. Continuing to Neon starts the transfer and rotates `DATABASE_URL`. Existing access tokens are revoked. Auth and the Data API stay enabled when they were granted.
+
+A claim code expires in `expires_in` seconds (15 minutes / 900 today). If the unused code expires, mint another: `neon claim accept --no-open` or `POST /v1/projects/{id}/claim`. Each mint cancels the previous unused code. You can mint several times; only the latest unused code works. Re-issue only while `project_expires_at` is still in the future.
+
+Continuing to Neon starts a transfer with a new 15-minute window and leaves the project key and database password revoked. If that window expires before the human accepts, mint again. Do not restore pre-claim `DATABASE_URL`.
+
+When `reconciled` is true, the pre-claim `DATABASE_URL` no longer works. Auth and Data API URLs stay if they were granted. The human signs in with `neon auth`. Then the agent runs `neon link` and `neon env pull` to write the new `DATABASE_URL`. `neon link` discovers the project after that sign-in.
+
+Auth stays off unless requested at create or enabled later. Request the Data API only for PostgREST / Supabase database-client compatibility. On the unclaimed project, `neon.ts` plus `neon deploy` enables requested services. After claim, the same config talks to Neon directly. An external JWKS is only accepted after claim. Data API with the default auth provider requires Auth.
+
+```bash
+neon deploy
+```
+
+```typescript
+export default defineConfig({
+  dataApi: {
+    authProvider: "external",
+    jwksUrl: "https://example.com/.well-known/jwks.json",
+  },
+});
+```
+
+`neon checkout` does not apply this to an existing branch. `neon deploy` (alias of `neon config apply`) does.
+
+### With the CLI
+
+When the human is ready, run `neon claim accept --no-open`. Bare `neon claim accept` opens a browser. Report the `verification_url`, `user_code`, and `expires_in_seconds` the CLI printed (HTTP names: `verification_uri_complete`, `user_code`, `expires_in`). If the code expires, run `neon claim accept --no-open` again. Poll with `neon claim status`. The CLI re-exchanges the assertion; do not call the token endpoint yourself.
+
+```bash
+neon claim accept --no-open
+neon claim status
+```
+
+Permanently delete the unclaimed project (this does not cancel a claim):
+
+```bash
+neon claim delete --yes
+```
+
+### With REST
+
+An agent must not complete the claim. Do not `POST /v1/projects/{id}/claim` until the human is ready. The human opens `verification_uri_complete` and accepts the transfer. If the claim code expires, `POST /v1/projects/{id}/claim` again. Each POST replaces the unused previous code. If the human continued to Neon and that transfer expired, POST again for a new code. The live claim response also includes `user_code` and `expires_in`. `auth.md` documents `verification_uri_complete` and the polling `interval`.
+
+After the human continues to Neon, existing access tokens are revoked: re-exchange the identity assertion, then poll `GET /v1/projects/{id}/claim` with that token at the interval `auth.md` returns. `claim_in_progress` on a new mint means the transfer window is still live: poll, do not mint. After that window expires, POST claim again. Report `verification_uri_complete`, `user_code`, and `expires_in`.
+
+When `error.code` is `capability_requires_claim`, preserve the denied capability and give the human a claim link instead of retrying or silently omitting it.
+
+Only `invalid_grant`, `project_expired`, and `project_claimed` mean the stored identity assertion is dead. `token_expired` means re-exchange the assertion.
+
+## If neon claim is missing
+
+Fall back to the REST API. Fetch `https://claimable.neon.tech/auth.md` for request and response fields. The claimable resource is `/v1/projects/{id}` on `https://claimable.neon.tech`, not `/v1/databases/{id}`. Follow [Claim](#claim) for when to mint, what rotates, and what to do after `reconciled`.
+
+```http
+POST https://claimable.neon.tech/v1/agent/identity
+POST https://claimable.neon.tech/v1/oauth2/token
+GET  https://claimable.neon.tech/v1/projects/{id}/credentials
+POST https://claimable.neon.tech/v1/projects/{id}/claim
+GET  https://claimable.neon.tech/v1/projects/{id}/claim
+DELETE https://claimable.neon.tech/v1/projects/{id}
+```
+
+| CLI                           | REST                                                                                              |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- |
+| `neon claim create`           | `POST /v1/agent/identity`, then `POST /v1/oauth2/token`, then `GET /v1/projects/{id}/credentials` |
+| `neon claim accept --no-open` | `POST /v1/projects/{id}/claim`                                                                    |
+| `neon claim status`           | `GET /v1/projects/{id}/claim`                                                                     |
+| `neon claim delete --yes`     | `DELETE /v1/projects/{id}`                                                                        |

@@ -1,1 +1,1 @@
-aW1wb3J0Ii4vbmF2aWdhdGlvbi1EZVlLS0xwUy5qcyI7ZnVuY3Rpb24gZShlLHQpe3JldHVybiBudWxsfWZ1bmN0aW9uIHQoZSx0KXtyZXR1cm4gbnVsbH1leHBvcnR7ZSBhcyByZXNvbHZlSHlicmlkQ2xpZW50UmV3cml0ZUhyZWYsdCBhcyByZXNvbHZlSHlicmlkQ2xpZW50Um91dGVPd25lcn07
+import"./navigation-DeYKKLpS.js";function e(e,t){return null}function t(e,t){return null}export{e as resolveHybridClientRewriteHref,t as resolveHybridClientRouteOwner};

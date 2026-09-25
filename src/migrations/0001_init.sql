@@ -1,1 +1,34 @@
-LS0gUG9zdGdyZXMgc2NoZW1hIGZvciBzb25hZS1yZXZpZXcgKFZlcmNlbCBQb3N0Z3JlcykuCi0tIFJlcGxhY2VzIHRoZSBvbGQgRDEvU1FMaXRlIHNjaGVtYSBpbiBkcml6emxlLzAwMDBfZHJ5X3JvbGFuZF9kZXNjaGFpbi5zcWwuCi0tIFRoZSAidXNlcl9pZCIgY29sdW1ucyBob2xkIGFuIGFub255bW91cyBwZXItYnJvd3NlciB2aXNpdG9yIGlkIChzZWUKLS0gbGliL3Zpc2l0b3IudHMpLCBub3QgYW4gYXV0aGVudGljYXRlZCBhY2NvdW50IGlkLgoKQ1JFQVRFIFRBQkxFIHJldmlld3MgKAogIGlkIHRleHQgUFJJTUFSWSBLRVksCiAgcHJvZHVjdF9pZCB0ZXh0IE5PVCBOVUxMLAogIHVzZXJfaWQgdGV4dCBOT1QgTlVMTCwKICBuaWNrbmFtZSB0ZXh0IE5PVCBOVUxMLAogIHJhdGluZyBpbnRlZ2VyIE5PVCBOVUxMLAogIHRpdGxlIHRleHQgTk9UIE5VTEwsCiAgYm9keSB0ZXh0IE5PVCBOVUxMLAogIGNyZWF0ZWRfYXQgdGV4dCBOT1QgTlVMTAopOwpDUkVBVEUgVU5JUVVFIElOREVYIHJldmlld3NfdXNlcl9wcm9kdWN0IE9OIHJldmlld3MgKHVzZXJfaWQsIHByb2R1Y3RfaWQpOwpDUkVBVEUgSU5ERVggcmV2aWV3c19wcm9kdWN0X2NyZWF0ZWQgT04gcmV2aWV3cyAocHJvZHVjdF9pZCwgY3JlYXRlZF9hdCk7CgpDUkVBVEUgVEFCTEUgcmV2aWV3X2ltYWdlcyAoCiAgaWQgdGV4dCBQUklNQVJZIEtFWSwKICByZXZpZXdfaWQgdGV4dCBOT1QgTlVMTCBSRUZFUkVOQ0VTIHJldmlld3MoaWQpIE9OIERFTEVURSBDQVNDQURFLAogIHVybCB0ZXh0IE5PVCBOVUxMLAogIHBvc2l0aW9uIGludGVnZXIgTk9UIE5VTEwKKTsKCkNSRUFURSBUQUJMRSByZXBvcnRzICgKICBpZCB0ZXh0IFBSSU1BUlkgS0VZLAogIHJldmlld19pZCB0ZXh0IE5PVCBOVUxMLAogIHVzZXJfaWQgdGV4dCBOT1QgTlVMTCwKICByZWFzb24gdGV4dCBOT1QgTlVMTCwKICBjcmVhdGVkX2F0IHRleHQgTk9UIE5VTEwsCiAgc3RhdHVzIHRleHQgTk9UIE5VTEwgREVGQVVMVCAnb3BlbicKKTsKQ1JFQVRFIFVOSVFVRSBJTkRFWCByZXBvcnRzX3VzZXJfcmV2aWV3IE9OIHJlcG9ydHMgKHVzZXJfaWQsIHJldmlld19pZCk7Cg==
+-- Postgres schema for sonae-review (Vercel Postgres).
+-- Replaces the old D1/SQLite schema in drizzle/0000_dry_roland_deschain.sql.
+-- The "user_id" columns hold an anonymous per-browser visitor id (see
+-- lib/visitor.ts), not an authenticated account id.
+
+CREATE TABLE reviews (
+  id text PRIMARY KEY,
+  product_id text NOT NULL,
+  user_id text NOT NULL,
+  nickname text NOT NULL,
+  rating integer NOT NULL,
+  title text NOT NULL,
+  body text NOT NULL,
+  created_at text NOT NULL
+);
+CREATE UNIQUE INDEX reviews_user_product ON reviews (user_id, product_id);
+CREATE INDEX reviews_product_created ON reviews (product_id, created_at);
+
+CREATE TABLE review_images (
+  id text PRIMARY KEY,
+  review_id text NOT NULL REFERENCES reviews(id) ON DELETE CASCADE,
+  url text NOT NULL,
+  position integer NOT NULL
+);
+
+CREATE TABLE reports (
+  id text PRIMARY KEY,
+  review_id text NOT NULL,
+  user_id text NOT NULL,
+  reason text NOT NULL,
+  created_at text NOT NULL,
+  status text NOT NULL DEFAULT 'open'
+);
+CREATE UNIQUE INDEX reports_user_review ON reports (user_id, review_id);

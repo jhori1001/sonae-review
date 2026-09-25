@@ -1,1 +1,29 @@
-aW1wb3J0IHtnZXRTcWx9IGZyb20gJy4vZGInOwppbXBvcnQge3R5cGUgUmV2aWV3fSBmcm9tICcuL2NhdGFsb2cnOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRSZXZpZXdzKCk6IFByb21pc2U8e3Jldmlld3M6IFJldmlld1tdOyB1bmF2YWlsYWJsZTogYm9vbGVhbn0+IHsKICB0cnkgewogICAgY29uc3Qgc3FsID0gZ2V0U3FsKCk7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBzcWxgCiAgICAgIFNFTEVDVCBpZCwgcHJvZHVjdF9pZCBhcyBwcm9kdWN0SWQsIG5pY2tuYW1lLCByYXRpbmcsIHRpdGxlLCBib2R5LCBjcmVhdGVkX2F0IGFzIGNyZWF0ZWRBdAogICAgICBGUk9NIHJldmlld3MgT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDIExJTUlUIDUwMAogICAgYCBhcyB7aWQ6IHN0cmluZzsgcHJvZHVjdGlkOiBzdHJpbmc7IG5pY2tuYW1lOiBzdHJpbmc7IHJhdGluZzogbnVtYmVyOyB0aXRsZTogc3RyaW5nOyBib2R5OiBzdHJpbmc7IGNyZWF0ZWRhdDogc3RyaW5nfVtdOwogICAgY29uc3QgaW1hZ2VzID0gYXdhaXQgc3FsYAogICAgICBTRUxFQ1QgaWQsIHJldmlld19pZCBhcyByZXZpZXdJZCwgdXJsIEZST00gcmV2aWV3X2ltYWdlcyBPUkRFUiBCWSBwb3NpdGlvbgogICAgYCBhcyB7aWQ6IHN0cmluZzsgcmV2aWV3aWQ6IHN0cmluZzsgdXJsOiBzdHJpbmd9W107CiAgICBjb25zdCByZXZpZXdzOiBSZXZpZXdbXSA9IHJlc3VsdC5tYXAociA9PiAoewogICAgICBpZDogci5pZCwKICAgICAgcHJvZHVjdElkOiByLnByb2R1Y3RpZCwKICAgICAgbmlja25hbWU6IHIubmlja25hbWUsCiAgICAgIHJhdGluZzogci5yYXRpbmcsCiAgICAgIHRpdGxlOiByLnRpdGxlLAogICAgICBib2R5OiByLmJvZHksCiAgICAgIGNyZWF0ZWRBdDogci5jcmVhdGVkYXQsCiAgICAgIGltYWdlczogaW1hZ2VzLmZpbHRlcihpID0+IGkucmV2aWV3aWQgPT09IHIuaWQpLm1hcChpID0+IGkudXJsKSwKICAgIH0pKTsKICAgIHJldHVybiB7cmV2aWV3czogcmV2aWV3cywgdW5hdmFpbGFibGU6IGZhbHNlfTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcignUmV2aWV3IGxvYWQgZmFpbGVkJywgZXJyb3IpOwogICAgcmV0dXJuIHtyZXZpZXdzOiBbXSwgdW5hdmFpbGFibGU6IHRydWV9OwogIH0KfQo=
+import {getSql} from './db';
+import {type Review} from './catalog';
+
+export async function loadReviews(): Promise<{reviews: Review[]; unavailable: boolean}> {
+  try {
+    const sql = getSql();
+    const result = await sql`
+      SELECT id, product_id as productId, nickname, rating, title, body, created_at as createdAt
+      FROM reviews ORDER BY created_at DESC LIMIT 500
+    ` as {id: string; productid: string; nickname: string; rating: number; title: string; body: string; createdat: string}[];
+    const images = await sql`
+      SELECT id, review_id as reviewId, url FROM review_images ORDER BY position
+    ` as {id: string; reviewid: string; url: string}[];
+    const reviews: Review[] = result.map(r => ({
+      id: r.id,
+      productId: r.productid,
+      nickname: r.nickname,
+      rating: r.rating,
+      title: r.title,
+      body: r.body,
+      createdAt: r.createdat,
+      images: images.filter(i => i.reviewid === r.id).map(i => i.url),
+    }));
+    return {reviews: reviews, unavailable: false};
+  } catch (error) {
+    console.error('Review load failed', error);
+    return {reviews: [], unavailable: true};
+  }
+}

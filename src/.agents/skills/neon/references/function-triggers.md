@@ -1,1 +1,53 @@
-IyBGdW5jdGlvbiBUcmlnZ2VycyAoQ0xJLCBNQ1AsIFJFU1QpDQoNCkEgRnVuY3Rpb24gVHJpZ2dlciBpcyBhIGJyYW5jaC1zY29wZWQgcnVsZSB0aGF0IFBPU1RzIHRvIGEgTmVvbiBGdW5jdGlvbiBvbiBhIGNyb24gKGB0eXBlOiAic2NoZWR1bGUiYCkgb3Igd2hlbiBhbiBvYmplY3QgaXMgY3JlYXRlZCBpbiBhIGJ1Y2tldCAoYHR5cGU6ICJzdG9yYWdlX29iamVjdF9jcmVhdGVkImApLiBCZXRhOyBzYW1lIHJlZ2lvbnMgYXMgRnVuY3Rpb25zIChgdXMtZWFzdC0yYCwgYGV1LWNlbnRyYWwtMWApLg0KDQoqKlByZWZlciBgbmVvbi50c2AuKiogRGVjbGFyZSBhIGB0cmlnZ2Vyc2AgbWFwLiBUaGUgcmVjb3JkIGtleSBpcyB0aGUgdHJpZ2dlciBuYW1lLiBgbmVvbiBkZXBsb3lgIGFwcGxpZXMgdHJpZ2dlcnMgYWZ0ZXIgdGhlIGZ1bmN0aW9ucyB0aGV5IHRhcmdldC4gTmFtZXMgbXVzdCBiZSB1bmlxdWUgYW1vbmcgZXZlcnkgdHJpZ2dlciB2aXNpYmxlIG9uIHRoZSBicmFuY2guIFRyaWdnZXJzIHRoYXQgZXhpc3QgcmVtb3RlbHkgYnV0IGFyZSBvbWl0dGVkIGZyb20gYG5lb24udHNgIGFyZSBsZWZ0IGFsb25lOyBkZWxldGUgd2l0aCBgbmVvbiB0cmlnZ2VycyBkZWxldGVgLg0KDQpgYGB0eXBlc2NyaXB0DQppbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICJAbmVvbi9jb25maWcvdjEiOw0KDQpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoew0KICBmdW5jdGlvbnM6IHsNCiAgICBpbmdlc3Q6IHsgbmFtZTogIk9iamVjdCBpbmdlc3QiLCBzb3VyY2U6ICJzcmMvaW5kZXgudHMiIH0sDQogICAgY3JvbjogeyBuYW1lOiAiQ3JvbiIsIHNvdXJjZTogInNyYy9jcm9uLnRzIiB9LA0KICB9LA0KICBidWNrZXRzOiB7IGFzc2V0czogeyBhY2Nlc3M6ICJwdWJsaWNfcmVhZCIgfSB9LA0KICB0cmlnZ2Vyczogew0KICAgICJvbi11cGxvYWQiOiB7DQogICAgICB0eXBlOiAic3RvcmFnZV9vYmplY3RfY3JlYXRlZCIsDQogICAgICBmdW5jdGlvbjogImluZ2VzdCIsDQogICAgICBidWNrZXQ6ICJhc3NldHMiLA0KICAgICAgcHJlZml4OiAibG9nb3MvIiwNCiAgICAgIGZ1bmN0aW9uUGF0aDogIi9vYmplY3QiLA0KICAgIH0sDQogICAgImV2ZXJ5LW1pbnV0ZSI6IHsNCiAgICAgIHR5cGU6ICJzY2hlZHVsZSIsDQogICAgICBmdW5jdGlvbjogImNyb24iLA0KICAgICAgY3JvbjogIiogKiAqICogKiIsDQogICAgICBmdW5jdGlvblBhdGg6ICIvY3JvbiIsDQogICAgfSwNCiAgfSwNCn0pOw0KYGBgDQoNCk5lZWRzIE5lb24gQ0xJIDQuMjEgb3IgbmV3ZXIgKGBAbmVvbi9jb25maWdgIDEuNy4wKS4NCg0KKipDTEkqKiB3aGVuIHlvdSBhcmUgbm90IGFwcGx5aW5nIGBuZW9uLnRzYCwgb3IgdG8gbGlzdCwgZW5hYmxlLCBkaXNhYmxlLCBvciBkZWxldGUuIGBjcmVhdGVgIHRha2VzIGAtLWNyb25gIG9yIGAtLWJ1Y2tldGAsIG5vdCBib3RoOg0KDQpgYGBiYXNoDQpuZW9uIHRyaWdnZXJzIGNyZWF0ZSAtLWZ1bmN0aW9uLXNsdWcgY3JvbiAtLW5hbWUgaG91cmx5IC0tY3JvbiAnMCAqICogKiAqJyAtLWZ1bmN0aW9uLXBhdGggL2Nyb24NCm5lb24gdHJpZ2dlcnMgY3JlYXRlIC0tZnVuY3Rpb24tc2x1ZyBpbmdlc3QgLS1uYW1lIG9uLXVwbG9hZCAtLWJ1Y2tldCBhc3NldHMgLS1wcmVmaXggJ2xvZ29zLycgLS1mdW5jdGlvbi1wYXRoIC9vYmplY3QNCm5lb24gdHJpZ2dlcnMgbGlzdA0KbmVvbiB0cmlnZ2VycyB1cGRhdGUgPGlkPiAtLWJyYW5jaCA8YnJhbmNoPiAtLWNyb24gJyovMzAgKiAqICogKicNCm5lb24gdHJpZ2dlcnMgdXBkYXRlIDxpZD4gLS1icmFuY2ggPGJyYW5jaD4gLS1idWNrZXQgYXNzZXRzIC0tcHJlZml4ICdpbmNvbWluZy8nDQpuZW9uIHRyaWdnZXJzIGVuYWJsZSA8aWQ+IC0tYnJhbmNoIDxicmFuY2g+DQpuZW9uIHRyaWdnZXJzIGRpc2FibGUgPGlkPiAtLWJyYW5jaCA8YnJhbmNoPg0KbmVvbiB0cmlnZ2VycyBkZWxldGUgPGlkPiAtLWJyYW5jaCA8YnJhbmNoPg0KYGBgDQoNCkluc3BlY3QgYSB0cmlnZ2VyIHdpdGggYG5lb24gdHJpZ2dlcnMgbGlzdCAtLW91dHB1dCBqc29uYC4gUGFzcyBgLS1icmFuY2hgIG9uIGdldC91cGRhdGUvZW5hYmxlL2Rpc2FibGUvZGVsZXRlOiB3aXRob3V0IGl0IHRoZSBDTEkgcmVzb2x2ZXMgdGhlIHRyaWdnZXIgaWQgYXMgYSBicmFuY2ggbmFtZS4gSW5oZXJpdGVkIHRyaWdnZXJzIChjcmVhdGVkIG9uIGEgcGFyZW50IGJyYW5jaCkgc2hvdyBgSW5oZXJpdGVkIHRydWVgIG9uIHRoZSBjaGlsZCBhbmQgc3RhcnQgZGlzYWJsZWQuIGBuZW9uIGRlcGxveWAgb2YgYSBgbmVvbi50c2AgdGhhdCBkZWNsYXJlcyB0aGUgc2FtZSB0cmlnZ2VyIGVuYWJsZXMgdGhhdCBjb3B5OyBvbWl0IGl0IHRvIGxlYXZlIHRoZSBpbmhlcml0ZWQgdHJpZ2dlciBkaXNhYmxlZC4NCg0KKipNQ1AgYmFja3VwKiogKE5lb24gTUNQIHNlcnZlciwgYD9jYXRlZ29yeT1mdW5jdGlvbnNgKTogYGxpc3RfdHJpZ2dlcnNgLCBgZ2V0X3RyaWdnZXJgLCBgY3JlYXRlX3RyaWdnZXJgLCBgdXBkYXRlX3RyaWdnZXJgLCBgZGVsZXRlX3RyaWdnZXJgLiBgY3JlYXRlX3RyaWdnZXJgIHRha2VzIGBwcm9qZWN0X2lkYCwgYGJyYW5jaF9pZGAgKGEgYGJyLeKApmAgaWQsIG5vdCBhIG5hbWUpLCBhbmQgYGJvZHlgIHdpdGggYCJ0eXBlIjogInNjaGVkdWxlImAsIGBmdW5jdGlvbl9zbHVnYCwgYG5hbWVgLCBhbmQgYHNjaGVkdWxlOiB7IGNyb24gfWAuIFJFU1QgaWYgbmVpdGhlciBDTEkgbm9yIE1DUCBpcyBhdmFpbGFibGU6IGBQT1NUIC9wcm9qZWN0cy97cHJvamVjdF9pZH0vYnJhbmNoZXMve2JyYW5jaF9pZH0vdHJpZ2dlcnNgLiBTY2hlZHVsZSBib2R5IG1hdGNoZXMgTUNQLiBTdG9yYWdlIGJvZHkgdXNlcyBgInR5cGUiOiAic3RvcmFnZV9vYmplY3RfY3JlYXRlZCJgIGFuZCBgc3RvcmFnZV9vYmplY3RfY3JlYXRlZDogeyBidWNrZXRfbmFtZSwgcHJlZml4IH1gLiBDTEkgcmVmZXJlbmNlOiBodHRwczovL25lb24uY29tL2RvY3MvY2xpL3RyaWdnZXJzLm1kLg0KDQpBdXRoZW50aWNhdGUgYSB0cmlnZ2VyIGRlbGl2ZXJ5IHdpdGggYHBhcnNlVHJpZ2dlckRlbGl2ZXJ5YCBmcm9tIGBAbmVvbi9mdW5jdGlvbnNgICjiiaUgMC4xMS4wKS4gYHBhcnNlVHJpZ2dlcmAgLyBgcGFyc2VUcmlnZ2VySW52b2NhdGlvbmAgc3RheSBzY2hlZHVsZS1vbmx5LiBGdWxsIHR5cGUgdGFibGUsIHBheWxvYWQsIGFuZCBIb25vIGV4YW1wbGU6IHRoZSBgbmVvbi1mdW5jdGlvbnNgIHNraWxsLCBgcmVmZXJlbmNlcy9mdW5jdGlvbi10cmlnZ2Vycy5tZGAuDQo=
+# Function Triggers (CLI, MCP, REST)
+
+A Function Trigger is a branch-scoped rule that POSTs to a Neon Function on a cron (`type: "schedule"`) or when an object is created in a bucket (`type: "storage_object_created"`). Beta; same regions as Functions (`us-east-2`, `eu-central-1`).
+
+**Prefer `neon.ts`.** Declare a `triggers` map. The record key is the trigger name. `neon deploy` applies triggers after the functions they target. Names must be unique among every trigger visible on the branch. Triggers that exist remotely but are omitted from `neon.ts` are left alone; delete with `neon triggers delete`.
+
+```typescript
+import { defineConfig } from "@neon/config/v1";
+
+export default defineConfig({
+  functions: {
+    ingest: { name: "Object ingest", source: "src/index.ts" },
+    cron: { name: "Cron", source: "src/cron.ts" },
+  },
+  buckets: { assets: { access: "public_read" } },
+  triggers: {
+    "on-upload": {
+      type: "storage_object_created",
+      function: "ingest",
+      bucket: "assets",
+      prefix: "logos/",
+      functionPath: "/object",
+    },
+    "every-minute": {
+      type: "schedule",
+      function: "cron",
+      cron: "* * * * *",
+      functionPath: "/cron",
+    },
+  },
+});
+```
+
+Needs Neon CLI 4.21 or newer (`@neon/config` 1.7.0).
+
+**CLI** when you are not applying `neon.ts`, or to list, enable, disable, or delete. `create` takes `--cron` or `--bucket`, not both:
+
+```bash
+neon triggers create --function-slug cron --name hourly --cron '0 * * * *' --function-path /cron
+neon triggers create --function-slug ingest --name on-upload --bucket assets --prefix 'logos/' --function-path /object
+neon triggers list
+neon triggers update <id> --branch <branch> --cron '*/30 * * * *'
+neon triggers update <id> --branch <branch> --bucket assets --prefix 'incoming/'
+neon triggers enable <id> --branch <branch>
+neon triggers disable <id> --branch <branch>
+neon triggers delete <id> --branch <branch>
+```
+
+Inspect a trigger with `neon triggers list --output json`. Pass `--branch` on get/update/enable/disable/delete: without it the CLI resolves the trigger id as a branch name. Inherited triggers (created on a parent branch) show `Inherited true` on the child and start disabled. `neon deploy` of a `neon.ts` that declares the same trigger enables that copy; omit it to leave the inherited trigger disabled.
+
+**MCP backup** (Neon MCP server, `?category=functions`): `list_triggers`, `get_trigger`, `create_trigger`, `update_trigger`, `delete_trigger`. `create_trigger` takes `project_id`, `branch_id` (a `br-…` id, not a name), and `body` with `"type": "schedule"`, `function_slug`, `name`, and `schedule: { cron }`. REST if neither CLI nor MCP is available: `POST /projects/{project_id}/branches/{branch_id}/triggers`. Schedule body matches MCP. Storage body uses `"type": "storage_object_created"` and `storage_object_created: { bucket_name, prefix }`. CLI reference: https://neon.com/docs/cli/triggers.md.
+
+Authenticate a trigger delivery with `parseTriggerDelivery` from `@neon/functions` (≥ 0.11.0). `parseTrigger` / `parseTriggerInvocation` stay schedule-only. Full type table, payload, and Hono example: the `neon-functions` skill, `references/function-triggers.md`.

@@ -1,1 +1,99 @@
-IyBGdWxsLVRleHQgU2VhcmNoIHdpdGggQk0yNSBSYW5raW5nDQoNClVzZSBgbGFrZWJhc2VfdGV4dGAgZm9yIEJNMjUgcmVsZXZhbmNlIHJhbmtpbmcgd2l0aCBQb3N0Z3JlU1FMJ3Mgc3RhbmRhcmQgYHRzdmVjdG9yYCB0eXBlLiBUaGUgYGxha2ViYXNlX2JtMjVgIGluZGV4IGFkZHMgY29ycHVzLWF3YXJlIHJhbmtpbmcgYW5kIHRvcC1LIHB1c2hkb3duLg0KDQpMYWtlYmFzZSBTZWFyY2ggcmVxdWlyZXMgUG9zdGdyZXMgMTYgb3IgbGF0ZXIuIEVuYWJsZSB0aGUgZXh0ZW5zaW9uIGJlZm9yZSBjcmVhdGluZyB0aGUgaW5kZXg6DQoNCmBgYHNxbA0KQ1JFQVRFIEVYVEVOU0lPTiBJRiBOT1QgRVhJU1RTIGxha2ViYXNlX3RleHQ7DQpgYGANCg0KYGxha2ViYXNlX3RleHRgIGhhcyBubyBleHRlbnNpb24gZGVwZW5kZW5jeS4gSXQgcmVsaWVzIG9uIGEgcHJlbG9hZGVkIGxpYnJhcnkgdGhhdCBOZW9uIGVuYWJsZXMgYnkgZGVmYXVsdDsgaWYgdGhlIHByb2plY3QgY3VzdG9taXplZCBpdHMgcHJlbG9hZGVkLWxpYnJhcnkgbGlzdCwgY29uZmlybSB0aGUgbGlicmFyeSByZW1haW5zIGVuYWJsZWQuDQoNCiMjIFByZXBhcmUgYW5kIEluZGV4IFRleHQNCg0KUHJlZmVyIGEgc3RvcmVkIGdlbmVyYXRlZCBgdHN2ZWN0b3JgIHdoZW4gc2VhcmNoIHRleHQgY29tZXMgZnJvbSBzdGFibGUgdGFibGUgY29sdW1uczoNCg0KYGBgc3FsDQpDUkVBVEUgVEFCTEUgZG9jdW1lbnRzICgNCiAgaWQgYmlnaW50IEdFTkVSQVRFRCBCWSBERUZBVUxUIEFTIElERU5USVRZIFBSSU1BUlkgS0VZLA0KICB0aXRsZSB0ZXh0IE5PVCBOVUxMLA0KICBib2R5IHRleHQgTk9UIE5VTEwsDQogIGJvZHlfdHN2IHRzdmVjdG9yIEdFTkVSQVRFRCBBTFdBWVMgQVMNCiAgICAodG9fdHN2ZWN0b3IoJ2VuZ2xpc2gnLCBib2R5KSkgU1RPUkVEDQopOw0KYGBgDQoNCkNyZWF0ZSB0aGUgaW5kZXggYWZ0ZXIgdGhlIGluaXRpYWwgY29ycHVzIGhhcyBiZWVuIGluc2VydGVkIHNvIGJ1aWxkLXRpbWUgY29ycHVzIHN0YXRpc3RpY3MgYXJlIG1lYW5pbmdmdWwuIEJNMjUgc2NvcmluZyBpcyB0dW5lZCBieSB0d28gc3RvcmFnZSBwYXJhbWV0ZXJzIHNldCBhdCBpbmRleC1idWlsZCB0aW1lOg0KDQotIGBrMWAgY29udHJvbHMgdGVybS1mcmVxdWVuY3kgc2F0dXJhdGlvbiAoZGVmYXVsdCBgMS4yYCwgcmFuZ2UgYDEuMmDigJNgMi4wYCk6IGhpZ2hlciB2YWx1ZXMgbGV0IHJlcGVhdGVkIHRlcm1zIGtlZXAgYWRkaW5nIHJlbGV2YW5jZS4NCg0KLSBgYmAgY29udHJvbHMgZG9jdW1lbnQtbGVuZ3RoIG5vcm1hbGl6YXRpb24gKGRlZmF1bHQgYDAuNzVgLCByYW5nZSBgMC4wYOKAk2AxLjBgKTogaGlnaGVyIHZhbHVlcyBwZW5hbGl6ZSBsb25nZXIgZG9jdW1lbnRzIG1vcmUuDQoNCkJvdGggY2FuIG9ubHkgYmUgc2V0IGluIHRoZSBgV0lUSGAgY2xhdXNlLCBhbmQgdXBkYXRpbmcgdGhlbSByZWJ1aWxkcyB0aGUgaW5kZXg6DQoNCmBgYHNxbA0KQ1JFQVRFIElOREVYIGRvY3VtZW50c19ib2R5X2JtMjUgT04gZG9jdW1lbnRzDQogIFVTSU5HIGxha2ViYXNlX2JtMjUgKGJvZHlfdHN2KQ0KICBXSVRIIChrMSA9IDEuMiwgYiA9IDAuNzUpOw0KYGBgDQoNCkFmdGVyIGEgbGFyZ2UgYnVsayBsb2FkLCBydW4gYFZBQ1VVTWAgdG8gcmVmcmVzaCB0aGUgc3RhdGlzdGljcyB1c2VkIGJ5IEJNMjUgc2NvcmluZy4NCg0KIyMgUXVlcnkgYW5kIEludGVycHJldCBTY29yZXMNCg0KYHRvX2JtMjVxdWVyeWAgYmluZHMgdGhlIHF1ZXJ5IGB0c3ZlY3RvcmAgdG8gdGhlIEJNMjUgaW5kZXggd2hvc2UgY29ycHVzIHN0YXRpc3RpY3Mgc2hvdWxkIGJlIHVzZWQuIFRoZSBgPEA+YCBvcGVyYXRvciByZXR1cm5zIGEgbmVnYXRpdmUgQk0yNSBzY29yZSwgc28gbG93ZXIgKG1vcmUgbmVnYXRpdmUpIHZhbHVlcyBhcmUgbW9yZSByZWxldmFudCBhbmQgbXVzdCBzb3J0IGFzY2VuZGluZzoNCg0KYGBgc3FsDQpTRUxFQ1QNCiAgaWQsDQogIHRpdGxlLA0KICBib2R5X3RzdiA8QD4gdG9fYm0yNXF1ZXJ5KA0KICAgIHRvX3RzdmVjdG9yKCdlbmdsaXNoJywgJDEpLA0KICAgICdkb2N1bWVudHNfYm9keV9ibTI1Jzo6cmVnY2xhc3MNCiAgKSBBUyBzY29yZQ0KRlJPTSBkb2N1bWVudHMNCk9SREVSIEJZIHNjb3JlDQpMSU1JVCAkMjsNCmBgYA0KDQpVc2UgdGhlIHNhbWUgdGV4dC1zZWFyY2ggY29uZmlndXJhdGlvbiBmb3IgZG9jdW1lbnQgYW5kIHF1ZXJ5IHZlY3RvcnMuIFNlbGVjdCBhIGxhbmd1YWdlLXNwZWNpZmljIG9yIGN1c3RvbSBjb25maWd1cmF0aW9uIHRoYXQgbWF0Y2hlcyB0aGUgY29ycHVzLg0KDQojIyBTZXQgdGhlIENhbmRpZGF0ZSBMaW1pdA0KDQpgbGFrZWJhc2VfYm0yNS5kZWZhdWx0X2xpbWl0YCBjb250cm9scyBob3cgbWFueSByb3dzIHRoZSBpbmRleCByZXR1cm5zIGJlZm9yZSBQb3N0Z3JlU1FMIGFwcGxpZXMgdGhlIFNRTCBgTElNSVRgLiBJdHMgZGVmYXVsdCBpcyBgMTAwMGA7IHNldHRpbmcgaXQgY2xvc2UgdG8gdGhlIHJlcXVlc3RlZCB0b3AtSyBhdm9pZHMgdW5uZWNlc3Nhcnkgc2NvcmluZy4NCg0KIyMgVXNlIFByZWZpbHRlciBTZWxlY3RpdmVseQ0KDQpFbmFibGUgcHJlZmlsdGVyIHdoZW4gYSBgV0hFUkVgIGNvbmRpdGlvbiBpcyBzdHJpY3Qgb3IgdW5wcmVkaWN0YWJsZSBhbmQgY2hlYXAgdG8gZXZhbHVhdGUuIEl0IGxldHMgdGhlIGluZGV4IHBydW5lIHJvd3MgYmVmb3JlIEJNMjUgc2NvcmluZy4gQSBsb29zZSBvciBleHBlbnNpdmUgZmlsdGVyIGNhbiBiZSBzbG93ZXIgd2l0aCBwcmVmaWx0ZXIgZW5hYmxlZC4NCg0KYGBgc3FsDQpCRUdJTjsNClNFVCBMT0NBTCBsYWtlYmFzZV9ibTI1LmRlZmF1bHRfbGltaXQgPSAyMDsNClNFVCBMT0NBTCBsYWtlYmFzZV9ibTI1LnByZWZpbHRlciA9IG9uOw0KDQpTRUxFQ1QNCiAgaWQsDQogIHRpdGxlLA0KICBib2R5X3RzdiA8QD4gdG9fYm0yNXF1ZXJ5KA0KICAgIHRvX3RzdmVjdG9yKCdlbmdsaXNoJywgJDEpLA0KICAgICdkb2N1bWVudHNfYm9keV9ibTI1Jzo6cmVnY2xhc3MNCiAgKSBBUyBzY29yZQ0KRlJPTSBkb2N1bWVudHMNCldIRVJFIGlkICUgMTAwMCA9IDANCk9SREVSIEJZIHNjb3JlDQpMSU1JVCAkMjsNCkNPTU1JVDsNCmBgYA0KDQojIyBTZXQgUGFyYW1ldGVycyBhdCBCdWlsZCBUaW1lIG9yIFBlciBRdWVyeQ0KDQpTZXZlcmFsIEJNMjUgcGFyYW1ldGVycyBjYW4gYmUgc2V0IGluIHR3byBwbGFjZXMuIEFzIGFuIGluZGV4IHN0b3JhZ2UgcGFyYW1ldGVyIGluIHRoZSBgQ1JFQVRFIElOREVYYCBgV0lUSGAgY2xhdXNlLCBhIHZhbHVlIGlzIGZlZCBpbnRvIHRoZSBpbmRleCBhcyBpdHMgYnVpbGQtdGltZSBkZWZhdWx0LiBBcyBhIHNlc3Npb24gR1VDIHZpYSBgU0VUYCAob3IgYFNFVCBMT0NBTGApLCBpdCBhcHBsaWVzIHBlciBxdWVyeSBhbmQgdGFrZXMgcHJlY2VkZW5jZSBvdmVyIHRoZSBzdG9yZWQgZGVmYXVsdCB3aGVuIGJvdGggYXJlIHByZXNlbnQuDQoNCi0gYGRlZmF1bHRfbGltaXRgIGFuZCBgcHJlZmlsdGVyYCBleGlzdCBpbiBib3RoIGZvcm1zOiBzZXQgYW4gaW5kZXggZGVmYXVsdCB0aGF0IGZpdHMgdGhlIGNvbW1vbiBjYXNlLCB0aGVuIG92ZXJyaWRlIGl0IHBlciBxdWVyeSB3aXRoIGEgR1VDIHdpdGhvdXQgcmVidWlsZGluZy4NCi0gYGsxYCAoZGVmYXVsdCBgMS4yYCkgYW5kIGBiYCAoZGVmYXVsdCBgMC43NWApIGFyZSBzdG9yYWdlIHBhcmFtZXRlcnMgb25seS4gVGhlcmUgaXMgbm8gR1VDIGZvciB0aGVtLg0KLSBgZW5hYmxlX3NjYW5gIChkZWZhdWx0IGBvbmApIGlzIGEgR1VDIG9ubHkuDQoNClRoZSBleGFtcGxlcyB1c2UgYFNFVCBMT0NBTGAgc28gZWFjaCBvdmVycmlkZSBpcyBzY29wZWQgdG8gaXRzIG93biB0cmFuc2FjdGlvbiwgd2hpY2ggaXMgcmVxdWlyZWQgYmVoaW5kIGEgY29ubmVjdGlvbiBwb29sIG9yIHN0YXRlbGVzcyBkcml2ZXIuDQoNClNvdXJjZTogW2BsYWtlYmFzZV90ZXh0YCBkb2N1bWVudGF0aW9uXShodHRwczovL25lb24uY29tL2RvY3MvZXh0ZW5zaW9ucy9sYWtlYmFzZS10ZXh0KS4NCg==
+# Full-Text Search with BM25 Ranking
+
+Use `lakebase_text` for BM25 relevance ranking with PostgreSQL's standard `tsvector` type. The `lakebase_bm25` index adds corpus-aware ranking and top-K pushdown.
+
+Lakebase Search requires Postgres 16 or later. Enable the extension before creating the index:
+
+```sql
+CREATE EXTENSION IF NOT EXISTS lakebase_text;
+```
+
+`lakebase_text` has no extension dependency. It relies on a preloaded library that Neon enables by default; if the project customized its preloaded-library list, confirm the library remains enabled.
+
+## Prepare and Index Text
+
+Prefer a stored generated `tsvector` when search text comes from stable table columns:
+
+```sql
+CREATE TABLE documents (
+  id bigint GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY,
+  title text NOT NULL,
+  body text NOT NULL,
+  body_tsv tsvector GENERATED ALWAYS AS
+    (to_tsvector('english', body)) STORED
+);
+```
+
+Create the index after the initial corpus has been inserted so build-time corpus statistics are meaningful. BM25 scoring is tuned by two storage parameters set at index-build time:
+
+- `k1` controls term-frequency saturation (default `1.2`, range `1.2`–`2.0`): higher values let repeated terms keep adding relevance.
+
+- `b` controls document-length normalization (default `0.75`, range `0.0`–`1.0`): higher values penalize longer documents more.
+
+Both can only be set in the `WITH` clause, and updating them rebuilds the index:
+
+```sql
+CREATE INDEX documents_body_bm25 ON documents
+  USING lakebase_bm25 (body_tsv)
+  WITH (k1 = 1.2, b = 0.75);
+```
+
+After a large bulk load, run `VACUUM` to refresh the statistics used by BM25 scoring.
+
+## Query and Interpret Scores
+
+`to_bm25query` binds the query `tsvector` to the BM25 index whose corpus statistics should be used. The `<@>` operator returns a negative BM25 score, so lower (more negative) values are more relevant and must sort ascending:
+
+```sql
+SELECT
+  id,
+  title,
+  body_tsv <@> to_bm25query(
+    to_tsvector('english', $1),
+    'documents_body_bm25'::regclass
+  ) AS score
+FROM documents
+ORDER BY score
+LIMIT $2;
+```
+
+Use the same text-search configuration for document and query vectors. Select a language-specific or custom configuration that matches the corpus.
+
+## Set the Candidate Limit
+
+`lakebase_bm25.default_limit` controls how many rows the index returns before PostgreSQL applies the SQL `LIMIT`. Its default is `1000`; setting it close to the requested top-K avoids unnecessary scoring.
+
+## Use Prefilter Selectively
+
+Enable prefilter when a `WHERE` condition is strict or unpredictable and cheap to evaluate. It lets the index prune rows before BM25 scoring. A loose or expensive filter can be slower with prefilter enabled.
+
+```sql
+BEGIN;
+SET LOCAL lakebase_bm25.default_limit = 20;
+SET LOCAL lakebase_bm25.prefilter = on;
+
+SELECT
+  id,
+  title,
+  body_tsv <@> to_bm25query(
+    to_tsvector('english', $1),
+    'documents_body_bm25'::regclass
+  ) AS score
+FROM documents
+WHERE id % 1000 = 0
+ORDER BY score
+LIMIT $2;
+COMMIT;
+```
+
+## Set Parameters at Build Time or Per Query
+
+Several BM25 parameters can be set in two places. As an index storage parameter in the `CREATE INDEX` `WITH` clause, a value is fed into the index as its build-time default. As a session GUC via `SET` (or `SET LOCAL`), it applies per query and takes precedence over the stored default when both are present.
+
+- `default_limit` and `prefilter` exist in both forms: set an index default that fits the common case, then override it per query with a GUC without rebuilding.
+- `k1` (default `1.2`) and `b` (default `0.75`) are storage parameters only. There is no GUC for them.
+- `enable_scan` (default `on`) is a GUC only.
+
+The examples use `SET LOCAL` so each override is scoped to its own transaction, which is required behind a connection pool or stateless driver.
+
+Source: [`lakebase_text` documentation](https://neon.com/docs/extensions/lakebase-text).
