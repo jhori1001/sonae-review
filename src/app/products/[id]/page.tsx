@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
-import {products,stats,displayStats,yen} from '@/lib/catalog';
+import {products,stats,displayStats,yen,shortName} from '@/lib/catalog';
 import {loadReviews} from '@/lib/reviews';
 import {shopLinks} from '@/lib/affiliates';
 import {ProductImage,Rating,ProductCard} from '@/components/site';
@@ -9,7 +9,7 @@ import {Reveal} from '@/components/reveal';
 import {Button} from '@/components/ui/button';
 import {PenLine,ArrowUpRight} from 'lucide-react';
 export const dynamic='force-dynamic';
-export async function generateMetadata({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=products.find(x=>x.id===id);return {title:p?`${p.name}の口コミ・評価`:'商品が見つかりません',description:p?.short}}
+export async function generateMetadata({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=products.find(x=>x.id===id);return {title:p?`${shortName(p.name)}の口コミ・評価`:'商品が見つかりません',description:p?.short}}
 export default async function Page({params}:{params:Promise<{id:string}>}){
  const {id}=await params;const p=products.find(x=>x.id===id);if(!p)notFound();
  const data=await loadReviews();const reviews=data.reviews.filter(r=>r.productId===id);const s=stats(id,reviews);const ds=displayStats(p,reviews);
@@ -20,7 +20,7 @@ export default async function Page({params}:{params:Promise<{id:string}>}){
   <section className="detail-hero">
    <div><ProductImage product={p}/><p className="muted">楽天市場商品画像</p></div>
    <div className="detail-summary">
-    <span className="eyebrow">{p.category}</span><p className="maker">{p.brand}</p><h1>{p.name}</h1><p>{p.short}</p>
+    <span className="eyebrow">{p.category}</span><p className="maker">{p.brand}</p><h1 title={p.name}>{shortName(p.name,44)}</h1><p>{p.short}</p>
     <a href="#reviews"><Rating {...ds}/><span className="muted"> 楽天でのレビュー ↓</span></a>
     <div className="shop-panel"><span className="mini-label">広告・購入先のご案内</span><p className="detail-price">{yen(p.price)}<small>楽天価格</small></p>
      <div className="shop-buttons">

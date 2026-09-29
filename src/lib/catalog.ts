@@ -10,3 +10,17 @@ export function stats(id:string,reviews:Review[]=[]){const rows=reviews.filter(r
 // product — nobody here has reviewed them).
 export function displayStats(product:Product,reviews:Review[]=[]){const own=stats(product.id,reviews);if(own.count)return own;if(product.rakutenReviewCount)return {count:product.rakutenReviewCount,average:product.rakutenReviewAverage||0};return own}
 export const yen=(p:number)=>new Intl.NumberFormat('ja-JP',{style:'currency',currency:'JPY',maximumFractionDigits:0}).format(p);
+// Rakuten product names are SEO-stuffed: a run of promotional badges
+// (【P10倍UP★...】「楽天総合1位」...) followed by the actual product name,
+// then a long tail of repeated keywords. Strip the leading badges and cap
+// the length so titles stay readable in cards, page headings, and <title>.
+const LEADING_BADGE=/^[【「＜(（\[][^】」＞)）\]]*[】」＞)）\]]\s*/;
+export function shortName(name:string,max=28){
+ let s=name.trim();
+ while(LEADING_BADGE.test(s))s=s.replace(LEADING_BADGE,'').trim();
+ if(!s)s=name.trim();
+ if(s.length<=max)return s;
+ const cut=s.slice(0,max);
+ const lastSpace=cut.lastIndexOf(' ');
+ return (lastSpace>max*0.6?cut.slice(0,lastSpace):cut).trim()+'…';
+}
