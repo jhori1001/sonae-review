@@ -127,7 +127,11 @@ for (const category of categories) {
       price: item.itemPrice,
       short,
       image,
-      caption: (item.itemCaption || '').slice(0, 400),
+      // Up to 3 shop images for the product page gallery (lib/product-images.ts).
+      images: (item.mediumImageUrls || []).slice(0, 3).map(u => u.replace(/\?_ex=\d+x\d+/, '?_ex=400x400')),
+      // Long enough to reach the spec sheet most shops put after the sales copy;
+      // lib/product-text.ts cleans it up for display.
+      caption: (item.itemCaption || '').slice(0, 1200),
       rakutenUrl: item.affiliateUrl || item.itemUrl,
       rakutenReviewCount: item.reviewCount || 0,
       rakutenReviewAverage: item.reviewAverage || 0,

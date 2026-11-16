@@ -1,5 +1,5 @@
-// Refreshes price and Rakuten review count/average for the products already
-// in lib/real-products.generated.ts, without changing which products are
+// Refreshes price, Rakuten review count/average, images and description for
+// the products already in lib/real-products.generated.ts, without changing which products are
 // listed. (Re-running import-rakuten.mjs instead would rebuild the list from
 // search results, and any product that dropped out would take its reviews
 // on this site with it.) Run weekly by .github/workflows/refresh-prices.yml;
@@ -54,8 +54,9 @@ for (const p of products) {
   try {
     const item = await lookup(itemCode);
     if (!item || slugify(item.itemCode) !== p.id) { missing.push(p.id); continue; }
-    const next = {price: item.itemPrice, rakutenReviewCount: item.reviewCount || 0, rakutenReviewAverage: item.reviewAverage || 0};
-    if (Object.entries(next).some(([k, v]) => p[k] !== v)) { Object.assign(p, next); updated++; } else unchanged++;
+    const images = (item.mediumImageUrls || []).slice(0, 3).map(u => u.replace(/\?_ex=\d+x\d+/, '?_ex=400x400'));
+    const next = {price: item.itemPrice, rakutenReviewCount: item.reviewCount || 0, rakutenReviewAverage: item.reviewAverage || 0, image: images[0] || p.image, images, caption: (item.itemCaption || '').slice(0, 1200)};
+    if (Object.entries(next).some(([k, v]) => JSON.stringify(p[k]) !== JSON.stringify(v))) { Object.assign(p, next); updated++; } else unchanged++;
   } catch (error) {
     console.error(`  ${p.id}: ${error.message}`);
     missing.push(p.id);

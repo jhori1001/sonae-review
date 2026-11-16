@@ -1,7 +1,8 @@
 import {realProducts} from './real-products.generated';
+import {decodeEntities} from './product-text';
 export const categories=['簡易トイレ','ライト・ランタン','防災バッグ','ポータブル電源','非常食','モバイルバッテリー','飲料水','衛生用品','防寒用品','救急用品','ラジオ','家具転倒防止','ヘルメット','防災セット','子ども向け','女性向け','高齢者向け','ペット防災'];
 export const disasters=['地震','台風','大雨','停電','避難'];
-export type Product={id:string;name:string;brand:string;category:string;disasters:string[];price:number;tile?:number;short:string;size?:string;weight?:string;features?:string[];pros?:string;cons?:string;goodFor?:string;notFor?:string;added:string;image?:string;caption?:string;rakutenUrl?:string;rakutenReviewCount?:number;rakutenReviewAverage?:number;source?:'rakuten'};
+export type Product={id:string;name:string;brand:string;category:string;disasters:string[];price:number;tile?:number;short:string;size?:string;weight?:string;features?:string[];pros?:string;cons?:string;goodFor?:string;notFor?:string;added:string;image?:string;images?:string[];caption?:string;rakutenUrl?:string;rakutenReviewCount?:number;rakutenReviewAverage?:number;source?:'rakuten'};
 export const products:Product[]=realProducts;
 export type Review={id:string;productId:string;nickname:string;rating:number;title:string;body:string;images:string[];createdAt:string;usage?:string;household?:string;helpful?:number;demo?:boolean;tile?:number};
 // How the poster has used the product — shown on each review and filterable,
@@ -24,7 +25,7 @@ export const yen=(p:number)=>new Intl.NumberFormat('ja-JP',{style:'currency',cur
 // the length so titles stay readable in cards, page headings, and <title>.
 const LEADING_BADGE=/^[【「＜(（\[][^】」＞)）\]]*[】」＞)）\]]\s*/;
 export function shortName(name:string,max=28){
- let s=name.trim();
+ let s=decodeEntities(name).trim();
  while(LEADING_BADGE.test(s))s=s.replace(LEADING_BADGE,'').trim();
  if(!s)s=name.trim();
  if(s.length<=max)return s;

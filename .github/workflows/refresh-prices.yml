@@ -1,7 +1,7 @@
-name: Refresh Rakuten prices
+name: Refresh Rakuten product data
 
-# Weekly: updates price and Rakuten review count/average for the listed
-# products and opens a pull request with the changes, so nothing reaches
+# Weekly: updates price, Rakuten review count/average, images and
+# description for the listed products and opens a pull request with the changes, so nothing reaches
 # the live site until it's merged. Needs the repository secrets
 # RAKUTEN_APP_ID, RAKUTEN_ACCESS_KEY and RAKUTEN_AFFILIATE_ID.
 on:
@@ -35,5 +35,5 @@ jobs:
           branch: bot/refresh-prices
           commit-message: Refresh Rakuten prices and review counts
           title: Refresh Rakuten prices and review counts
-          body: Weekly automatic update of price, review count and review average for the listed Rakuten products.
+          body: Weekly automatic update of price, review count, review average, images and description for the listed Rakuten products.
           add-paths: src/lib/real-products.generated.ts
