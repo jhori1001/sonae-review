@@ -16,3 +16,8 @@ export async function getOrSetVisitorId(): Promise<string> {
   store.set(COOKIE, id, {httpOnly: true, sameSite: 'lax', secure: process.env.NODE_ENV === 'production', maxAge: ONE_YEAR, path: '/'});
   return id;
 }
+
+// Read-only variant for server components, which can't set cookies.
+export async function readVisitorId(): Promise<string | undefined> {
+  return (await cookies()).get(COOKIE)?.value;
+}

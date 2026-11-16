@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import {products,stats,displayStats,yen,shortName} from '@/lib/catalog';
-import {loadReviews} from '@/lib/reviews';
+import {loadProductReviews,loadReviewStats,loadHelpfulVotes} from '@/lib/reviews';
+import {readVisitorId} from '@/lib/visitor';
 import {shopLinks} from '@/lib/affiliates';
 import {ProductImage,Rating,ProductCard} from '@/components/site';
-import {ReviewCard} from '@/components/review-card';
+import {ReviewList} from '@/components/review-list';
 import {Reveal} from '@/components/reveal';
 import {Button} from '@/components/ui/button';
 import {PenLine,ArrowUpRight} from 'lucide-react';
@@ -12,7 +13,7 @@ export const dynamic='force-dynamic';
 export async function generateMetadata({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=products.find(x=>x.id===id);return {title:p?`${shortName(p.name)}の口コミ・評価`:'商品が見つかりません',description:p?.short}}
 export default async function Page({params}:{params:Promise<{id:string}>}){
  const {id}=await params;const p=products.find(x=>x.id===id);if(!p)notFound();
- const data=await loadReviews();const reviews=data.reviews.filter(r=>r.productId===id);const s=stats(id,reviews);const ds=displayStats(p,reviews);
+ const [data,all]=await Promise.all([loadProductReviews(id),loadReviewStats()]);const reviews=data.reviews;const s=stats(id,reviews);const ds=displayStats(p,{[id]:s});const voted=await loadHelpfulVotes(await readVisitorId(),reviews.map(r=>r.id));
  const links=shopLinks(id,p.category,p.name);
  return <main className="page-wrap">
   <div className="breadcrumb"><Link href="/">ホーム</Link> / <Link href="/products">商品を探す</Link> / {p.category}</div>
@@ -21,7 +22,7 @@ export default async function Page({params}:{params:Promise<{id:string}>}){
    <div><ProductImage product={p}/><p className="muted">楽天市場商品画像</p></div>
    <div className="detail-summary">
     <span className="eyebrow">{p.category}</span><p className="maker">{p.brand}</p><h1 title={p.name}>{shortName(p.name,44)}</h1><p>{p.short}</p>
-    <a href="#reviews"><Rating {...ds}/><span className="muted"> 楽天でのレビュー ↓</span></a>
+    <a href="#reviews"><Rating {...ds}/><span className="muted"> {ds.source==='site'?'このサイトの口コミ ↓':'楽天市場のレビュー評価 ↓'}</span></a>
     <div className="shop-panel"><span className="mini-label">広告・購入先のご案内</span><p className="detail-price">{yen(p.price)}<small>楽天価格</small></p>
      <div className="shop-buttons">
       <a className="amazon" href={links.amazon} target="_blank" rel="sponsored nofollow noopener noreferrer">Amazonで見る<ArrowUpRight size={17}/></a>
@@ -39,9 +40,9 @@ export default async function Page({params}:{params:Promise<{id:string}>}){
    {data.unavailable&&<p className="error">投稿された口コミを読み込めません。</p>}
    <div className="reviews-layout">
     <aside className="rating-panel"><Rating {...s}/><p>総合評価</p>{[5,4,3,2,1].map(n=><div className="rating-bar" key={n}><span>★{n}</span><div><span style={{width:`${s.count?reviews.filter(r=>r.rating===n).length/s.count*100:0}%`}}/></div><span>{reviews.filter(r=>r.rating===n).length}</span></div>)}</aside>
-    <div>{reviews.length?reviews.map(r=><ReviewCard key={r.id} review={r}/>):<p className="muted">まだこのサイトへの口コミがありません。最初の口コミを書いてみませんか。</p>}</div>
+    <div>{reviews.length?<ReviewList reviews={reviews} voted={voted}/>:<p className="muted">まだこのサイトへの口コミがありません。最初の口コミを書いてみませんか。</p>}</div>
    </div>
   </section>
-  <section className="section"><h2 className="related-title">こちらの備えもチェック</h2><Reveal className="product-grid three" stagger>{products.filter(x=>x.id!==id&&x.category===p.category).slice(0,3).map(x=><ProductCard product={x} reviews={data.reviews} key={x.id}/>)}</Reveal></section>
+  <section className="section"><h2 className="related-title">こちらの備えもチェック</h2><Reveal className="product-grid three" stagger>{products.filter(x=>x.id!==id&&x.category===p.category).slice(0,3).map(x=><ProductCard product={x} stats={all.stats} key={x.id}/>)}</Reveal></section>
  </main>
 }

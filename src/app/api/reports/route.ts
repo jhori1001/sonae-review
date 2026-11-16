@@ -1,10 +1,11 @@
 import {getSql} from '@/lib/db';
 import {getOrSetVisitorId} from '@/lib/visitor';
+import {sameOrigin} from '@/lib/request-meta';
 export async function POST(request:Request){
- if(request.headers.get('origin')!==new URL(request.url).origin)return Response.json({error:'不正な送信元です。'},{status:403});
+ if(!sameOrigin(request))return Response.json({error:'不正な送信元です。'},{status:403});
  const userId=await getOrSetVisitorId();
- const sql=getSql();
  try{
+  const sql=await getSql();
   const {reviewId,reason}=await request.json();
   if(typeof reviewId!=='string'||typeof reason!=='string'||reason.trim().length<5||reason.length>500)return Response.json({error:'理由を5〜500文字で入力してください。'},{status:400});
   const known=(await sql`SELECT id FROM reviews WHERE id = ${reviewId}` as unknown[]).length>0;
