@@ -41,7 +41,8 @@
 .v2-search-label { color: #fff; font-size: 13px; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
 .v2-search-label span.tag { background: #fff2; border: 1px solid #ffffff55; border-radius: 999px; padding: 2px 10px; font-size: 11px; font-weight: 600; }
 .v2-search-form { display: flex; gap: 8px; }
-.v2-search-form input { flex: 1; border: 0; border-radius: 10px; padding: 0 16px; height: 48px; font-size: 15px; min-width: 0; }
+.v2-search-form input { flex: 1; border: 0; border-radius: 10px; padding: 0 16px; height: 48px; font-size: 15px; min-width: 0; background: #fff; color: var(--v2-text); }
+.v2-search-form input::placeholder { color: #9a9ea4; }
 .v2-search-form input:focus-visible { outline: 3px solid var(--v2-gold); outline-offset: 2px; }
 .v2-search-form button { background: var(--v2-green); color: #fff; border: 0; border-radius: 10px; padding: 0 24px; font-weight: 800; font-size: 15px; height: 48px; flex-shrink: 0; }
 .v2-search-form button:hover { background: #157e4c; }
