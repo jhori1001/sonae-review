@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft, ChevronRight, ExternalLink, Heart, Crown } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ExternalLink, Heart, Crown, ShieldCheck } from 'lucide-react';
 import { products, stats, displayStats, yen, shortName } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
 import { shopLinks } from '@/lib/affiliates';
@@ -55,7 +55,7 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
           </div>
 
           <div className="v2-score-box">
-            <span className="v2-score-brand">🌸 そなえレビュー</span>
+            <span className="v2-score-brand"><ShieldCheck size={16} /> そなえレビュー</span>
             <span className="v2-score-num">★{ds.average ? ds.average.toFixed(2) : '—'}<span>/5</span></span>
             <span style={{ fontSize: 13, color: 'var(--v2-muted)' }}>{ds.count.toLocaleString('ja-JP')}件の評価をもとに算出</span>
             <span className="v2-score-stamp">{ds.average >= 4.3 ? '高評価' : ds.count >= 1000 ? '定番' : '参考程度'}</span>
