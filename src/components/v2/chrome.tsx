@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { Crown, Clock3, Menu, Search } from 'lucide-react';
+import { V2SearchInput } from './search-input';
 
 export function V2Header() {
   return (
@@ -27,10 +28,7 @@ export function V2SearchBand() {
     <div className="v2-search-band">
       <div className="v2-search-inner">
         <p className="v2-search-label">防災グッズを検索・比較<span className="tag">口コミ件数つき</span></p>
-        <form action="/v2/products" className="v2-search-form">
-          <input aria-label="商品名・カテゴリを検索" name="q" placeholder="商品名・カテゴリを入力" />
-          <button type="submit">検索</button>
-        </form>
+        <V2SearchInput />
         <div className="v2-popular">
           <span>人気の検索</span>
           {['簡易トイレ', '防災セット', 'モバイルバッテリー', 'ポータブル電源', 'ライト・ランタン'].map(x => (

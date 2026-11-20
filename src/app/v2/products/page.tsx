@@ -1,5 +1,6 @@
 import { products, displayStats } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
+import { normalizeForSearch } from '@/lib/search';
 import { V2ProductCard } from '@/components/v2/cards';
 
 export const metadata = { title: '商品を探す｜そなえレビュー' };
@@ -9,9 +10,9 @@ export default async function V2Products({ searchParams }: { searchParams: Promi
   const { q = '', category = '' } = await searchParams;
   const data = await loadReviews();
   const reviews = data.reviews;
-  const needle = q.normalize('NFKC').toLowerCase();
+  const needle = normalizeForSearch(q);
   const filtered = products
-    .filter(p => (!category || p.category === category) && (!needle || `${p.name} ${p.category} ${p.brand}`.normalize('NFKC').toLowerCase().includes(needle)))
+    .filter(p => (!category || p.category === category) && (!needle || normalizeForSearch(`${p.name} ${p.category} ${p.brand}`).includes(needle)))
     .sort((a, b) => displayStats(b, reviews).average - displayStats(a, reviews).average);
 
   return (
