@@ -10,7 +10,7 @@ export const dynamic = 'force-dynamic';
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const p = products.find(x => x.id === id);
-  return { title: p ? `${shortName(p.name)}｜そなえチェッカー` : '商品が見つかりません' };
+  return { title: p ? `${shortName(p.name)}｜そなえレビュー` : '商品が見つかりません' };
 }
 
 export default async function V2ProductDetail({ params }: { params: Promise<{ id: string }> }) {
@@ -55,7 +55,7 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
           </div>
 
           <div className="v2-score-box">
-            <span className="v2-score-brand">🌸 そなえチェッカー</span>
+            <span className="v2-score-brand">🌸 そなえレビュー</span>
             <span className="v2-score-num">★{ds.average ? ds.average.toFixed(2) : '—'}<span>/5</span></span>
             <span style={{ fontSize: 13, color: 'var(--v2-muted)' }}>{ds.count.toLocaleString('ja-JP')}件の評価をもとに算出</span>
             <span className="v2-score-stamp">{ds.average >= 4.3 ? '高評価' : ds.count >= 1000 ? '定番' : '参考程度'}</span>

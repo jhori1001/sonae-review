@@ -9,7 +9,7 @@ export function V2Header() {
         <span className="v2-brand-icon">🌸</span>
         <span className="v2-brand-text">
           <small>口コミの信頼度が丸わかり</small>
-          <strong>そなえチェッカー</strong>
+          <strong>そなえレビュー</strong>
         </span>
       </Link>
       <nav className="v2-header-icons" aria-label="メニュー">
@@ -46,12 +46,12 @@ export function V2Footer() {
   return (
     <footer className="v2-footer">
       <div className="v2-footer-inner">
-        <p className="v2-footer-brand">🌸 そなえチェッカー</p>
+        <p className="v2-footer-brand">🌸 そなえレビュー</p>
         <p>口コミの件数・評価をもとに、実際に選ばれている防災グッズをまとめています。楽天市場の商品情報・レビューをもとに表示しています。</p>
         <p style={{ marginTop: 10 }}>
           <Link href="/v2">トップ</Link> ・ <Link href="/v2/ranking">ランキング</Link> ・ <Link href="/v2/categories">カテゴリ</Link> ・ <Link href="/">旧デザインのそなえレビューへ</Link>
         </p>
-        <p style={{ marginTop: 10, color: '#8a8f96' }}>© 2026 そなえチェッカー（そなえレビュー内の試験的な新デザインです）</p>
+        <p style={{ marginTop: 10, color: '#8a8f96' }}>© 2026 そなえレビュー（試験的な新デザインです）</p>
       </div>
     </footer>
   );

@@ -7,7 +7,7 @@ function getCategory(id: string) { return /^\d+$/.test(id) ? categories[Number(i
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  return { title: `${getCategory(id) || 'カテゴリ'}｜そなえチェッカー` };
+  return { title: `${getCategory(id) || 'カテゴリ'}｜そなえレビュー` };
 }
 
 export const dynamic = 'force-dynamic';

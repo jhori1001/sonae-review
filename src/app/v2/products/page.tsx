@@ -2,7 +2,7 @@ import { products, displayStats } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
 import { V2ProductCard } from '@/components/v2/cards';
 
-export const metadata = { title: '商品を探す｜そなえチェッカー' };
+export const metadata = { title: '商品を探す｜そなえレビュー' };
 export const dynamic = 'force-dynamic';
 
 export default async function V2Products({ searchParams }: { searchParams: Promise<{ q?: string; category?: string }> }) {
