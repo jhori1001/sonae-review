@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Crown, Clock3, Menu, Search, ShieldCheck } from 'lucide-react';
+import { Crown, Clock3, Menu, Search, ShieldCheck, PenLine } from 'lucide-react';
 import { V2SearchInput } from './search-input';
 
 export function V2Header() {
@@ -13,6 +13,7 @@ export function V2Header() {
           <strong>そなえレビュー</strong>
         </span>
       </Link>
+      <Link href="/v2/products" className="v2-header-write" aria-label="口コミを書く"><PenLine size={15} /><span>口コミを書く</span></Link>
       <nav className="v2-header-icons" aria-label="メニュー">
         <Link href="/v2/ranking" aria-label="ランキング"><Crown size={20} /></Link>
         <Link href="/v2/products" aria-label="商品を探す"><Search size={20} /></Link>

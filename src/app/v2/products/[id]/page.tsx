@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft, ChevronRight, ExternalLink, Heart, Crown, ShieldCheck } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ExternalLink, Heart, Crown, ShieldCheck, PenLine } from 'lucide-react';
 import { products, stats, displayStats, yen, shortName } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
 import { shopLinks } from '@/lib/affiliates';
@@ -79,7 +79,10 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
       </div>
 
       <div className="v2-reviews">
-        <h2>口コミ（{s.count}件）</h2>
+        <div className="v2-reviews-head">
+          <h2>口コミ（{s.count}件）</h2>
+          <Link href={`/reviews/new?product=${id}`} className="v2-write-review"><PenLine size={15} />口コミを書く</Link>
+        </div>
         {reviews.length
           ? reviews.map(r => (
             <div className="v2-review-card" key={r.id}>
@@ -88,7 +91,7 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
               <p style={{ marginTop: 6, color: 'var(--v2-muted)' }}>{r.body}</p>
             </div>
           ))
-          : <p style={{ color: 'var(--v2-muted)', fontSize: 13.5 }}>まだこのサイトへの口コミがありません。<Link href={`/reviews/new?product=${id}`} style={{ color: 'var(--v2-red)', fontWeight: 700 }}>最初の口コミを書いてみる</Link></p>}
+          : <p style={{ color: 'var(--v2-muted)', fontSize: 13.5 }}>まだこのサイトへの口コミがありません。最初の口コミを書いてみませんか。</p>}
       </div>
     </main>
   );
