@@ -4,7 +4,7 @@ import { products, categories, displayStats } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
 import { V2ProductCard, V2RankRow } from '@/components/v2/cards';
 
-export const metadata = { title: 'そなえチェッカー（新デザイン試作）' };
+export const metadata = { title: 'そなえレビュー（新デザイン試作）' };
 export const dynamic = 'force-dynamic';
 
 const categoryIcons = [Tent, Flashlight, Backpack, BatteryCharging, Utensils, BatteryCharging, Droplet, HeartPulse, Thermometer, HeartPulse, Radio, Armchair, HardHat, ShieldCheck, Baby, Heart, UserRound, PawPrint];
