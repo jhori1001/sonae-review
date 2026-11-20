@@ -73,7 +73,7 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
       <div className="v2-black-band">
         <p>評価の目安は<span className="count">★{petals}</span>/5です</p>
         <div className="v2-petal-row">
-          {[1, 2, 3, 4, 5].map(n => <span key={n} className={n <= petals ? 'on' : 'off'}>🌸</span>)}
+          {[1, 2, 3, 4, 5].map(n => <span key={n} className={n <= petals ? 'on' : 'off'}>★</span>)}
         </div>
         <p style={{ fontSize: 12, fontWeight: 400, marginTop: 10, color: '#aeb2b8' }}>※このサイト独自の口コミと、楽天市場のレビューをもとにした目安です。</p>
       </div>
