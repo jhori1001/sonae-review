@@ -1,0 +1,60 @@
+/* Internal admin panel — utilitarian, not customer-facing, so styled
+   lightly rather than matching the v1/v2 design systems. Scoped to .admin
+   so it never leaks into either public front end. */
+
+.admin {
+  font-family: -apple-system, 'Noto Sans JP', Meiryo, sans-serif;
+  color: #1f2328;
+  background: #f6f7f8;
+  min-height: 100vh;
+}
+
+.admin a { color: #155b46; text-decoration: none; }
+.admin button { cursor: pointer; font-family: inherit; }
+
+.admin-login { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+.admin-login-box { background: #fff; border: 1px solid #e3e5e8; border-radius: 10px; padding: 32px; width: 100%; max-width: 360px; }
+.admin-login-box h1 { font-size: 18px; margin-bottom: 18px; }
+.admin-login-box input { display: block; width: 100%; padding: 10px 12px; border: 1px solid #d7dadd; border-radius: 6px; font-size: 14px; margin-bottom: 12px; }
+.admin-login-box button { width: 100%; padding: 10px; background: #155b46; color: #fff; border: none; border-radius: 6px; font-size: 14px; font-weight: 700; }
+.admin-login-box button:disabled { opacity: 0.6; }
+.admin-login-error { color: #c0392b; font-size: 13px; margin-bottom: 12px; }
+
+.admin-header { display: flex; align-items: center; gap: 24px; padding: 14px 24px; background: #fff; border-bottom: 1px solid #e3e5e8; position: sticky; top: 0; z-index: 10; flex-wrap: wrap; }
+.admin-header strong { font-size: 15px; }
+.admin-header nav { display: flex; gap: 16px; flex: 1; flex-wrap: wrap; }
+.admin-header nav a { font-size: 14px; font-weight: 600; padding: 4px 0; }
+.admin-header nav a.active { color: #1f2328; border-bottom: 2px solid #155b46; }
+.admin-header .logout { background: none; border: 1px solid #d7dadd; border-radius: 6px; padding: 6px 12px; font-size: 13px; color: #555; }
+
+@media (max-width: 640px) {
+  .admin-header { gap: 10px 16px; padding: 12px 16px; }
+  .admin-header strong { flex-basis: 100%; }
+  .admin-header nav { gap: 14px; }
+}
+
+.admin-main { max-width: 1040px; margin: 0 auto; padding: 24px; }
+.admin-main h1 { font-size: 18px; margin-bottom: 16px; }
+.admin-empty { color: #70757c; font-size: 14px; padding: 20px 0; }
+
+.admin-table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e3e5e8; border-radius: 8px; overflow: hidden; font-size: 13.5px; }
+.admin-table th { text-align: left; padding: 10px 12px; background: #eff1f3; font-weight: 700; font-size: 12px; color: #555; white-space: nowrap; }
+.admin-table td { padding: 10px 12px; border-top: 1px solid #edeeef; vertical-align: top; }
+.admin-table tr:hover td { background: #fafbfb; }
+.admin-table .muted { color: #70757c; }
+.admin-table .actions { display: flex; gap: 8px; white-space: nowrap; }
+
+.admin-btn { border: 1px solid #d7dadd; background: #fff; border-radius: 6px; padding: 5px 10px; font-size: 12.5px; }
+.admin-btn.danger { color: #c0392b; border-color: #e3bdb6; }
+.admin-btn.danger:hover { background: #fdf3f1; }
+.admin-btn:disabled { opacity: 0.5; cursor: default; }
+
+.admin-filter { width: 100%; max-width: 360px; padding: 8px 12px; border: 1px solid #d7dadd; border-radius: 6px; font-size: 13.5px; margin-bottom: 14px; }
+
+.admin-override-row input { width: 100%; padding: 6px 8px; border: 1px solid #d7dadd; border-radius: 5px; font-size: 12.5px; }
+.admin-override-row .saved { color: #1a9b5c; font-size: 12px; }
+
+@media (max-width: 640px) {
+  .admin-main { padding: 16px; }
+  .admin-table { display: block; overflow-x: auto; white-space: nowrap; }
+}

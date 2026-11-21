@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, ExternalLink, Heart, Crown, ShieldCheck, Pen
 import { products, stats, displayStats, yen, shortName } from '@/lib/catalog';
 import { loadReviews } from '@/lib/reviews';
 import { shopLinks } from '@/lib/affiliates';
+import { getOverride } from '@/lib/overrides';
 
 export const dynamic = 'force-dynamic';
 
@@ -21,7 +22,8 @@ export default async function V2ProductDetail({ params }: { params: Promise<{ id
   const reviews = data.reviews.filter(r => r.productId === id);
   const s = stats(id, reviews);
   const ds = displayStats(p, reviews);
-  const links = shopLinks(id, p.category, p.name);
+  const override = await getOverride(id);
+  const links = shopLinks(id, p.category, p.name, override);
 
   const inCategory = [...products].filter(x => x.category === p.category).sort((a, b) => displayStats(b, data.reviews).average - displayStats(a, data.reviews).average);
   const myRank = inCategory.findIndex(x => x.id === id) + 1;
