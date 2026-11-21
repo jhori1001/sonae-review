@@ -3,6 +3,7 @@ import {notFound} from 'next/navigation';
 import {products,stats,displayStats,yen,shortName} from '@/lib/catalog';
 import {loadReviews} from '@/lib/reviews';
 import {shopLinks} from '@/lib/affiliates';
+import {getOverride} from '@/lib/overrides';
 import {ProductImage,Rating,ProductCard} from '@/components/site';
 import {ReviewCard} from '@/components/review-card';
 import {Reveal} from '@/components/reveal';
@@ -13,7 +14,8 @@ export async function generateMetadata({params}:{params:Promise<{id:string}>}){c
 export default async function Page({params}:{params:Promise<{id:string}>}){
  const {id}=await params;const p=products.find(x=>x.id===id);if(!p)notFound();
  const data=await loadReviews();const reviews=data.reviews.filter(r=>r.productId===id);const s=stats(id,reviews);const ds=displayStats(p,reviews);
- const links=shopLinks(id,p.category,p.name);
+ const override=await getOverride(id);
+ const links=shopLinks(id,p.category,p.name,override);
  return <main className="page-wrap">
   <div className="breadcrumb"><Link href="/">ホーム</Link> / <Link href="/products">商品を探す</Link> / {p.category}</div>
   <p className="notice">楽天市場の商品情報（名前・価格・画像・レビュー件数）を表示しています。商品説明は楽天の商品情報からの抜粋です。</p>
